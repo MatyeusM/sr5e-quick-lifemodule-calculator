@@ -1,0 +1,92 @@
+[
+  {
+    "name": "UCAS (Seattle)",
+    "attributes": {"reaction": 1},
+    "skills": [{"name": "Computer", "rating":1}, {"name": "Perception", "rating":1}, {"name": "Intimidation", "rating":1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "Seattle", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": 5 }],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "General UCAS",
+    "attributes": {"logic": 1},
+    "skills": [{"name": "Computer", "rating":1}, {"name": "Etiquette", "rating":1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "[City]", "rating": 2 }, { "name": "Language", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "Canada",
+    "attributes": {"body": 1},
+    "skills": [{"name": "Computer", "rating":1}, {"name": "Navigation", "rating":1}, {"name": "Survival", "rating":1}, {"name": "Etiquette", "rating":1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "Denver (UCAS Sector)",
+    "attributes": {"intuition": 1},
+    "skills": [{"name": "Computer", "rating":1}, {"name": "Negotiation", "rating":1}, {"name": "Etiquette", "rating":1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "Denver", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "UCAS (SINless)",
+    "attributes": {"agility": 1},
+    "skills": [{"name": "Computer", "rating":1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "[City]", "rating": 1 }],
+    "qualities": [],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "General CAS",
+    "attributes": {"charisma": 1},
+    "skills": [{"name": "Etiquette", "rating": 1}, {"name": "Computer", "rating": 2}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "CAS", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "Denver (CAS Sector)",
+    "attributes": {"intuition": 1},
+    "skills": [{"name": "Etiquette", "rating": 1}, {"name": "Computer", "rating": 1}, {"name": "Negotiation", "rating": 1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1}, { "name": "CAS", "rating": 1}, { "name": "Denver", "rating": 2}],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "CAS (SINless)",
+    "attributes": {"body": 1},
+    "skills": [{"name": "Etiquette", "rating": 1}],
+    "languages": [{ "name": "English", "rating": "Native" }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "CAS", "rating": 1 }, { "name": "[City]", "rating": 1 }],
+    "qualities": [],
+    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Polish", "Yiddish"]}]
+  },
+  {
+    "name": "Tír Tairngire (Elves / Humans)",
+    "attributes": {"charisma": 1},
+    "skills": [{"name": "Etiquette", "rating":1}, {"name": "Computer", "rating":2}],
+    "languages": [{ "name": "Sperethiel", "rating": "Native" }, { "name": "English", "rating": 2 }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "Tír Tairngire", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": []
+  },
+  {
+    "name": "Tír Tairngire (Orks / Trolls / Dwarfs)",
+    "attributes": {},
+    "skills": [{"name": "Etiquette", "rating":1}, {"name": "Con", "rating":2}, {"name": "Disguise", "rating":1}, {"name": "Intimidation", "rating":1}, {"name": "Sneaking", "rating":1}, {"name": "Perception", "rating":1}],
+    "languages": [{ "name": "Sperethiel", "rating": "Native" }, { "name": "English", "rating": 2 }],
+    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "Tír Tairngire", "rating": 1 }, { "name": "Counterculture", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": []
+  }
+]

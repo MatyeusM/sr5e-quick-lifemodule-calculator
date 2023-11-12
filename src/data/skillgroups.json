@@ -1,0 +1,17 @@
+{
+  "Acting": ["Con", "Impersonation", "Performance"],
+  "Athletics": ["Gymnastics", "Running", "Swimming"],
+  "Biotech": ["Cybertechnology", "First Aid", "Medicine"],
+  "Close Combat": ["Blades", "Clubs", "Unarmed Combat"],
+  "Conjuring": ["Banishing", "Binding", "Summoning"],
+  "Cracking": ["Cybercombat", "Electronic Warfare", "Hacking"],
+  "Electronics": ["Computer", "Hardware", "Software"],
+  "Enchanting": ["Alchemy", "Artificing", "Disenchanting"],
+  "Firearms": ["Automatics", "Longarms", "Pistols"],
+  "Influence": ["Etiquette", "Leadership", "Negotiation"],
+  "Engineering": ["Aeronautics Mechanic", "Automotive Mechanic", "Industrial Mechanic", "Nautical Mechanic"],
+  "Outdoors": ["Navigation", "Survival", "Tracking"],
+  "Sorcery": ["Counterspelling", "Ritual Spellcasting", "Spellcasting"],
+  "Stealth": ["Disguise", "Palming", "Sneaking"],
+  "Tasking": ["Compiling", "Decompling", "Registering"]
+}

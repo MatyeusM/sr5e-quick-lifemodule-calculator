@@ -1,0 +1,770 @@
+[
+  {
+    "category": "Core",
+    "name": "Intro Runner",
+    "cost": 2,
+    "items": [
+      "Fake SIN (1)", "Mapsoft (Campaign city)", "Meta Link commlink", "Standard Credstick",
+      "Cold America L36 light pistol with two spare clips", "Twenty plastic restraints",
+      "100 rounds of standard light pistol ammo", "Flashlight", "Knife", "Backpack", "Armor vest",
+      "Respirator (1)", "Glasses (1) with image link"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Core",
+    "name": "Basic Runner",
+    "cost": 5,
+    "items": [
+      "Fake SIN (3)", "Earbuds (1) with sound link", "Renraku Sensei commlink", "Metal restraints",
+      "Knife", "Ten plastic restraints", "Armor vest", "Backpack", "Micro-transceiver", "Flashlight",
+      "Mapsoft (campaign city)", "Respirator (1)", "Silver credstick", "Survival kit",
+      "Glasses (1) with image link", "Medkit (1)"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Core",
+    "name": "Advanced Runner",
+    "cost": 6,
+    "items": [
+      "Fake SIN (4)", "Metal restraints", "Erika Elite commlink with sim module and subvocal mic",
+      "Backpack", "Knife", "Flashlight", "Armor vest", "Flashlight (low-light)", "Micro-transceiver",
+      "Climbing gear", "Tag eraser", "Diving gear", "Mapsoft (campaign city)", "Gas mask",
+      "Gold credstick", "Respirator (4)", "Contacts (3) with image link, low-light vision, and flare compensation",
+      "Survival kit", "Earbuds (3) with sound link and select sound filter (2)",
+      "50 meters of rope", "Camera (1) with vision magnification", "Medkit (3)"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Classic Samurai",
+    "cost": 1,
+    "items": [
+      "Katana", "Bokken (treat as a club)", "Wakizashi (treat as a sword)",
+      "Datasoft (The Art of War, The Book of Five Rings, The Tale of the Heike, and other assorted samurai writings and poetry)",
+      "Tanto (treat as a combat knife)", "Kimono (50¥)"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Up Close & Personal",
+    "cost": 3,
+    "items": [
+      "Combat axe", "Club", "Katana", "Extendable baton", "Two knives", "Telescoping staff",
+      "Combat knife", "Knucks", "Four throwing knives"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Blademaster",
+    "cost": 1,
+    "items": [
+      "Two knives", "Club", "Two combat knives", "Extendable baton", "Two survival knives"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Monowhip",
+    "cost": 10,
+    "items": [
+      "Monofilament whip",
+      "DocWagon contract (Basic) for one year, with one resuscitation pre-paid"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Basic Bowman",
+    "cost": 1,
+    "items": [
+      "Bow (4)", "Ten doses of Narcojet toxin",
+      "Fifty arrows (4)", "Survival knife",
+      "Ten injection arrows (4)", "Survival kit"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Advanced Bowman",
+    "cost": 1,
+    "items": [
+      "Bow (6)", "Club",
+      "Fifty arrows (6)", "Two knives",
+      "Five injection arrows (6)", "Survival kit",
+      "Five doses of Narcojet toxin"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ares Pistol",
+    "cost": 1,
+    "items": [
+      "Ares Predator V heavy pistol", "Quick-draw holster", "Four spare clips",
+      "300 rounds of regular heavy pistol ammo",
+      "Ares Light Fire 70 light pistol", "Concealable holster", "Two spare clips",
+      "60 rounds of regular light pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Big Boom Pistol",
+    "cost": 1,
+    "items": [
+      "Remington Roomsweeper heavy pistol", "Quick-draw holster", "40 rounds of regular heavy pistol ammo",
+      "Ruger Super Warhawk heavy pistol", "Quick-draw holster", "Four speed loaders",
+      "150 rounds of regular heavy pistol ammo, cased", "80 rounds of flechette heavy pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Browning and Beretta Pistol",
+    "cost": 1,
+    "items": [
+      "Browning Ultra-Power heavy pistol", "Quick-draw holster", "Three spare clips",
+      "Beretta 201T light pistol", "Concealable holster", "Two spare clips",
+      "140 rounds of regular heavy pistol ammo", "210 rounds of regular light pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Colt Pistol",
+    "cost": 1,
+    "items": [
+      "Colt Government 2066 heavy pistol", "Quick-draw holster", "Laser sight", "Three spare clips",
+      "Colt America L36 light pistol", "Concealable holster", "Two spare clips",
+      "280 rounds of regular heavy pistol ammo", "110 rounds of regular light pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Subtle Pistol",
+    "cost": 1,
+    "items": [
+      "Ares Viper Slivergun heavy pistol", "Concealable holster", "Spare clip",
+      "Walther Palm Pistol hold-out", "Concealable holster",
+      "170 rounds of flechette heavy pistol ammo", "10 rounds of regular hold-out pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Light Security",
+    "cost": 1,
+    "items": [
+      "HK-227 submachine gun", "Four spare clips",
+      "Fichetti Security 600 light pistol", "Quick-draw holster", "Two spare clips",
+      "280 rounds of regular submachine gun ammo", "90 rounds of regular light pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Japanacorp Light Security",
+    "cost": 1,
+    "items": [
+      "SCK Model 100 submachine gun", "Three spare clips",
+      "60 rounds of gel round submachine gun ammo",
+      "Beretta 201T light pistol", "Spare clip",
+      "70 rounds of regular light pistol ammo",
+      "300 rounds of regular submachine gun ammo", "Ten plastic restraints"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Smartgun",
+    "cost": 1,
+    "items": [
+      "Ingram Smartgun X submachine gun", "Two spare clips",
+      "Ares Predator V heavy pistol", "Spare clip",
+      "200 rounds of regular submachine gun ammo", "30 rounds of regular heavy pistol ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Street Slugger",
+    "cost": 1,
+    "items": [
+      "Defiance T-250 shotgun", "100 rounds of flechette shotgun ammo",
+      "Colt America L36 light pistol", "Two spare clips",
+      "40 rounds of regular shotgun ammo",
+      "Streetline Special hold-out pistol", "100 rounds of regular light pistol ammo",
+      "Knife", "30 rounds of regular hold-out pistol ammo",
+      "Knucks"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Heavy Security",
+    "cost": 1,
+    "items": [
+      "FN HAR", "Shock pad", "Six spare clips",
+      "210 rounds of regular assault rifle ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Cheap Soldier",
+    "cost": 1,
+    "items": [
+      "Colt M23 assault rifle", "Four spare clips",
+      "Three disposable inhalers (10¥ each)",
+      "Machete (counts as a sword)", "Three doses of kamikaze",
+      "300 rounds of regular assault rifle ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ares Alpha Gunner",
+    "cost": 4,
+    "items": [
+      "Ares Alpha assault rifle", "Shock pad", "Airburst link", "Eight spare clips",
+      "120 rounds of explosive assault rifle ammo",
+      "500 rounds of regular assault rifle ammo",
+      "Twelve fragmentation micro-grenades",
+      "40 rounds of APDS assault rifle ammo",
+      "Twelve high-explosive micro-grenades"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Sniper",
+    "cost": 11,
+    "items": [
+      "Ares Desert Strike sniper rifle", "Low-light and smartlink added to the imaging scope",
+      "100 rounds of explosive sniper rifle ammo",
+      "100 rounds of APDS sniper rifle ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Sportsman",
+    "cost": 2,
+    "items": [
+      "Remington 950 hunting rifle", "Low-light added to the imaging scope",
+      "Flashlight",
+      "Bow (Rating 4)", "Orange vest (5¥)",
+      "Survival knife", "Twenty arrows (Rating 4)",
+      "Knife", "250 shots of regular sniper rifle ammo",
+      "Survival kit"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Tranq Darter",
+    "cost": 1,
+    "items": [
+      "Parashield dart rifle (option: replace this with two Parashield dart pistols)",
+      "10 injection darts",
+      "Re-usable syringe (25¥)",
+      "14 doses of Narcojet toxin"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Squad Weapon Assault",
+    "cost": 3,
+    "items": [
+      "Ingram Valiant light machine gun",
+      "Bipod or belt of 100 rounds of regular machine gun ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Medium Machine Gunner",
+    "cost": 4,
+    "items": [
+      "Stoner-Ares M202 machine gun",
+      "50 rounds of regular ammo",
+      "Tripod",
+      "Two ammo belts, each with 100 rounds of regular machine gun ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Rocketeer",
+    "cost": 8,
+    "items": [
+      "Five Aztechnology Striker disposable rocket launchers",
+      "Five fragmentation rockets"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Machine Gun Ammo Belt",
+    "cost": 1,
+    "items": [
+      "Ten ammo belts, each with 100 rounds of regular ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ammo Crate #1",
+    "cost": 1,
+    "items": [
+      "1,000 rounds of regular ammo*"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ammo Crate #2",
+    "cost": 1,
+    "items": [
+      "100 rounds of APDS ammo*",
+      "100 rounds of explosive ammo*"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ammo Crate #3",
+    "cost": 1,
+    "items": [
+      "160 rounds of gel ammo*",
+      "200 rounds of Stick-n-Shock*"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ammo Crate #4",
+    "cost": 1,
+    "items": [
+      "250 rounds of assault cannon ammo"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Ammo Crate #5",
+    "cost": 1,
+    "items": [
+      "40 doses of Narcojet toxin"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Box of Grenades #1",
+    "cost": 1,
+    "items": [
+      "Ten fragmentation grenades",
+      "Ten high-explosive grenades"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Weapon and Ammo",
+    "name": "Box of Grenades #2",
+    "cost": 1,
+    "items": [
+      "Five flash-bangs", "Five nausea gas grenades",
+      "Ten smoke grenades", "Seven pepper punch grenades",
+      "Five tear gas grenades", "Five thermal smoke grenades"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "City Slicker",
+    "cost": 1,
+    "items": [
+      "Lined coat with chemical protection (2)",
+      "Respirator (3)",
+      "Armored clothes"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Go Anywhere Jacket",
+    "cost": 2,
+    "items": [
+      "Armored jacket with chemical protection (4), fire resistance (4), and insulation (4)"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Neon Nights",
+    "cost": 1,
+    "items": [
+      "Urban Explorer Jumpsuit with helmet, electrochromatic modification, non-conductivity (2), and shock frills"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Nightbird",
+    "cost": 2,
+    "items": [
+      "Chameleon suit with thermal dampening (4)",
+      "Flashlight",
+      "Gecko gloves",
+      "Flashlight (low-light)"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Stylish Suit",
+    "cost": 1,
+    "items": [
+      "Actioneer Business Clothes with electrochromatic modification"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Tactical Helmet",
+    "cost": 3,
+    "items": [
+      "Helmet with image link, flare compensation, low-light vision, and smartlink",
+      "Flashlight",
+      "Micro-transceiver (helmet-mounted)",
+      "Hermes Ikon commlink"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Tusker Toughskin",
+    "cost": 1,
+    "items": [
+      "Armor jacket with non-conductivity (4)"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Armor",
+    "name": "Tanker",
+    "cost": 2,
+    "items": [
+      "Helmet with flare compensation and chemical protection (4)",
+      "Two one-shot inhalers, each loaded with a dose of nitro",
+      "Riot shield with fire resistance (4)",
+      "Club"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Budget 'Jack",
+    "cost": 20,
+    "items": [],
+    "augments": ["Skilljack (2)"],
+    "essence": 0.2,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Standard 'Jack",
+    "cost": 40,
+    "items": [],
+    "augments": ["Skilljack (4)"],
+    "essence": 0.4,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced 'Jack",
+    "cost": 60,
+    "items": [],
+    "augments": ["Skilljack (6)"],
+    "essence": 0.6,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Basic Wires",
+    "cost": 20,
+    "items": [],
+    "augments": ["Skillwires (2)"],
+    "essence": 0.2,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced Wires",
+    "cost": 30,
+    "items": [],
+    "augments": ["Skillwires (3)"],
+    "essence": 0.3,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Tourist",
+    "cost": 1,
+    "items": ["Linguasoft (2)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "World Traveler",
+    "cost": 2,
+    "items": ["Linguasoft (4)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Ambassador",
+    "cost": 3,
+    "items": ["Linguasoft (6)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Diploma-on-a-chip",
+    "cost": 2,
+    "items": ["Knowsoft (2)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Degree-on-a-chip",
+    "cost": 4,
+    "items": ["Knowsoft (4)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Doctorate-on-a-chip",
+    "cost": 6,
+    "items": ["Knowsoft (6)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Vacation-on-a-chip",
+    "cost": 5,
+    "items": ["Activesoft (2)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Competence-on-a-chip",
+    "cost": 15,
+    "items": ["Two Activesoft (3)"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Datacourier",
+    "cost": 1,
+    "items": [],
+    "augments": ["Data lock (6)"],
+    "essence": 0.1,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Sim-Sational",
+    "cost": 6,
+    "items": [],
+    "augments": ["Datajack", "Taste booster (1)", "Olfactory booster (1)", "Simrig"],
+    "essence": 0.7,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Basic Combat Eyes",
+    "cost": 4,
+    "items": [],
+    "augments": ["Cybereyes (1) with image link, camera, and smartlink"],
+    "essence": 0.2,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced Combat Eyes",
+    "cost": 7,
+    "items": [],
+    "augments": ["Cybereyes (2) with image link, camera, flare compensation, low-light vision, smartlink, and thermographic vision"],
+    "essence": 0.3,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Eagle Eyes",
+    "cost": 7,
+    "items": [],
+    "augments": ["Cybereyes (1) with image link, camera, vision enhancement (2), and vision magnification"],
+    "essence": 0.2,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Rabbit Ears",
+    "cost": 9,
+    "items": [],
+    "augments": ["Cyberears (1) with sound link, audio enhancement (2), and select sound filter (2)"],
+    "essence": 0.2,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Bulletproof Jeff",
+    "cost": 12,
+    "items": [],
+    "augments": ["Bone lacing (aluminum)", "Dermal plating (2)"],
+    "essence": 2.0,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Basic Razorboi",
+    "cost": 2,
+    "items": ["Cybernetics kit", "Katana"],
+    "augments": ["Two hand razors (retractable)"],
+    "essence": 0.4,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced Razorboi",
+    "cost": 6,
+    "items": ["Cybernetics kit", "Katana", "Medkit (2)"],
+    "augments": ["Two spurs (retractable)"],
+    "essence": 0.6,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Basic Speedboost",
+    "cost": 20,
+    "items": [],
+    "augments": ["Datajack", "Wired reflexes (1)"],
+    "essence": 2.1,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced Speedboost",
+    "cost": 75,
+    "items": [],
+    "augments": ["Datajack", "Wired reflexes (2)"],
+    "essence": 3.1,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Basic Vatjob",
+    "cost": 14,
+    "items": [],
+    "augments": ["Dermal plating (1)", "Muscle replacement (1)"],
+    "essence": 1.5,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced Vatjob",
+    "cost": 28,
+    "items": [],
+    "augments": ["Dermal plating (2)", "Muscle replacement (2)"],
+    "essence": 3,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Basic Rigger",
+    "cost": 28,
+    "items": [],
+    "augments": ["Control rig (1)", "Reflex enhancer (1)"],
+    "essence": 1.3,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Advanced Rigger",
+    "cost": 62,
+    "items": [],
+    "augments": ["Datajack Reflex enhancer (2)", "Control rig (2)"],
+    "essence": 2.7,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Bioware Beef",
+    "cost": 31,
+    "items": [],
+    "augments": ["Muscle augmentation (2)"],
+    "essence": 0.4,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Bioware Lean",
+    "cost": 32,
+    "items": [],
+    "augments": ["Muscle toner (2)"],
+    "essence": 0.4,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Bioware Cat",
+    "cost": 14,
+    "items": [],
+    "augments": ["Cat’s eyes", "Enhanced articulation"],
+    "essence": 0.4,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Bio-Computer",
+    "cost": 41,
+    "items": [],
+    "augments": ["Datajack", "Mnemonic enhancer (2)", "Cerebral booster (2)"],
+    "essence": 0.7,
+    "vehicles": []
+  },
+  {
+    "category": "Cyber",
+    "name": "Bioware Company Man",
+    "cost": 50,
+    "items": [],
+    "augments": ["Bone density augmentation (1)", "Synaptic booster (1)"],
+    "essence": 0.8,
+    "vehicles": []
+  }    
+]

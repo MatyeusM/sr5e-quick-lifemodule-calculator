@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Corporate Education",
+    "attributes": {"logic": 1, "charisma": 1},
+    "skills": [{"name": "Electronics", "rating": 1}, {"name": "Chemistry", "rating": 1}, {"name": "Gymnastics", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "[Job]", "rating": 2}, {"name": "[Corporation]", "rating": 2}, {"name": "[Academic Knowledge, Spread]", "rating": 2}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Farm Living",
+    "attributes": {"body": 1, "intuition": 1},
+    "skills": [{"name": "Industrial Mechanic", "rating": 2}, {"name": "Longarms", "rating": 2}, {"name": "Pilot Ground Craft", "rating":2}, {"name": "Pistols", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Farming", "rating": 1}, {"name": "[Interest Knowledge: Any]", "rating": 1}],
+    "qualities": [{ "name": "Animal Empathy", "value": 3 }],
+    "choices": []
+  },
+  {
+    "name": "Gang Warfare",
+    "attributes": {"body": 1, "reaction": 1, "willpower": 1},
+    "skills": [{"name": "Blades", "rating": 2}, {"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Leadership", "rating": 1}, {"name": "Negotiation", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Running", "rating": 1}, {"name": "Sneaking", "rating": 1}, {"name": "Survival", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "[City]", "rating": 2}],
+    "qualities": [{ "name": "SINner", "value": -10 }, { "name": "Paranoia", "value": -7 }, { "name": "Uneducated", "value": -8 }, { "name": "Black Market Pipeline", "value": 10 }],
+    "choices": []
+  },
+  {
+    "name": "High School",
+    "attributes": {"logic": 1, "charisma": 1},
+    "skills": [{"name": "Athletics", "rating":1 }, {"name": "Computers", "rating": 2}, {"name": "Chemistry", "rating": 1}, {"name": "Software", "rating": 2}],
+    "languages": [],
+    "knowledge": [{"name": "[City]", "rating": 1}, {"name": "Language", "rating": 1}, {"name": "[Academic Knowledge, Spread]", "rating": 2}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Home Tutored",
+    "attributes": {"logic": 1, "willpower": 1},
+    "skills": [{"name": "Computers", "rating": 3}, {"name": "Chemistry", "rating": 1}, {"name": "Software", "rating": 2}],
+    "languages": [],
+    "knowledge": [{"name": "Language", "rating": 2}, {"name": "[Academic Knowledge, Spread]", "rating": 6}],
+    "qualities": [{ "name": "Social Stress", "value": -8 }],
+    "choices": []
+  },
+  {
+    "name": "Isolated Rural Upbringing",
+    "attributes": {"body": 1, "willpower": 1},
+    "skills": [{"name": "Blades", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Gymnastics", "rating": 1}, {"name": "Outdoors", "rating": 1}, {"name": "Perception", "rating": 2}, {"name": "Sneaking", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Critters", "rating": 2}],
+    "qualities": [{ "name": "Incompetent Electronics", "value": -5 }],
+    "choices": []
+  },
+  {
+    "name": "Magical Education (none)",
+    "attributes": {"charisma": 1, "willpower": 1},
+    "skills": [{"name": "Arcana", "rating": 2}],
+    "languages": [{"name": "[Any]", "rating": 2}],
+    "knowledge": [{"name": "Magical Theory", "rating": 5}, {"name": "[Academic Knowledge, Spread]", "rating": 11}],
+    "qualities": [{ "name": "SINner", "value": -15 }],
+    "choices": []
+  },
+  {
+    "name": "Military School",
+    "attributes": {"charisma": 1, "body": 1},
+    "skills": [{"name": "Blades", "rating": 1}, {"name": "Electronics", "rating": 1}, {"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Leadership", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}, {"name": "Running", "rating": 1}, {"name": "Swimming", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Military", "rating": 3}, {"name": "Military History", "rating": 3}, {"name": "Strategy", "rating": 1}, {"name": "[Academic Knowledge, Spread]", "rating": 1}],
+    "qualities": [{ "name": "Military Rank", "value": 5 }, { "name": "Code of Honor", "value": 15 }],
+    "choices": []
+  },
+  {
+    "name": "Preparatory School",
+    "attributes": {"charisma": 1, "logic": 1},
+    "skills": [{"name": "Chemistry", "rating": 1}, {"name": "Computers", "rating": 1}, {"name": "Etiquette", "rating": 1}],
+    "languages": [{"name": "[Any]", "rating": 2}],
+    "knowledge": [{"name": "[Academic Knowledge, Spread]", "rating": 2}],
+    "qualities": [{ "name": "First Impression", "value": 11 }],
+    "choices": []
+  },
+  {
+    "name": "Street Kid",
+    "attributes": {"body": 1, "willpower": 1},
+    "skills": [{"name": "Acting", "rating": 2}, {"name": "Clubs", "rating": 1}, {"name": "Etiquette", "rating": 1}, {"name": "Gymnastics", "rating": 1}, {"name": "Intimidation", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Negotiation", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Running", "rating": 1}, {"name": "Stealth", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "[City]", "rating": 1}],
+    "qualities": [{ "name": "Bad Rep", "value": -7 }, { "name": "Enemy", "value": -10 }],
+    "choices": []
+  }
+]

@@ -1,0 +1,613 @@
+[
+  {
+    "name": "Bounty Hunter",
+    "attributes": {"body": 1, "willpower": 1, "intuition": 1},
+    "skills": [{"name": "Athletics", "rating": 1}, {"name": "Close Combat", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Intimidation", "rating": 1}, {"name": "Longarms", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Pistols", "rating": 1}, {"name": "Survival", "rating": 1}, {"name": "Tracking", "rating": 1}],
+    "languages": [],
+    "knowledge": [{ "name": "Lone Star Procedures", "rating": 3 }, { "name": "Crook Hangouts", "rating": 3 }],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Combat Correspondent",
+    "attributes": {
+      "charisma": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Electronics", "rating": 2},
+      {"name": "Navigation", "rating": 1},
+      {"name": "Negotiation", "rating": 2},
+      {"name": "Perception", "rating": 2},
+      {"name": "Survival", "rating": 1}
+    ],
+    "languages": [
+      {"name": "[Any]", "rating": 3},
+      {"name": "[Any]", "rating": 1}
+    ],
+    "knowledge": [{"name": "Journalism", "rating": 5}],
+    "qualities": [
+      {"name": "Guts", "value": 10}
+    ],
+    "choices": []
+  }, 
+  {
+    "name": "Corporate (Company Man)",
+    "attributes": {
+      "logic": 1,
+      "intuition": 1
+    },
+    "skills": [
+      {"name": "Etiquette", "rating": 1},
+      {"name": "Firearms", "rating": 3},
+      {"name": "Demolitions", "rating": 2},
+      {"name": "Pilot Ground Craft", "rating": 2},
+      {"name": "Sneaking", "rating": 3},
+      {"name": "Unarmed Combat", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "[Corporation]", "rating": 3}],
+    "qualities": [
+      {"name": "SINner", "value": -15}
+    ],
+    "choices": []
+  },
+  {
+    "name": "Corporate (Hacker/Decker)",
+    "attributes": {
+      "logic": 1,
+      "intuition": 1
+    },
+    "skills": [
+      {"name": "Etiquette", "rating": 1},
+      {"name": "Cracking", "rating": 2},
+      {"name": "Electronics", "rating": 3},
+      {"name": "First Aid", "rating": 2} 
+    ],
+    "languages": [],
+    "knowledge": [{"name": "[Corporation]", "rating": 3}, {"name": "Physics", "rating": 3}, {"name": "Matrix Security Design", "rating": 6}],
+    "qualities": [{"name": "SINner", "value": -15}],
+    "choices": []
+  },
+  {
+    "name": "Corporate (Security Guard)",
+    "attributes": {
+      "logic": 1,
+      "intuition": 1
+    },
+    "skills": [
+      {"name": "Etiquette", "rating": 1},
+      {"name": "Athletics", "rating": 2},
+      {"name": "Close Combat", "rating": 2},
+      {"name": "Firearms", "rating": 2},
+      {"name": "Perception", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "[Corporation]", "rating": 3}, {"name": "Security Procedures", "rating": 5}, {"name": "Law Enforcement Procedures", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -15}],
+    "choices": []
+  },
+  {
+    "name": "Corporate (Security Rigger)",
+    "attributes": {
+      "logic": 1,
+      "intuition": 1
+    },
+    "skills": [
+      {"name": "Etiquette", "rating": 1},
+      {"name": "Electronics", "rating": 2},
+      {"name": "Gunnery", "rating": 3},
+      {"name": "Perception", "rating": 2},
+      {"name": "Pilot Aircraft", "rating": 2},
+      {"name": "Pilot Walker", "rating": 2},
+      {"name": "Pilot Ground Craft", "rating": 3}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "[Corporation]", "rating": 3},
+      {"name": "Drones", "rating": 3}
+    ],
+    "qualities": [{"name": "SINner", "value": -15}],
+    "choices": []
+  },
+  {
+    "name": "Corporate (Wage Mage)",
+    "attributes": {
+      "logic": 1,
+      "intuition": 1
+    },
+    "skills": [
+      {"name": "Etiquette", "rating": 1},
+      {"name": "Arcana", "rating": 2},
+      {"name": "Assensing", "rating": 3},
+      {"name": "Astral Combat", "rating": 2},
+      {"name": "Conjuring", "rating": 2},
+      {"name": "Enchanting", "rating": 1},
+      {"name": "Sorcery", "rating": 2}      
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "[Corporation]", "rating": 3}, {"name": "Magical Law", "rating": 1}
+    ],
+    "qualities": [
+      {"name": "SINner", "value": -15}
+    ],
+    "choices": []
+  },
+  {
+    "name": "Corporate (Wage Slave)",
+    "attributes": {
+      "logic": 1,
+      "intuition": 1,
+      "charisma": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Etiquette", "rating": 3},
+      {"name": "Con", "rating": 1},
+      {"name": "Negotiation", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "[Corporation]", "rating": 3}, {"name": "Administration", "rating": 6}
+    ],
+    "qualities": [{"name": "SINner", "value": -15}],
+    "choices": []
+  },    
+  {
+    "name": "Ganger",
+    "attributes": {"body": 1, "strength": 1},
+    "skills": [{"name": "Blades", "rating": 3}, {"name": "Cracking", "rating": 1}, {"name": "Demolitions", "rating": 1}, {"name": "Electronics", "rating": 1}, {"name": "Escape Artist", "rating": 1}, {"name": "Firearms", "rating": 2}, {"name": "Heavy Weapons", "rating": 1}, {"name": "Stealth", "rating": 1}, {"name": "Survival", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Pilot Ground Craft", "rating": 1}, {"name": "Running", "rating": 1}],
+    "languages": [],
+    "knowledge": [],
+    "qualities": [{ "name": "SINner", "value": -10 }],
+    "choices": []
+  },
+  {
+    "name": "Covert Operations",
+    "attributes": {
+      "intuition": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Chemistry", "rating": 1},
+      {"name": "Con", "rating": 1},
+      {"name": "Escape Artist", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "Gymnastics", "rating": 1},
+      {"name": "Navigation", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Sneaking", "rating": 2},
+      {"name": "Survival", "rating": 1},
+      {"name": "Unarmed Combat", "rating": 1}
+    ],
+    "languages": [
+      {"name": "[Any]", "rating": 3}
+    ],
+    "knowledge": [
+      {"name": "[Any]", "rating": 3},
+      {"name": "Codes", "rating": 2},
+      {"name": "[City]", "rating": 3}
+    ],
+    "qualities": [
+      {"name": "Hawk Eye", "value": 3},
+      {"name": "Poor Link", "value": -8}
+    ],
+    "choices": []
+  },  
+  {
+    "name": "Government Agent",
+    "attributes": {
+      "intuition": 1,
+      "reaction": 1
+    },
+    "skills": [
+      {"name": "First Aid", "rating": 1},
+      {"name": "Influence", "rating": 2},
+      {"name": "Pistols", "rating": 2},
+      {"name": "Perception", "rating": 3},
+      {"name": "Pilot Ground Craft", "rating": 1},
+      {"name": "Running", "rating": 1},
+      {"name": "Tracking", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "Government Procedures", "rating": 5},
+      {"name": "Law Enforcement Protocols", "rating": 5},
+      {"name": "National Threats", "rating": 4}
+    ],
+    "qualities": [
+      {"name": "SINner", "value": -5}
+    ],
+    "choices": []
+  },
+  {
+    "name": "Law Enforcement (Beat Cop)",
+    "attributes": {
+      "body": 1,
+      "reaction": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Clubs", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Leadership", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Intimidation", "rating": 2},
+      {"name": "Navigation", "rating": 1},
+      {"name": "Pilot Ground Craft", "rating": 1}
+      
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Police Procedures", "rating": 3}, {"name": "[City]", "rating": 5}],
+    "qualities": [],
+    "choices": []
+  },  
+  {
+    "name": "Law Enforcement (Cyber Crime)",
+    "attributes": {
+      "body": 1,
+      "reaction": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Clubs", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Leadership", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Cracking", "rating": 1},
+      {"name": "Electronics", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Police Procedures", "rating": 3}, {"name": "Matrix Criminals", "rating": 5}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Law Enforcement (Cyber Division)",
+    "attributes": {
+      "body": 1,
+      "reaction": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Clubs", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Leadership", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Cybertechnology", "rating": 1},
+      {"name": "Firearms", "rating": 1},
+      {"name": "Heavy Weapons", "rating": 2},
+      {"name": "Unarmed Combat", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Police Procedures", "rating": 3}],
+    "qualities": [],
+    "choices": []
+  },  
+  {
+    "name": "Law Enforcement (Mage Division)",
+    "attributes": {
+      "body": 1,
+      "reaction": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Clubs", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Leadership", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Arcana", "rating": 1},
+      {"name": "Assensing", "rating": 2},
+      {"name": "Sorcery", "rating": 1}
+      
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Police Procedures", "rating": 3}, {"name": "Magical Threats", "rating": 2}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Law Enforcement (Rigger)",
+    "attributes": {
+      "body": 1,
+      "reaction": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Clubs", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Leadership", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Automotive Mechanic", "rating": 1},
+      {"name": "Gunnery", "rating": 1},
+      {"name": "Pilot Aircraft", "rating": 1},
+      {"name": "Pilot Walker", "rating": 1},
+      {"name": "Pilot Ground Craft", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Police Procedures", "rating": 3}, {"name": "Drones", "rating": 1}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Law Enforcement (SWAT Team)",
+    "attributes": {
+      "body": 1,
+      "reaction": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Clubs", "rating": 1},
+      {"name": "Etiquette", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Leadership", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Armorer", "rating": 1},
+      {"name": "Firearms", "rating": 1},
+      {"name": "Gymnastics", "rating": 1},
+      {"name": "Throwing Weapons", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Police Procedures", "rating": 3}],
+    "qualities": [],
+    "choices": []
+  },  
+  {
+    "name": "Organized Crime",
+    "attributes": {},
+    "skills": [{"name": "Blades", "rating": 1}, {"name": "Con", "rating": 2}, {"name": "Demolitions", "rating": 1}, {"name": "Escape Artist", "rating": 1}, {"name": "Etiquette", "rating": 1}, {"name": "Firearms", "rating": 3}, {"name": "Forgery", "rating": 1}, {"name": "Hardware", "rating": 1}, {"name": "Intimidation", "rating": 2}, {"name": "Leadership", "rating": 1}, {"name": "Negotiation", "rating": 1}, {"name": "Perception", "rating": 2}, {"name": "Pilot Ground Craft", "rating": 1}, {"name": "Stealth", "rating": 1}, {"name": "Unarmed Combat", "rating": 2}],
+    "languages": [],
+    "knowledge": [{ "name": "[Syndicate]", "rating": 4 }, { "name": "[City]", "rating": 3 }],
+    "qualities": [{ "name": "SINner", "value": -10 }, { "name": "Made Man", "value": 5 }],
+    "choices": []
+  },
+  {
+    "name": "Political Activist",
+    "attributes": {
+      "charisma": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Con", "rating": 1},
+      {"name": "Disguise", "rating": 1},
+      {"name": "Etiquette", "rating": 2},
+      {"name": "Forgery", "rating": 2},
+      {"name": "Instruction", "rating": 1},
+      {"name": "Leadership", "rating": 2},
+      {"name": "Negotiation", "rating": 2},
+      {"name": "Palming", "rating": 2},
+      {"name": "Perception", "rating": 2},
+      {"name": "Pilot Ground Craft", "rating": 1},
+      {"name": "Pistols", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "[City]", "rating": 3},
+      {"name": "Police Procedures", "rating": 3},
+      {"name": "[Policlub]", "rating": 4}
+    ],
+    "qualities": [
+      {"name": "SINner", "value": -10}
+    ],
+    "choices": []
+  },  
+  {
+    "name": "Private Investigator / Detective",
+    "attributes": {
+      "intuition": 1,
+      "logic": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Athletics", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Influence", "rating": 1},
+      {"name": "Perception", "rating": 2},
+      {"name": "Pistols", "rating": 2},
+      {"name": "Pilot Ground Craft", "rating": 1},
+      {"name": "Tracking", "rating": 1},
+      {"name": "Unarmed Combat", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "Law Enforcement Procedures", "rating": 3},
+      {"name": "[City]", "rating": 2}
+    ],
+    "qualities": [
+      {"name": "In Debt", "value": -5}
+    ],
+    "choices": []
+  },  
+  {
+    "name": "Regular Job",
+    "attributes": {"charisma": 1, "logic": 1, "willpower": 1},
+    "skills": [{"name": "Leadership", "rating": 1}, {"name": "Etiquette", "rating": 1}, {"name": "Negotiation", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "[Job]", "rating": 3 }, { "name": "[Any Interest]", "rating": 1 }, { "name": "[Any Vocational Skills]", "rating": 6}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Shadow Work (Face)",
+    "attributes": {"body": 1, "charisma": 1},
+    "skills": [{"name": "Con", "rating": 1}, {"name": "Influence", "rating": 3}, {"name": "Intimidation", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Pilot Ground Craft", "rating": 1}, {"name": "Pistols", "rating": 1}],
+    "languages": [],
+    "knowledge": [],
+    "qualities": [{ "name": "First Impression", "value": 11 }],
+    "choices": []
+  },
+  {
+    "name": "Shadow Work (Decker)",
+    "attributes": {"body": 1, "intuition": 1},
+    "skills": [{"name": "Cracking", "rating": 2}, {"name": "Electronics", "rating": 2}, {"name": "Forgery", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Pistols", "rating": 1}],
+    "languages": [],
+    "knowledge": [{ "name": "Matrix Security Procedures", "rating": 4 }],
+    "qualities": [{ "name": "Codeslinger", "value": 10 }],
+    "choices": []
+  },
+  {
+    "name": "Shadow Work (Smuggler)",
+    "attributes": {"body": 1},
+    "skills": [{"name": "Electronic Warfare", "rating": 2}, {"name": "Etiquette", "rating": 1}, {"name": "Gunnery", "rating": 2}, {"name": "Navigation", "rating": 1}, {"name": "Negotiation", "rating": 1}, {"name": "Perception", "rating": 2}, {"name": "Pilot Aircraft", "rating": 2}, {"name": "Pilot Ground Craft", "rating": 2}, {"name": "Pilot Watercraft", "rating": 2}, {"name": "Pistols", "rating": 1}, {"name": "Sneaking", "rating": 1}],
+    "languages": [],
+    "knowledge": [{ "name": "Border Patrol Tactics", "rating": 6 }, { "name": "Smuggler Safe Houses", "rating": 6 }, { "name": "Smuggler Routes", "rating": 6 }],
+    "qualities": [],
+    "choices": [{"type": "activeskills", "rating": 2, "values": ["Aeronautics Mechanic", "Automotive Mechanic", "Nautical Mechanic"]}]
+  },
+  {
+    "name": "Shadow Work (Street Samurai)",
+    "attributes": {"body": 1, "agility": 1, "reaction": 1},
+    "skills": [{"name": "Athletics", "rating": 1}, {"name": "Blades", "rating": 2}, {"name": "Firearms", "rating": 2}, {"name": "Heavy Weapons", "rating": 1}, {"name": "Negotiation", "rating": 1}, {"name": "Perception", "rating": 2}, {"name": "Pilot Ground Craft", "rating": 1}, {"name": "Sneaking", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{ "name": "Safe Houses", "rating": 3}],
+    "qualities": [{ "name": "Code of Honor", "value": -15 }],
+    "choices": []
+  },
+  {
+    "name": "Shadow Work (Weapon Specialist)",
+    "attributes": {"body": 1},
+    "skills": [{"name": "Archery", "rating": 1}, {"name": "Armorer", "rating": 3}, {"name": "Chemistry", "rating": 2}, {"name": "Close Combat", "rating": 2}, {"name": "Demolitions", "rating": 1}, {"name": "Firearms", "rating": 2}, {"name": "Heavy Weapons", "rating": 1}, {"name": "Negotiation", "rating": 1}, {"name": "Throwing Weapons", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Blade Design", "rating": 4}, {"name": "Gun Design", "rating": 5}, {"name": "Gun Trivia", "rating": 3}],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Terrorist",
+    "attributes": {
+      "logic": 1,
+      "willpower": 1
+    },
+    "skills": [
+      {"name": "Con", "rating": 1},
+      {"name": "Demolitions", "rating": 3},
+      {"name": "Disguise", "rating": 2},
+      {"name": "Firearms", "rating": 2},
+      {"name": "Leadership", "rating": 2},
+      {"name": "Palming", "rating": 2},
+      {"name": "Perception", "rating": 2},
+      {"name": "Pilot Ground Craft", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "[City]", "rating": 3},
+      {"name": "Law Enforcement Procedures", "rating": 2}
+    ],
+    "qualities": [
+      {"name": "SINner", "value": -10}
+    ],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Air Force)",
+    "attributes": {"agility": 1, "strength": 1, "reaction": 1},
+    "skills": [{"name": "Armorer", "rating": 1}, {"name": "Blades", "rating": 1}, {"name": "Free-Fall", "rating": 1},{"name": "Gunnery", "rating": 1},{"name": "Pilot Aircraft", "rating": 2},{"name": "Survival", "rating": 1},{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Border Patrol)",
+    "attributes": {"agility": 1, "strength": 1, "charisma": 1},
+    "skills": [
+      {"name": "Armorer", "rating": 1},
+      {"name": "Blades", "rating": 1},
+      {"name": "Heavy Weapons", "rating": 1},
+      {"name": "Perception", "rating": 1},
+      {"name": "Pilot Ground Craft", "rating": 1},
+      {"name": "Sneaking", "rating": 1},
+      {"name": "Swimming", "rating": 1},
+      {"name": "Survival", "rating": 1},
+      {"name": "Throwing Weapons", "rating": 1}, {"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Engineering Corps)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Ghosts)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Mage Corps)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Medical Corps)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Navy)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Netwatch)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Peace Keepers)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  },
+  {
+    "name": "Tour of Duty: Tír Taingire (Rigger Corp)",
+    "attributes": {"agility": 1, "strength": 1},
+    "skills": [{"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "languages": [],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "qualities": [{"name": "SINner", "value": -5}],
+    "choices": []
+  }
+]
