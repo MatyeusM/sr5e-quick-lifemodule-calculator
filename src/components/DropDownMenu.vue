@@ -72,7 +72,7 @@
   const emit = defineEmits(['selected']);
 
   function selectOption(option) {
-    this.isDropdownOpen = false;
+    isDropdownOpen.value = false;
     emit('selected', option);
   }
 
