@@ -487,10 +487,7 @@
   },
   {
     "name": "Terrorist",
-    "attributes": {
-      "logic": 1,
-      "willpower": 1
-    },
+    "attributes": {"logic": 1, "willpower": 1},
     "skills": [
       {"name": "Con", "rating": 1},
       {"name": "Demolitions", "rating": 3},
@@ -610,7 +607,7 @@
       {"name": "Electronics", "rating": 1},
       {"name": "Perception", "rating": 1}, {"name": "Firearms", "rating": 1}, {"name": "First Aid", "rating": 1}, {"name": "Navigation", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
     "languages": [],
-    "knowledge": [{"name": "Peacekeepers", "rating": 4}],
+    "knowledge": [{"name": "Peacekeepers", "rating": 4}, {"name": "Matrix Threats", "rating": 6}],
     "qualities": [{"name": "SINner", "value": -5}],
     "choices": []
   },
