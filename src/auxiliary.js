@@ -27,3 +27,17 @@ export function IsSkillGroup(name) {
   const skillGroupNames = Object.keys(skillGroups);
   return skillGroupNames.includes(name);
 }
+
+export function GetSkillGroup(skillName) {
+  const skillGroupNames = Object.keys(skillGroups);
+
+  for (const groupName of skillGroupNames) {
+    const skillsInGroup = skillGroups[groupName];
+    
+    if (skillsInGroup.includes(skillName)) {
+      return groupName;
+    }
+  }
+
+  return null;
+}

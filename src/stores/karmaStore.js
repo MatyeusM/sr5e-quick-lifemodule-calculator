@@ -5,7 +5,6 @@ import { useLifeModuleStore } from './lifeModules';
 import { useMetaTypeStore } from './metaTypeStore';
 import { usePacksStore } from './packsStore';
 import { useSkillStore } from './skillsStore';
-import skillGroups from '../data/skillgroups.json';
 import { IsSkillGroup } from '../auxiliary';
 
 export const useKarmaStore = defineStore('karma', {
@@ -34,11 +33,9 @@ export const useKarmaStore = defineStore('karma', {
       const skillStore = useSkillStore();
       skillStore.modifiedSkills.forEach((skill) => {
         if (IsSkillGroup(skill.name)) {
-          const unmodifiedSkill = skillStore.skills.find((s) => skillGroups[skill.name][0] == s.name);
-          karma += (5 / 2) * (skill.rating - unmodifiedSkill.rating) * (1 + skill.rating + unmodifiedSkill.rating);
+          karma += 5 * skill.rating;
         } else {
-          const unmodifiedSkill = skillStore.skills.find((s) => s.name == skill.name);
-          karma += (skill.rating - unmodifiedSkill.rating) * (1 + skill.rating + unmodifiedSkill.rating);
+          karma += 2 * skill.rating;
         }
       });
       const packsStore = usePacksStore();
