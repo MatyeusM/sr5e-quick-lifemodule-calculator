@@ -16,6 +16,7 @@ https://matyeusm.github.io/sr5e-quick-lifemodule-calculator/
 * Specializations, Skills are complicated enough. There are few Life Modules. That actually give
 specializations, in which case I just cut them out.
 * Fully supporting Knowledge and Language skills.
+* Choices that lock you out of specific life modules.
 
 ## Features I plan to include
 * Spending Karma on Active Skills and Skill Groups.
