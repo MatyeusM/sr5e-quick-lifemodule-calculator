@@ -5,7 +5,7 @@
 
   const packsDialagOpen = ref(false);
 
-  const categories = ['Core', 'Weapon and Ammo', 'Armor', 'Cyber', 'Lifestyle', 'Color'];
+  const categories = ['Core', 'Weapon and Ammo', 'Armor', 'Cyber', 'Lifestyle', 'Color', 'Vehicle', 'Decker', 'Drone', 'Magic'];
   const selectedCategory = ref(categories[0]);
   
   const packsStore = usePacksStore();

@@ -976,5 +976,331 @@
     "augments": [],
     "essence": 0,
     "vehicles": []
+  },
+  {
+    "category": "Vehicle",
+    "name": "Bunny Hopper",
+    "cost": 5,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Chrysler-Nissan Jackrabbit"]
+  },
+  {
+    "category": "Vehicle",
+    "name": "Racing Bike",
+    "cost": 5,
+    "items": ["Mapsoft (city streets)", "Armor clothing", "Shopsoft (motorcycles and motorcycles parts)", "Two helmets with image link and sound link (25¥ each)", "Automotive mechanics kit"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Suzuki Mirage"]
+  },
+  {
+    "category": "Vehicle",
+    "name": "Combat Biker",
+    "cost": 6,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Harley-Davidson Scorpion"]
+  },
+  {
+    "category": "Vehicle",
+    "name": "All-American",
+    "cost": 8,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Ford Americar"]
+  },
+  {
+    "category": "Vehicle",
+    "name": "Team Van",
+    "cost": 18,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["GMC Bulldog with rigger interface"]
+  },
+  {
+    "category": "Vehicle",
+    "name": "Off Road",
+    "cost": 20,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Toyota Gopher", "Yamaha Growler"]
+  },
+  {
+    "category": "Vehicle",
+    "name": "Non-Combat Rigger",
+    "cost": 1,
+    "items": ["Rigger interface for two vehicles"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Vehicle",
+    "name": "Combat Rigger",
+    "cost": 2,
+    "items": ["Rigger interface", "Standard weapon mount with manual operation option"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Decker",
+    "name": "Intro to Hacking",
+    "cost": 29,
+    "items": ["Microdeck Summit cyberdeck"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Decker",
+    "name": "Basic Decker",
+    "cost": 62,
+    "items": ["Hermes Chariot cyberdeck", "Hardware kit", "Software kit"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Decker",
+    "name": "Advanced Decker",
+    "cost": 173,
+    "items": ["Sony CIY-720 cyberdeck", "Hardware kit", "Software kit"],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Decker",
+    "name": "Basic Cyberdeck Programs",
+    "cost": 1,
+    "items": [
+      "Software kit",
+      "Program: Browse", "Program: Configurator", "Program: Edit",
+      "Program: Encryption", "Program: Signal Scrub", "Program: Toolbox", "Program: Virtual Machine",
+      "Hack: Baby Monitor", "Hack: Decryption", "Hack: Stealth", "Hack: Sneak", "Hack: Wrapper"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Decker",
+    "name": "Advanced Cyberdeck Programs",
+    "cost": 1,
+    "items": [
+      "Hack: Armor", "Hack: Biofeedback", "Hack: Blackout", "Hack: Fork",
+      "Hack: Guard", "Hack: Hammer", "Hack: Mugger", "Hack: Shell"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Drone",
+    "name": "Basic Drone Commander",
+    "cost": 8,
+    "items": [
+      "Easy Motors DroneMaster rigger control console"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Drone",
+    "name": "Advanced Drone Commander",
+    "cost": 33,
+    "items": [
+      "Vulcan LiegeLord rigger control console"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Drone",
+    "name": "Rigger Support",
+    "cost": 2,
+    "items": [
+      "Program: Encryption", "Program: Signal Scrub", "Program: Toolbox",
+      "Ten stealth tags",
+      "Hack: Sneak",
+      "Electronic Warfare kit",
+      "Pilot Program (3)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Drone",
+    "name": "Dog Brain",
+    "cost": 3,
+    "items": [
+      "Four Autosoft (3) programs"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Drone",
+    "name": "Basic Spy Drone",
+    "cost": 1,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Shiawase Kanmushi with low-light vision and select sound filter (2)"]
+  },
+  {
+    "category": "Drone",
+    "name": "Advanced Spy Drone",
+    "cost": 11,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Lockheed Optic-X2 with vision enhancement (1), vision magnification, and select sound filter (1)"]
+  },
+  {
+    "category": "Drone",
+    "name": "Basic Combat Drone",
+    "cost": 3,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["GM-Nissan Doberman with Colt Cobra TZ-120 submachine gun and 170 rounds of regular ammo"]
+  },
+  {
+    "category": "Drone",
+    "name": "Advanced Combat Drone",
+    "cost": 3,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Steel Lynx with low-light vision, smartlink, and thermographic vision"]
+  },
+  {
+    "category": "Drone",
+    "name": "Air Combat Drone",
+    "cost": 4,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["MCT-Nissan Rotodrone with low-light vision and standard weapon mount"]
+  },
+  {
+    "category": "Drone",
+    "name": "Advanced Air Combat Drone",
+    "cost": 9,
+    "items": [],
+    "augments": [],
+    "essence": 0,
+    "vehicles": ["Cyberspace Designs Dalmatian with low-light vision, smartlink, thermographic vision, and two standard weapon mount"]
+  },
+  {
+    "category": "Magic",
+    "name": "Basic Magician",
+    "cost": 1,
+    "items": [
+      "Magical lodge materials (4)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Advanced Magician",
+    "cost": 2,
+    "items": [
+      "Magical lodge materials (6)", "Fifty drams of reagents"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Magic Wand",
+    "cost": 30,
+    "items": [
+      "Power focus (2)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Magic Staff",
+    "cost": 45,
+    "items": [
+      "Power focus (3)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Basic Medicine Bag",
+    "cost": 8,
+    "items": [
+      "Spell focus: Spellcasting (Health) (2)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Advanced Medicine Bag",
+    "cost": 16,
+    "items": [
+      "Spell focus: Spellcasting (Health) (4)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Basic Spirit Stick",
+    "cost": 8,
+    "items": [
+      "Spirit focus: Summoning beast spirits (2)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Advanced Spirit Stick",
+    "cost": 16,
+    "items": [
+      "Spirit focus: Summoning beast spirits (4)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Magic",
+    "name": "Magic Spear",
+    "cost": 13,
+    "items": [
+      "Weapon focus (2)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   }  
 ]
