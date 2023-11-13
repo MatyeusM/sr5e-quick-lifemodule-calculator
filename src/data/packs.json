@@ -26,7 +26,7 @@
   {
     "category": "Core",
     "name": "Advanced Runner",
-    "cost": 6,
+    "cost": 10,
     "items": [
       "Fake SIN (4)", "Metal restraints", "Erika Elite commlink with sim module and subvocal mic",
       "Backpack", "Knife", "Flashlight", "Armor vest", "Flashlight (low-light)", "Micro-transceiver",
@@ -766,5 +766,215 @@
     "augments": ["Bone density augmentation (1)", "Synaptic booster (1)"],
     "essence": 0.8,
     "vehicles": []
-  }    
+  },
+  {
+    "category": "Lifestyle",
+    "name": "Bug-Out Bag",
+    "cost": 2,
+    "items": [
+      "Fake SIN (1)", "Armor clothing", "Sony Emperor commlink", "Standard Credstick with 1000¥ pre-loaded",
+      "Knife", "Metal restraints",
+      "Ten security tags", "Ten blank datachips", "Knife", "Two doses of long haul", "Dufflebag (20¥)",
+      "Streetline Special hold-out pistol with 30 rounds of regular ammo and spare clip"
+    ],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Lifestyle",
+    "name": "Street Rat",
+    "cost": 1,
+    "items": ["Four months of Squatter lifestyle"],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Lifestyle",
+    "name": "Lowlife",
+    "cost": 1,
+    "items": ["One month of Low lifestyle"],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Lifestyle",
+    "name": "Success in the Shadows",
+    "cost": 5,
+    "items": ["Two months of Middle lifestyle"],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Lifestyle",
+    "name": "High Life",
+    "cost": 10,
+    "items": ["Two months of High lifestyle"],
+    "augments": [], "essence": 0, "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Cocktail Kid",
+    "cost": 1,
+    "items": [
+      "Ten disposable syringes", "Five doses of kamikaze",
+      "Ten disposable inhalers (10¥ each)", "Twenty doses of zen",
+      "Ten doses of jazz", "Twenty doses of novacoke",
+      "Five doses of long haul"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Gunbunny",
+    "cost": 1,
+    "items": [
+      "Armorer kit", "Image scope with low-light",
+      "Two laser sights", "Shock pad",
+      "Two external smartgun systems"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Drone Mechanic",
+    "cost": 1,
+    "items": [
+      "Aeronautics Mechanic kit", "Electronic Warfare kit",
+      "Automotive Mechanic kit", "Nautical Mechanic kit"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Mechanic Shop",
+    "cost": 3,
+    "items": [
+      "Automotive Mechanic kit", "Flashlight",
+      "Automotive Mechanic shop", "Roll of duct tape (5¥)",
+      "Shopsoft (car parts)", "Chemsuit (1)",
+      "Knowsoft (car makes and models)", "Respirator (1)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Eavesdropper",
+    "cost": 1,
+    "items": [
+      "Five datataps", "Five micro-cameras (1)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Surveillance",
+    "cost": 1,
+    "items": [
+      "Binoculars (optical)", "Periscope",
+      "Binoculars (digital) (1) low-light vision",
+      "Directional mic (1) with select sound filter (1)",
+      "Camera (1) with vision magnification",
+      "Laser mic (1) with audio enhancement (1)",
+      "Micro-camera (1) (no enhancements pre-loaded)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Breaking & Entering",
+    "cost": 3,
+    "items": [
+      "Autopicker (4)", "Sequencer (4)",
+      "Keycard copier (5)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Jammer",
+    "cost": 1,
+    "items": [
+      "Area jammer (4)", "Tag eraser",
+      "Bug scanner (5)", "White noise generator (5)"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Medic",
+    "cost": 1,
+    "items": [
+      "Medkit (6) with two refills", "Biomonitor"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Medical Patches",
+    "cost": 1,
+    "items": [
+      "Five antidote patches (4)", "Four tranq patches (5)",
+      "Stim patch (4)", "Trauma patch"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Mountaineering",
+    "cost": 1,
+    "items": [
+      "Climbing gear", "Survival kit",
+      "Flashlight", "Grapple gun with 400 meters of microwire",
+      "Five magnesium torches", "100 meters of standard rope",
+      "Micro flare launcher with three micro flares", "Medkit (2)",
+      "Rappelling gloves"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Infiltration",
+    "cost": 1,
+    "items": [
+      "Disguise kit", "Ten stealth tags",
+      "Lockpicks", "Ten plastic restraints",
+      "Contacts (2) with image link and low-light vision", "Subvocal mic",
+      "Flashlight", "Transceiver",
+      "Flashlight (low-light)", "Camera (1)",
+      "Twenty blank datachips"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  },
+  {
+    "category": "Color",
+    "name": "Demolitionist",
+    "cost": 1,
+    "items": [
+      "Demolitions kit", "Eight detonator caps",
+      "Twelve kilograms of commercial explosive"
+    ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
+  }  
 ]
