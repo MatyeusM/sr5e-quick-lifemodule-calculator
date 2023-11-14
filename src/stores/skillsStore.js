@@ -1,8 +1,7 @@
 import { defineStore } from 'pinia';
 import skillGroups from '../data/skillgroups.json';
 import activeskills from '../data/activeskills.json';
-import { IsSkillGroup } from '../auxiliary';
-// import { useAttributeStore } from './attributeStore';
+import { IsSkillGroup, GetSkillGroupSkills, GetSkillGroup } from '../auxiliary';
 
 const skillArray = [];
 Object.keys(activeskills).forEach((attribute) => {
@@ -13,11 +12,30 @@ Object.keys(activeskills).forEach((attribute) => {
 
 export const useSkillStore = defineStore('skills', {
   state: () => ({
+    // we actually need to track each skill changes, i do not think there is a smart way about it { name:, rating:, from: }
     modifiedSkills: [],
     skills: skillArray,
     languages: [],
     knowledge: [],
   }),
+  getters: {
+    getRating: (state) => {
+      return (name) => {
+        if (IsSkillGroup(name)) {
+          const groupSkillRatings = GetSkillGroupSkills(name).map((n) => state.getRating(n));
+          return Math.min(...groupSkillRatings);
+        }
+        let tmpRating = state.skills.find(s => s.name === name).rating;
+        const parentSkillGroup = GetSkillGroup(name);
+        return state.modifiedSkills.reduce((highest, current) => {
+          if (current.name === name || current.name == parentSkillGroup) {
+            return Math.max(highest, current.rating);
+          }
+          return highest;
+        }, tmpRating);
+      };
+    },
+  },
   actions: {
     addChoices(choiceArray) {
       choiceArray.forEach((choice) => {

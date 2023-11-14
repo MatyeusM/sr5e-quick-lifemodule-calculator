@@ -1,7 +1,6 @@
 <script setup>
   import { computed } from 'vue';
   import { useSkillStore } from '../stores/skillsStore';
-  import { GetSkillGroup } from '../auxiliary';
   import skillGroups from '../data/skillgroups.json';
   const skillStore = useSkillStore();
 
@@ -21,31 +20,10 @@
 
   const skillList = computed(() => {
     let validSkills = skillStore.skills
-      .map((s) => {
-        let tmp = { ...s };
-
-        // Check if Skill is in modifiedSkills
-        const modifiedSkillRating = skillStore.modifiedSkills
-          .filter((ms) => ms.name === s.name)
-          .reduce((highest, current) => Math.max(current.rating, highest), 0);
-
-        if (modifiedSkillRating > 0)
-          tmp.rating = modifiedSkillRating;
-
-        // Check if Skill has a skill group
-        const skillGroupName = GetSkillGroup(s.name);
-        if (skillGroupName) {
-          // Check if skill group is in modifiedSkills
-          const modifiedGroupRating = skillStore.modifiedSkills
-            .filter((ms) => ms.name === skillGroupName)
-            .reduce((highest, current) => Math.max(current.rating, highest), 0);
-
-          if (modifiedGroupRating > 0)
-            tmp.rating = Math.max(tmp.rating, modifiedGroupRating);
-        }
-
-        return tmp;
-      })
+      .map((s) => ({
+        name: s.name,
+        rating: skillStore.getRating(s.name),
+      }))
       .filter((s) => s.rating > 0);
 
 

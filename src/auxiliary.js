@@ -41,3 +41,10 @@ export function GetSkillGroup(skillName) {
 
   return null;
 }
+
+export function GetSkillGroupSkills(groupName) {
+  if (Object.prototype.hasOwnProperty.call(skillGroups, groupName)) {
+    return skillGroups[groupName];
+  }
+  return [];
+}

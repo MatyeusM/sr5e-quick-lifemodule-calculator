@@ -34,8 +34,12 @@ export const useKarmaStore = defineStore('karma', {
       skillStore.modifiedSkills.forEach((skill) => {
         if (IsSkillGroup(skill.name)) {
           karma += 5 * skill.rating;
+          // complicated calc
+          // karma += (5 / 2) * (skill.rating - skill.from) * (1 + skill.rating + skill.from);
         } else {
           karma += 2 * skill.rating;
+          // complicated calc
+          // karma += (skill.rating - skill.from) * (1 + skill.rating + skill.from);
         }
       });
       const packsStore = usePacksStore();
