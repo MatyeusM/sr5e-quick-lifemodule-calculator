@@ -2,6 +2,7 @@
   import { computed } from 'vue';
   import { useSkillStore } from '../stores/skillsStore';
   import skillGroups from '../data/skillgroups.json';
+  import DisplaySkill from './DisplaySkill.vue';
   const skillStore = useSkillStore();
 
   // const IsSkillGroup = (groupName) => Object.prototype.hasOwnProperty.call(skillGroups, groupName);
@@ -59,7 +60,7 @@
     <div class="font-bold p-1">Skills:</div>
     <div class="p-1">
       <template v-for="skill, idx in skillList" :key="skill.name">
-        <span class="hover:text-slate-300 cursor-pointer">{{ skill.name }}</span> {{ skill.rating }}<template v-if="idx+1 != skillList.length">, </template>
+        <DisplaySkill :name="skill.name" :rating="skill.rating" /><template v-if="idx+1 != skillList.length">, </template>
       </template>
     </div>
   </div>

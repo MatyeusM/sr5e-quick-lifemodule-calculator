@@ -28,7 +28,7 @@ export const useSkillStore = defineStore('skills', {
         let tmpRating = state.skills.find(s => s.name === name).rating;
         const parentSkillGroup = GetSkillGroup(name);
         return state.modifiedSkills.reduce((highest, current) => {
-          if (current.name === name || current.name == parentSkillGroup) {
+          if (current.name === name || current.name === parentSkillGroup) {
             return Math.max(highest, current.rating);
           }
           return highest;
@@ -149,6 +149,14 @@ export const useSkillStore = defineStore('skills', {
           }
         });
       }
+    },
+    modifySkillDecrease(skill, rating) {
+      this.modifiedSkills = this.modifiedSkills.filter(s => !(s.name === skill && s.rating === rating));
+    },
+    modifySkillIncrease(skill, rating) {
+      const maxRating = IsSkillGroup(skill) ? 4 : 7;
+      if (rating >= maxRating) return;
+      this.modifiedSkills.push({ name: skill, rating: rating + 1, from: rating });
     },
   }
 });
