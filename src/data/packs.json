@@ -718,7 +718,7 @@
     "name": "Advanced Rigger",
     "cost": 62,
     "items": [],
-    "augments": ["Datajack Reflex enhancer (2)", "Control rig (2)"],
+    "augments": ["Datajack", "Reflex enhancer (2)", "Control rig (2)"],
     "essence": 2.7,
     "vehicles": []
   },
