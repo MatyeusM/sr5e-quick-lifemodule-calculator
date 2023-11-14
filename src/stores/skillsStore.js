@@ -154,7 +154,7 @@ export const useSkillStore = defineStore('skills', {
       this.modifiedSkills = this.modifiedSkills.filter(s => !(s.name === skill && s.rating === rating));
     },
     modifySkillIncrease(skill, rating) {
-      const maxRating = IsSkillGroup(skill) ? 4 : 7;
+      const maxRating = IsSkillGroup(skill) ? 6 : 7;
       if (rating >= maxRating) return;
       this.modifiedSkills.push({ name: skill, rating: rating + 1, from: rating });
     },
