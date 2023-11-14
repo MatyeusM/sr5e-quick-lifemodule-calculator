@@ -41,8 +41,8 @@ export const useLifeModuleStore = defineStore('lifeModule', {
         await skillStore.removeLanguages(oldLifeModule.languages);
         await skillStore.removeKnowledge(oldLifeModule.knowledge);
         await skillStore.removeChoices(oldLifeModule.choices);
-        await skillStore.resetModifications();
       }
+      await skillStore.resetModifications();
       // remove attrs
       this[type] = cloneDeep(lifeModule);
       // add attrs
