@@ -41,19 +41,22 @@ export const useSkillStore = defineStore('skills', {
       state.modifiedSkills.forEach((modifiedSkill) => {
         const currentGroup = GetSkillGroup(modifiedSkill.name);
         const baseSkillRating = state.skills.find(s => s.name === modifiedSkill.name).rating;
-        const skillNamesInGroup = GetSkillGroupSkills(currentGroup);
-        const minModified = Math.min(...skillNamesInGroup.map(name => state.getRating(name)));
-        const maxBase = Math.max(...skillNamesInGroup.map(name => state.skills.find(s => s.name === name).rating));
-        // Process the group
-        if (!processedGroups.includes(currentGroup)) {
-          if (minModified > maxBase) {
-            karma += 5 / 2 * (minModified - maxBase) * (1 + minModified + maxBase);
+        if (currentGroup !== null) {
+          const skillNamesInGroup = GetSkillGroupSkills(currentGroup);
+          const minModified = Math.min(...skillNamesInGroup.map(name => state.getRating(name)));
+          const maxBase = Math.max(...skillNamesInGroup.map(name => state.skills.find(s => s.name === name).rating));
+          // Process the group
+          if (!processedGroups.includes(currentGroup)) {
+            if (minModified > maxBase) {
+              karma += 5 / 2 * (minModified - maxBase) * (1 + minModified + maxBase);
+            }
+            processedGroups.push(currentGroup);
           }
-          processedGroups.push(currentGroup);
-        }
-        // Process the actual skill.
-        karma += (modifiedSkill.rating - minModified) * (1 + modifiedSkill.rating + minModified);
-        karma += (maxBase - baseSkillRating) * (1 + maxBase + baseSkillRating);
+          // Process the actual skill.
+          karma += (modifiedSkill.rating - minModified) * (1 + modifiedSkill.rating + minModified);
+          karma += (maxBase - baseSkillRating) * (1 + maxBase + baseSkillRating);
+        } else
+          karma += (modifiedSkill.rating - baseSkillRating) * (1 + modifiedSkill.rating + baseSkillRating);
       });
       return karma;
     },
@@ -195,24 +198,27 @@ export const useSkillStore = defineStore('skills', {
         }
       }
     },
-    modifySkillIncrease(skill, rating) {
+    modifySkillIncrease(skill) {
       const isGroup = IsSkillGroup(skill);
       const maxRating = isGroup ? 6 : 7;
-      if (rating >= maxRating) return;
       if (isGroup) {
         const skillNames = GetSkillGroupSkills(skill);
         skillNames.forEach((sname) => {
           const currentSkill = this.modifiedSkills.find(s => s.name === sname);
-          if (currentSkill == undefined)
-            this.modifiedSkills.push({ name: sname, rating: rating + 1 });
-          else
+          if (currentSkill == undefined) {
+            const rating = this.skills.find(s => s.name === sname).rating;
+            if (rating < maxRating)
+              this.modifiedSkills.push({ name: sname, rating: rating + 1 });
+          } else if (currentSkill.rating < maxRating)
             currentSkill.rating += 1;
         });
       } else {
         const currentSkill = this.modifiedSkills.find(s => s.name === skill);
-        if (currentSkill == undefined)
-          this.modifiedSkills.push({ name: skill, rating: rating + 1 });
-        else
+        if (currentSkill == undefined) {
+          const rating = this.skills.find(s => s.name === skill).rating;
+          if (rating < maxRating)
+            this.modifiedSkills.push({ name: skill, rating: rating + 1 });
+        } else if (currentSkill.rating < maxRating)
           currentSkill.rating += 1;
       }
     },
