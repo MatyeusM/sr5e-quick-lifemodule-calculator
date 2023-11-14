@@ -5,7 +5,7 @@ never to have it being a full character creator, but more like a character mocku
 things up along the way, of using life modules properly.
 
 ## Try the Latest Version
-[Visit the auto-deployed latest version here](https://matyeusm.github.io/sr5e-quick-lifemodule-calculator/).
+[Visit the latest auto-deployed version here](https://matyeusm.github.io/sr5e-quick-lifemodule-calculator/).
 
 ## Controls
 - Click on things to change.

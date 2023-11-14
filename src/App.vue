@@ -13,7 +13,7 @@ import SkillTable from './components/SkillTable.vue';
   <div class="bg-slate-900 text-slate-100 min-w-full min-h-screen">
     <div class="m-auto w-2/3 p-4">
       <header>
-        <h1 class="text-2xl mb-2 text-amber-200">SR5e Quick Life Module Generator</h1>
+        <h1 class="text-2xl mb-2 text-amber-200">SR5e Life Module Calculator</h1>
       </header>
 
       <main>
