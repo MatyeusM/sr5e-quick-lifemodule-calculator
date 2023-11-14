@@ -30,7 +30,7 @@
     const delta = event.deltaY > 0 ? 1 : -1;
     if (IsSkillGroup(skill) && !EnableGroup.value) return;
     if (delta === 1)
-      skillStore.modifySkillDecrease(skill, rating);
+      skillStore.modifySkillDecrease(skill);
     else if(delta === -1)
       skillStore.modifySkillIncrease(skill, rating);
   }

@@ -35,6 +35,28 @@ export const useSkillStore = defineStore('skills', {
         }, tmpRating);
       };
     },
+    getKarma: (state) => {
+      let karma = 0;
+      const processedGroups = [];
+      state.modifiedSkills.forEach((modifiedSkill) => {
+        const currentGroup = GetSkillGroup(modifiedSkill.name);
+        const baseSkillRating = state.skills.find(s => s.name === modifiedSkill.name).rating;
+        const skillNamesInGroup = GetSkillGroupSkills(currentGroup);
+        const minModified = Math.min(...skillNamesInGroup.map(name => state.getRating(name)));
+        const maxBase = Math.max(...skillNamesInGroup.map(name => state.skills.find(s => s.name === name).rating));
+        // Process the group
+        if (!processedGroups.includes(currentGroup)) {
+          if (minModified > maxBase) {
+            karma += 5 / 2 * (minModified - maxBase) * (1 + minModified + maxBase);
+          }
+          processedGroups.push(currentGroup);
+        }
+        // Process the actual skill.
+        karma += (modifiedSkill.rating - minModified) * (1 + modifiedSkill.rating + minModified);
+        karma += (maxBase - baseSkillRating) * (1 + maxBase + baseSkillRating);
+      });
+      return karma;
+    },
   },
   actions: {
     addChoices(choiceArray) {
@@ -150,13 +172,49 @@ export const useSkillStore = defineStore('skills', {
         });
       }
     },
-    modifySkillDecrease(skill, rating) {
-      this.modifiedSkills = this.modifiedSkills.filter(s => !(s.name === skill && s.rating === rating));
+    modifySkillDecrease(skill) {
+      const isGroup = IsSkillGroup(skill);
+      if (isGroup) {
+        const skillNames = GetSkillGroupSkills(skill);
+        skillNames.forEach((sname) => {
+          const currentSkill = this.modifiedSkills.find(s => s.name === sname);
+          if (currentSkill != undefined) {
+            const minSkillRating = this.skills.find(s => s.name === sname).rating;
+            currentSkill.rating -= 1;
+            if (currentSkill.rating <= minSkillRating)
+              this.modifiedSkills = this.modifiedSkills.filter(s => s.name !== sname);
+          }
+        });
+      } else {
+        const currentSkill = this.modifiedSkills.find(s => s.name === skill);
+        if (currentSkill != undefined) {
+          const minSkillRating = this.skills.find(s => s.name === skill).rating;
+          currentSkill.rating -= 1;
+          if (currentSkill.rating <= minSkillRating)
+            this.modifiedSkills = this.modifiedSkills.filter(s => s.name !== skill);
+        }
+      }
     },
     modifySkillIncrease(skill, rating) {
-      const maxRating = IsSkillGroup(skill) ? 6 : 7;
+      const isGroup = IsSkillGroup(skill);
+      const maxRating = isGroup ? 6 : 7;
       if (rating >= maxRating) return;
-      this.modifiedSkills.push({ name: skill, rating: rating + 1, from: rating });
+      if (isGroup) {
+        const skillNames = GetSkillGroupSkills(skill);
+        skillNames.forEach((sname) => {
+          const currentSkill = this.modifiedSkills.find(s => s.name === sname);
+          if (currentSkill == undefined)
+            this.modifiedSkills.push({ name: sname, rating: rating + 1 });
+          else
+            currentSkill.rating += 1;
+        });
+      } else {
+        const currentSkill = this.modifiedSkills.find(s => s.name === skill);
+        if (currentSkill == undefined)
+          this.modifiedSkills.push({ name: skill, rating: rating + 1 });
+        else
+          currentSkill.rating += 1;
+      }
     },
     resetModifications() {
       this.modifiedSkills = [];

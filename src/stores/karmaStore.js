@@ -5,7 +5,6 @@ import { useLifeModuleStore } from './lifeModules';
 import { useMetaTypeStore } from './metaTypeStore';
 import { usePacksStore } from './packsStore';
 import { useSkillStore } from './skillsStore';
-import { IsSkillGroup } from '../auxiliary';
 
 export const useKarmaStore = defineStore('karma', {
   getters: {
@@ -31,17 +30,7 @@ export const useKarmaStore = defineStore('karma', {
         karma += (5 / 2) * (attributeStore.attributes[key] - value) * (value + 1 + attributeStore.attributes[key]);
       }
       const skillStore = useSkillStore();
-      skillStore.modifiedSkills.forEach((skill) => {
-        if (IsSkillGroup(skill.name)) {
-          karma += 5 * skill.rating;
-          // complicated calc
-          // karma += (5 / 2) * (skill.rating - skill.from) * (1 + skill.rating + skill.from);
-        } else {
-          karma += 2 * skill.rating;
-          // complicated calc
-          // karma += (skill.rating - skill.from) * (1 + skill.rating + skill.from);
-        }
-      });
+      karma += skillStore.getKarma;
       const packsStore = usePacksStore();
       karma += packsStore.getTotalKarmaSpent;
       return karma;
