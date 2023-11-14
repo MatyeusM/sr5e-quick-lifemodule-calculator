@@ -158,5 +158,8 @@ export const useSkillStore = defineStore('skills', {
       if (rating >= maxRating) return;
       this.modifiedSkills.push({ name: skill, rating: rating + 1, from: rating });
     },
+    resetModifications() {
+      this.modifiedSkills = [];
+    },
   }
 });
