@@ -12,6 +12,10 @@
       attributeStore.increaseAttribute(attribute);
   }
 
+  function roundToTwoDecimals(num) {
+    return Math.round(num * 100) / 100;
+  }
+
   const attributeOrder = ['body', 'agility', 'reaction', 'strength', 'willpower', 'logic', 'intuition', 'charisma', 'essence', 'edge', 'magic', 'resonance'];
 </script>
 
@@ -30,7 +34,9 @@
       <tr>
         <template  v-for="attribute in attributeOrder" :key="attribute">
           <td class="text-center" v-if="attributeStore.attributes[attribute] > 0" @wheel="handleWheel(attribute, $event)">
-            <template v-if="attribute == 'essence'">{{ attributeStore.attributes[attribute]-packsStore.getTotalEssenceSpent }}</template>
+            <template v-if="attribute == 'essence'">
+              {{ roundToTwoDecimals(attributeStore.attributes[attribute] - packsStore.getTotalEssenceSpent) }}
+            </template>
             <template v-else>{{ attributeStore.attributes[attribute] }}</template>
           </td>
         </template>
