@@ -3,7 +3,7 @@ import AttributeTable from './components/AttributeTable.vue';
 import EquipmentTable from './components/EquipmentTable.vue';
 import KarmaInformation from './components/KarmaInformation.vue';
 import LifeModuleSelector from './components/LifeModuleSelector.vue';
-import MetaTypeSelector from './components/MetaTypeSelector.vue';
+import TypeSelector from './components/TypeSelector.vue';
 import QualityTable from './components/QualityTable.vue';
 import SkillTable from './components/SkillTable.vue';
 
@@ -18,7 +18,7 @@ import SkillTable from './components/SkillTable.vue';
 
       <main>
         <KarmaInformation />
-        <MetaTypeSelector />
+        <TypeSelector />
         <LifeModuleSelector />
         <AttributeTable />
         <QualityTable />

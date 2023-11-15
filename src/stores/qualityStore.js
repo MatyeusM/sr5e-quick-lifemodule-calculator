@@ -1,7 +1,10 @@
 import { defineStore } from 'pinia';
+import characterTypes from '../data/characterTypes.json';
+import { useAttributeStore } from './attributeStore';
 
 export const useQualityStore = defineStore('qualities', {
   state: () => ({
+    characterType: characterTypes[0],
     qualities: [],
   }),
   getters: {
@@ -60,6 +63,32 @@ export const useQualityStore = defineStore('qualities', {
           this.qualities.splice(index, 1);
         }
       }
+    },
+    async setCharacterType(type) {
+      if (characterTypes.includes(type)) {
+        const attributeStore = useAttributeStore();
+        // remove old type
+        if (["Adept", "Aspected Magician", "Magician", "Mystic Adept"].includes(this.characterType)) {
+          await attributeStore.removeMinAttributes({magic: 1});
+        }
+        if ('Technomancer' === this.characterType) {
+          await attributeStore.removeMinAttributes({resonance: 1});
+        }
+        // set new type
+        this.characterType = type;
+        if (["Adept", "Aspected Magician", "Magician", "Mystic Adept"].includes(type)) {
+          await attributeStore.addMinAttributes({magic: 1});
+        }
+        if ('Technomancer' === type) {
+          await attributeStore.addMinAttributes({resonance: 1});
+        }
+        if ('Mundane' === type) {
+          attributeStore.attributes.magic = 0;
+          attributeStore.attributes.resonance = 0;
+        }
+        attributeStore.adjustAttributesInRange();
+      }
+        
     },
   }
 });

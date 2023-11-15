@@ -20,16 +20,14 @@
   const formatQuality = (key, value) => `${key} (${Math.abs(value)})`;
   const formatSkill = (key, value, additional = false) => `${key} ${formatSkillRating(value, additional)}`;
   const formatSkillRating = (rating, additional = false) => {
-    var add = additional ? '+' : '';
+    const plusSign = additional ? '+' : '';
     if (typeof rating === 'number') {
-      return `${add}${rating}`;
+      return `${plusSign}${rating}`;
     } else if (rating === 'Native') {
       return 'N';
-    } else {
-      return rating;
     }
+    return rating;
   }
-
   function setLifeModule() {
     dialogOpen.value = false;
     if (currentModule.value != null) {

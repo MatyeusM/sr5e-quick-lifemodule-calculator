@@ -3,7 +3,7 @@
     <div>
       <button
         type="button"
-        @click="isDropdownOpen = !isDropdownOpen"
+        @click="toggleDropdown"
         :aria-expanded="isDropdownOpen.toString()"
         aria-haspopup="true"
         class="inline-flex w-full justify-center gap-x-1.5 px-3 py-2 text-sm font-regular ring-1 ring-inset ring-slate-100"
@@ -60,9 +60,24 @@
 </template>
 
 <script setup>
-  import { ref } from 'vue';
+  import { ref, watchEffect } from 'vue';
 
   const isDropdownOpen = ref(false);
+
+  function toggleDropdown(event) {
+    event.stopPropagation();
+    isDropdownOpen.value = !isDropdownOpen.value;
+  }
+
+  watchEffect(() => {
+    if (isDropdownOpen.value) document.body.addEventListener('click', closeDropdown);
+    return () => { document.body.removeEventListener('click', closeDropdown); };
+  });
+
+  function closeDropdown() {
+    document.body.removeEventListener('click', closeDropdown);
+    isDropdownOpen.value = false;
+  }
 
   const props = defineProps({
     options: Array,

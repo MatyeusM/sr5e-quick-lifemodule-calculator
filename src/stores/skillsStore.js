@@ -12,7 +12,6 @@ Object.keys(activeskills).forEach((attribute) => {
 
 export const useSkillStore = defineStore('skills', {
   state: () => ({
-    // we actually need to track each skill changes, i do not think there is a smart way about it { name:, rating:, from: }
     modifiedSkills: [],
     skills: skillArray,
     languages: [],
