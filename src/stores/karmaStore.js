@@ -22,8 +22,9 @@ export const useKarmaStore = defineStore('karma', {
       if (lifeModules.realLife !== null) karma += 100;
       if (lifeModules.additionalRealLife !== null || (lifeModules.additionalRealLife && lifeModules.additionalRealLife.name != 'None')) karma += 100;
       // grab the overflow from qualities
-      const { getLeftOverValue } = useQualityStore();
+      const { getLeftOverValue, getTypeKarma } = useQualityStore();
       karma -= getLeftOverValue; // A negative value means we need to pay to get rid of that quality
+      karma += getTypeKarma;
       // add attribute cost
       const attributeStore = useAttributeStore();
       for (const [key, value] of Object.entries(attributeStore.minAttributes)) {

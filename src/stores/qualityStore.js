@@ -47,6 +47,21 @@ export const useQualityStore = defineStore('qualities', {
 
       return leftOverValue;
     },
+    getTypeKarma() {
+      switch(this.characterType) {
+        case 'Adept':
+          return 20;
+        case 'Aspected Magician':
+          return 15;
+        case 'Magician':
+          return 30;
+        case 'Mystic Adept':
+          return 35;
+        case 'Technomancer':
+          return 15;
+      }
+      return 0;
+    },
   },
   actions: {
     addQualities(qualitiesModifiers) {
