@@ -8,9 +8,8 @@ things up along the way, of using life modules properly.
 [Visit the latest auto-deployed version here](https://matyeusm.github.io/sr5e-quick-lifemodule-calculator/).
 
 ## Controls
-- Click on things to change.
-- Attributes change via the Mouse Wheel.
-- Click on Packs to add Gear.
+- Click on things to navigate.
+- Use mouse wheel to change numbers.
 
 ## Features
 ### Excluded Features
@@ -21,7 +20,6 @@ things up along the way, of using life modules properly.
 - **Specializations:** There are few Life Modules that actually give specializations, in which case I just cut them out at the moment. Might change if I implement full support for specializations
 
 ### TODO
-- Ability to add Skills that are not by default in the rendered list or related to any other skill via a group.
 - **Missing Life Modules:** Incorporate Life Modules from 'Run Faster' and other sources as needed.
 - **Quality Removal:** Implement the ability to remove qualities you don't want. Or add additional ones.
 - **Custom Equipment Packs:** Allow users to import custom equipment packs through JSON files.
