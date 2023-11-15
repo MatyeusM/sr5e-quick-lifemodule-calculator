@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, computed } from 'vue'
+  import { ref, computed, watch } from 'vue'
   import { useLifeModuleStore } from '../stores/lifeModules';
   import { cloneDeep } from '../auxiliary';
   import DropDownMenu from './DropDownMenu.vue';
@@ -42,6 +42,12 @@
 
   const dialogOpen = ref(false);
   const currentModule = ref(cloneDeep(lifeModuleStore[props.internalName]));
+
+  watch(() => lifeModuleStore[props.internalName], (newModule) => {
+    if (newModule != null) {
+      currentModule.value = cloneDeep(newModule);
+    }
+  });
 
   const selectedModuleName = computed(() => (lifeModuleStore[props.internalName] == null) ? '+' : lifeModuleStore[props.internalName].name);
   const currentModuleName = computed(() => (currentModule.value == null) ? '' : currentModule.value.name);
