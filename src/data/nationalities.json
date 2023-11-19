@@ -88,5 +88,95 @@
     "knowledge": [{ "name": "History", "rating": 1 }, { "name": "Tír Tairngire", "rating": 1 }, { "name": "Counterculture", "rating": 2 }],
     "qualities": [{ "name": "SINner", "value": -5 }],
     "choices": []
+  },
+  {
+    "name": "NAN (Algonkian-Manitou Council)",
+    "attributes": {},
+    "skills": [{"name": "Archery", "rating": 2}, {"name": "Outdoor", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Blades", "rating": 1}, {"name": "Unarmed Combat", "rating":1}],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "[Tribe]", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Anishinaabe", "Iroquoian"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Anishinaabe", "Iroquoian"]}]
+  },
+  {
+    "name": "NAN (Athabaskan Council)",
+    "attributes": {"body": 1},
+    "skills": [{"name": "Archery", "rating": 2}, {"name": "Survival", "rating": 1}],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Eskimo-Aleut"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Eskimo-Aleut"]}]
+  },
+  {
+    "name": "NAN (Pueblo Corporate Council)",
+    "attributes": {},
+    "skills": [{"name": "Archery", "rating": 2}, {"name": "Electonics", "rating": 1}, {"name": "Etiquette", "rating": 2}],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Business Practices", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Uto-Aztecan", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["English", "Uto-Aztecan", "Zuni"]}]
+  },
+  {
+    "name": "NAN (Salish-Shidhe Council)",
+    "attributes": {"logic": 1},
+    "skills": [{"name": "Archery", "rating": 2}, {"name": "Survival", "rating": 1}],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Business Practices", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Salish", "Siouan"]}, {"type": "languages", "rating": 1, "values": ["English", "Salish", "Siouan"]}]
+  },
+  {
+    "name": "NAN (Sioux Nation)",
+    "attributes": {},
+    "skills": [{"name": "Archery", "rating": 2}, {"name": "Outdoor", "rating": 1}, {"name": "Blades", "rating": 2}],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Sioux Culture", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Anishinaabe", "Iroquoian", "Siouan"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Anishinaabe", "Iroquoian", "Siouan"]}]
+  },
+  {
+    "name": "NAN (Trans-Polar Aleut Nation)",
+    "attributes": {},
+    "skills": [{"name": "Archery", "rating": 2}, { "name": "Exotic Melee Weapon (Specific)", "Specific": "Harpoon", "rating": 2 }, {"name": "Perception", "rating": 1}, {"name": "Survival", "rating": 1}],
+    "languages": [{ "name": "Eskimo-Aleut", "rating": "Native" }, { "name": "English", "rating": 1 }],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": ": Polar Critters", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": []
+  },
+  {
+    "name": "NAN (Tsimshian Nation)",
+    "attributes": {"strength": 1},
+    "skills": [{"name": "Archery", "rating": 2}, { "name": "Blades", "rating": 1 }],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }, { "name": "Allergy (Uncommon/Mild)", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Tlingit", "Tsimshianic", "Siouan"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Tlingit", "Tsimshianic", "Siouan"]}]
+  },
+  {
+    "name": "NAN (Denver)",
+    "attributes": {"intuition": 1},
+    "skills": [{"name": "Archery", "rating": 2}, { "name": "Computer", "rating": 1 }],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["English", "Hopi", "Siouan", "Spanish", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["Hopi", "Siouan", "Spanish", "Zuni", "English"]}]
+  },
+  {
+    "name": "NAN (Las Vegas)",
+    "attributes": {},
+    "skills": [{"name": "Archery", "rating": 2}, { "name": "Perception", "rating": 1 }, { "name": "Con", "rating": 2 }, { "name": "Etiquette", "rating": 1 }],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Gambling Games", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["Anishinaabe", "Athabaskan", "Eskimo-Aleut", "Hopi", "Iroquoian", "Salish", "Siouan", "Tlingit", "Tsimshianic", "Uto-Aztecan", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["English", "Anishinaabe", "Athabaskan", "Eskimo-Aleut", "Hopi", "Iroquoian", "Salish", "Siouan", "Tlingit", "Tsimshianic", "Uto-Aztecan", "Zuni"]}]
+  },
+  {
+    "name": "NAN (Salt Lake City)",
+    "attributes": {},
+    "skills": [{"name": "Archery", "rating": 2}, { "name": "Artisan", "rating": 1 }, { "name": "Computer", "rating": 1 }, { "name": "Etiquette", "rating": 1 }, { "name": "Negotiation", "rating": 1 }, { "name": "Perception", "rating": 1 }],
+    "languages": [],
+    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Mormons", "rating": 2 }],
+    "qualities": [{ "name": "SINner", "value": -5 }],
+    "choices": [{"type": "languages", "rating": "Native", "values": ["English", "Hopi", "Spanish", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["Hopi", "Spanish", "Zuni", "English"]}]
   }
 ]
