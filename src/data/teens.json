@@ -54,13 +54,40 @@
     "choices": []
   },
   {
-    "name": "Magical Education (none)",
+    "name": "Magical Education (Magician)",
     "attributes": {"charisma": 1, "willpower": 1},
     "skills": [{"name": "Arcana", "rating": 2}],
     "languages": [{"name": "[Any]", "rating": 2}],
     "knowledge": [{"name": "Magical Theory", "rating": 5}, {"name": "[Academic Knowledge, Spread]", "rating": 11}],
     "qualities": [{ "name": "SINner", "value": -15 }],
-    "choices": []
+    "choices": [{ "type": "activeskills", "rating": 1, "values": ["Sorcery", "Conjuring", "Enchanting"] }, { "type": "activeskills", "rating": 1, "values": ["Conjuring", "Enchanting", "Sorcery"] }]
+  },
+  {
+    "name": "Magical Education (Adept)",
+    "attributes": {"charisma": 1, "willpower": 1},
+    "skills": [{"name": "Arcana", "rating": 2}],
+    "languages": [{"name": "[Any]", "rating": 2}],
+    "knowledge": [{"name": "Magical Theory", "rating": 5}, {"name": "[Academic Knowledge, Spread]", "rating": 11}],
+    "qualities": [{ "name": "SINner", "value": -15 }],
+    "choices": [{ "type": "activeskills", "rating": 1, "values": ["Close Combat", "Firearms", "Stealth"] }, { "type": "activeskills", "rating": 1, "values": ["Firearms", "Stealth", "Close Combat"] }]
+  },
+  {
+    "name": "Magical Education (Aspected Magician)",
+    "attributes": {"charisma": 1, "willpower": 1},
+    "skills": [{"name": "Arcana", "rating": 2}],
+    "languages": [{"name": "[Any]", "rating": 2}],
+    "knowledge": [{"name": "Magical Theory", "rating": 5}, {"name": "[Academic Knowledge, Spread]", "rating": 11}],
+    "qualities": [{ "name": "SINner", "value": -15 }],
+    "choices": [{ "type": "activeskills", "rating": 1, "values": ["Sorcery", "Conjuring", "Enchanting"] }, { "type": "activeskills", "rating": 2, "values": ["Arcana", "Assensing", "Astral Combat"] }, { "type": "activeskills", "rating": 2, "values": ["Assensing", "Astral Combat", "Arcana"] }]
+  },
+  {
+    "name": "Magical Education (Mystic Adept)",
+    "attributes": {"charisma": 1, "willpower": 1},
+    "skills": [{"name": "Arcana", "rating": 2}],
+    "languages": [{"name": "[Any]", "rating": 2}],
+    "knowledge": [{"name": "Magical Theory", "rating": 5}, {"name": "[Academic Knowledge, Spread]", "rating": 11}],
+    "qualities": [{ "name": "SINner", "value": -15 }],
+    "choices": [{ "type": "activeskills", "rating": 1, "values": ["Sorcery", "Conjuring", "Enchanting", "Close Combat", "Firearms", "Stealth"] }, { "type": "activeskills", "rating": 1, "values": ["Conjuring", "Enchanting", "Sorcery", "Close Combat", "Firearms", "Stealth"] }]
   },
   {
     "name": "Military School",
