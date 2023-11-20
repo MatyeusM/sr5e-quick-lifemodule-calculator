@@ -10,18 +10,7 @@
         :class="[isDropdownOpen ? ((color == 'amber') ? 'bg-slate-800 text-amber-200 ring-amber-200' : 'bg-slate-800 text-emerald-300 ring-emerald-300') : ((color == 'amber') ? 'bg-slate-900 hover:bg-slate-800 text-slate-100 hover:text-amber-200 hover:ring-amber-200' : 'bg-slate-900 hover:bg-slate-800 text-slate-100 hover:text-emerald-300 hover:ring-emerald-300')]"
       >
         <slot></slot>
-        <svg
-          class="-mr-1 h-5 w-5 text-gray-400"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          aria-hidden="true"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-            clip-rule="evenodd"
-          />
-        </svg>
+        <chevron-down-icon class="text-lg" />
       </button>
     </div>
 
@@ -61,6 +50,7 @@
 
 <script setup>
   import { ref, watchEffect } from 'vue';
+  import ChevronDownIcon from 'vue-material-design-icons/ChevronDown.vue';
 
   const isDropdownOpen = ref(false);
 
