@@ -22,7 +22,6 @@ things up along the way, of using life modules properly.
 ### TODO
 - **Missing Life Modules:** Incorporate Life Modules from 'Run Faster' and other sources as needed.
 - **Quality Removal:** Implement the ability to remove qualities you don't want. Or add additional ones.
-- **Custom Equipment Packs:** Allow users to import custom equipment packs through JSON files.
 
 ## Contributing
 Feel free to contribute by:
