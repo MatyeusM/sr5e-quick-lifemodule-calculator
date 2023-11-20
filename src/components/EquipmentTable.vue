@@ -1,7 +1,8 @@
 <script setup>
-  import { ref } from 'vue';
+  import { ref, computed } from 'vue';
+  import { useStorage } from '@vueuse/core';
   import { usePacksStore } from '../stores/packsStore';
-  import packs from '../data/packs.json';
+  import dataPacks from '../data/packs.json';
 
   const packsDialagOpen = ref(false);
 
@@ -9,7 +10,12 @@
   const selectedCategory = ref(categories[0]);
   
   const packsStore = usePacksStore();
-</script>
+
+  const localStoragePacks = useStorage('packs', [], localStorage);
+  const packs = computed(() => {
+    return [...dataPacks, ...localStoragePacks.value];
+  });
+  </script>
 
 <template>
   <div class="flex px-1" v-if="!packsStore.packs.every(p => p.augments.length === 0)">

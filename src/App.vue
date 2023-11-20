@@ -6,14 +6,16 @@ import LifeModuleSelector from './components/LifeModuleSelector.vue';
 import TypeSelector from './components/TypeSelector.vue';
 import QualityTable from './components/QualityTable.vue';
 import SkillTable from './components/SkillTable.vue';
+import SettingsDialog from './components/SettingsDialog.vue';
 
 </script>
 
 <template>
   <div class="bg-slate-800 text-slate-100 min-w-full min-h-screen">
     <div class="m-auto max-w-7xl min-h-screen bg-slate-900 p-4">
-      <header>
-        <h1 class="text-2xl mb-2 text-amber-200 border-b border-amber-200">SR5e Life Module Calculator</h1>
+      <header class="flex place-content-between border-b border-amber-200 text-amber-200 text-2xl mb-2">
+        <h1>SR5e Life Module Calculator</h1>
+        <settings-dialog class="mr-2" />
       </header>
 
       <main>
