@@ -6,6 +6,30 @@
   const localStoragePacks = useStorage('packs', [], localStorage);
   const settingsDialogOpen = ref(false);
 
+  function isPackArray(array) {
+    return (
+      Array.isArray(array) &&
+      array.every((pack) =>
+        typeof pack === 'object' &&
+        pack !== null &&
+        'category' in pack &&
+        'name' in pack &&
+        'cost' in pack &&
+        'items' in pack &&
+        'augments' in pack &&
+        'essence' in pack &&
+        'vehicles' in pack &&
+        typeof pack.category === 'string' &&
+        typeof pack.name === 'string' &&
+        typeof pack.cost === 'number' &&
+        Array.isArray(pack.items) &&
+        Array.isArray(pack.augments) &&
+        typeof pack.essence === 'number' &&
+        Array.isArray(pack.vehicles)
+      )
+    );
+  }
+
   const handleFileUpload = (event) => {
     const file = event.target.files[0];
     
@@ -16,7 +40,7 @@
           const uploadedPacks = JSON.parse(e.target.result);
 
           // Assuming the uploaded data is an array of packs
-          if (Array.isArray(uploadedPacks)) {
+          if (isPackArray(uploadedPacks)) {
             localStoragePacks.value = uploadedPacks;
           } else {
             console.error('Invalid format for uploaded data. Please provide an array of packs.');
