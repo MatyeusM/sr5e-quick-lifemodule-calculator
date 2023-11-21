@@ -21,7 +21,7 @@
 <template>
   <div class="py-2 flex">
     <div class="px-2">
-      <DropDown color="emerald" :options="characterTypes" @selected="changeType">{{ qualityStore.characterType }}</DropDown>
+      <DropDown color="emerald" :options="characterTypes.map((c) => c.name)" @selected="changeType">{{ qualityStore.characterType.name }}</DropDown>
     </div>
     <div class="px-2">
       <DropDown color="emerald" :options="metaTypes.map((m) => m.name)" @selected="handleChange">{{ metaTypeStore.metatype.name }}</DropDown>

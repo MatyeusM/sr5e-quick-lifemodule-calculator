@@ -60,10 +60,10 @@ export const useAttributeStore = defineStore('attributes', {
         }
       }
     },
-    adjustAttributesInRange() {
+    adjustAttributesInRange(force = false) {
       // Loop through attributes and adjust if needed
       for (const [name, value] of Object.entries(this.attributes)) {
-        if (value < this.minAttributes[name]) {
+        if (force || value < this.minAttributes[name]) {
           this.attributes[name] = this.minAttributes[name];
         } else if (value > this.maxAttributes[name]) {
           this.attributes[name] = this.maxAttributes[name];

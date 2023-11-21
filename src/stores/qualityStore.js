@@ -48,19 +48,7 @@ export const useQualityStore = defineStore('qualities', {
       return leftOverValue;
     },
     getTypeKarma() {
-      switch(this.characterType) {
-        case 'Adept':
-          return 20;
-        case 'Aspected Magician':
-          return 15;
-        case 'Magician':
-          return 30;
-        case 'Mystic Adept':
-          return 35;
-        case 'Technomancer':
-          return 15;
-      }
-      return 0;
+      return this.characterType.cost;
     },
   },
   actions: {
@@ -79,31 +67,17 @@ export const useQualityStore = defineStore('qualities', {
         }
       }
     },
-    async setCharacterType(type) {
-      if (characterTypes.includes(type)) {
+    async setCharacterType(typeName) {
+      const type = characterTypes.find(ct => ct.name === typeName)
+      if (type) {
         const attributeStore = useAttributeStore();
-        // remove old type
-        if (["Adept", "Aspected Magician", "Magician", "Mystic Adept"].includes(this.characterType)) {
-          await attributeStore.removeMinAttributes({magic: 1});
-        }
-        if ('Technomancer' === this.characterType) {
-          await attributeStore.removeMinAttributes({resonance: 1});
-        }
-        // set new type
+
+        await attributeStore.removeMinAttributes(this.characterType.minAttributes);
         this.characterType = type;
-        if (["Adept", "Aspected Magician", "Magician", "Mystic Adept"].includes(type)) {
-          await attributeStore.addMinAttributes({magic: 1});
-        }
-        if ('Technomancer' === type) {
-          await attributeStore.addMinAttributes({resonance: 1});
-        }
-        if ('Mundane' === type) {
-          attributeStore.attributes.magic = 0;
-          attributeStore.attributes.resonance = 0;
-        }
-        attributeStore.adjustAttributesInRange();
+        await attributeStore.addMinAttributes(type.minAttributes);
+
+        attributeStore.adjustAttributesInRange(true);
       }
-        
     },
   }
 });
