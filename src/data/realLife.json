@@ -486,6 +486,128 @@
     "choices": []
   },
   {
+    "name": "Street Magic (Aspected Magician)",
+    "attributes": {"willpower": 1},
+    "skills": [
+      {"name": "Arcana", "rating": 2},
+      {"name": "Assensing", "rating": 2},
+      {"name": "Blades", "rating": 1},
+      {"name": "First Aid", "rating": 1},
+      {"name": "Survival", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [{"name": "Magical Security", "rating": 3}, {"name": "Small-Group Tactics", "rating": 2}, {"name": "Magical Theory", "rating": 1}],
+    "qualities": [],
+    "choices": [{"type": "activeskills", "rating": 1, "values": ["Conjuring", "Enchanting", "Sorcery"]}]
+  },
+  {
+    "name": "Street Magic (Occult Investigator)",
+    "attributes": {"willpower": 1},
+    "skills": [
+      {"name": "Arcana", "rating": 1},
+      {"name": "Assensing", "rating": 3},
+      {"name": "Conjuring", "rating": 1},
+      {"name": "Influence", "rating": 1},
+      {"name": "Locksmith", "rating": 1},
+      {"name": "Perception", "rating": 3},
+      {"name": "Pistols", "rating": 1},
+      {"name": "Sorcery", "rating": 2},
+      {"name": "Tracking", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [
+      {"name": "Forensics", "rating": 5},
+      {"name": "[City]", "rating": 4}
+    ],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Street Magic (Eco-Shaman)",
+    "attributes": {"willpower": 1},
+    "skills": [
+        {"name": "Assensing", "rating": 2},
+        {"name": "Astral Combat", "rating": 2},
+        {"name": "Conjuring", "rating": 2},
+        {"name": "Demolitions", "rating": 1},
+        {"name": "Etiquette", "rating": 1},
+        {"name": "First Aid", "rating": 1},
+        {"name": "Forgery", "rating": 2},
+        {"name": "Perception", "rating": 2},
+        {"name": "Pistols", "rating": 1},
+        {"name": "Sorcery", "rating": 2}
+    ],
+    "languages": [],
+    "knowledge": [
+        {"name": "Megacorp Law", "rating": 5},
+        {"name": "Magical Theory", "rating": 3}
+    ],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Street Magic (Street Mage)",
+    "attributes": {"willpower": 1},
+    "skills": [
+        {"name": "Assensing", "rating": 2},
+        {"name": "Blades", "rating": 1},
+        {"name": "Conjuring", "rating": 2},
+        {"name": "Palming", "rating": 1},
+        {"name": "Perception", "rating": 1},
+        {"name": "Sneaking", "rating": 1},
+        {"name": "Sorcery", "rating": 3},
+        {"name": "Survival", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [
+        {"name": "Charity Shelters", "rating": 5},
+        {"name": "[City]", "rating": 4}
+    ],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Street Magic (Street Shaman)",
+    "attributes": {"willpower": 1},
+    "skills": [
+        {"name": "Assensing", "rating": 2},
+        {"name": "Blades", "rating": 1},
+        {"name": "Conjuring", "rating": 3},
+        {"name": "Palming", "rating": 1},
+        {"name": "Perception", "rating": 1},
+        {"name": "Sneaking", "rating": 1},
+        {"name": "Sorcery", "rating": 2},
+        {"name": "Survival", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [
+        {"name": "Charity Shelters", "rating": 5},
+        {"name": "[City]", "rating": 4}
+    ],
+    "qualities": [],
+    "choices": []
+  },
+  {
+    "name": "Street Magic (Talismonger)",
+    "attributes": {"willpower": 1},
+    "skills": [
+        {"name": "Assensing", "rating": 3},
+        {"name": "Chemistry", "rating": 1},
+        {"name": "Enchanting", "rating": 3},
+        {"name": "Etiquette", "rating": 2},
+        {"name": "First Aid", "rating": 1},
+        {"name": "Negotiation", "rating": 2},
+        {"name": "Pistols", "rating": 1}
+    ],
+    "languages": [],
+    "knowledge": [
+        {"name": "Telesma", "rating": 5},
+        {"name": "Alchemy", "rating": 5}
+    ],
+    "qualities": [],
+    "choices": []
+  },
+  {
     "name": "Terrorist",
     "attributes": {"logic": 1, "willpower": 1},
     "skills": [
