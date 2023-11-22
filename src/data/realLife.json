@@ -9,6 +9,22 @@
     "choices": []
   },
   {
+    "name": "Celebrity",
+    "attributes": {"charisma": 1},
+    "skills": [{"name": "Con", "rating": 1}, {"name": "Escape Artist", "rating": 1}],
+    "languages": [],
+    "knowledge": [],
+    "qualities": [{ "name": "Fame", "value": 8 }],
+    "choices": [
+      {"type": "attributes", "rating": 1, "values": ["body", "agility", "reaction", "strength", "willpower", "logic", "intuition"]},
+      {"type": "attributes", "rating": 1, "values": ["body", "agility", "reaction", "strength", "willpower", "logic", "intuition"]},
+      {"type": "activeskills", "rating": 3, "values": ["Archery", "Automatics", "Blades", "Clubs", "Escape Artist", "Exotic Melee Weapon (Specific)", "Exotic Ranged Weapon (Specific)", "Gunnery", "Gymnastics", "Heavy Weapons", "Locksmith", "Longarms", "Palming", "Pistols", "Sneaking", "Throwing Weapons", "Unarmed Combat", "Diving", "Free-Fall", "Pilot Aerospace", "Pilot Aircraft", "Pilot Exotic Vehicle (Specific)", "Pilot Ground Craft", "Pilot Walker", "Pilot Watercraft", "Running", "Swimming", "Animal Handling", "Con", "Etiquette", "Impersonation", "Instruction", "Intimidation", "Leadership", "Negotiation", "Performance", "Artisan", "Assensing", "Disguise", "Navigation", "Perception", "Tracking", "Aeronautics Mechanic", "Arcana", "Armorer", "Automotive Mechanic", "Biotechnology", "Chemistry", "Computer", "Cybertechnology", "Cybercombat", "Demolitions", "Electronic Warfare", "First Aid", "Forgery", "Industrial Mechanic", "Hacking", "Hardware", "Medicine", "Nautical Mechanic", "Software", "Astral Combat", "Survival", "Alchemy", "Artificing", "Banishing", "Binding", "Counterspelling", "Disenchanting", "Ritual Spellcasting", "Spellcasting", "Summoning", "Compiling", "Decompling", "Registering"]},
+      {"type": "activeskills", "rating": 2, "values": ["Archery", "Automatics", "Blades", "Clubs", "Escape Artist", "Exotic Melee Weapon (Specific)", "Exotic Ranged Weapon (Specific)", "Gunnery", "Gymnastics", "Heavy Weapons", "Locksmith", "Longarms", "Palming", "Pistols", "Sneaking", "Throwing Weapons", "Unarmed Combat", "Diving", "Free-Fall", "Pilot Aerospace", "Pilot Aircraft", "Pilot Exotic Vehicle (Specific)", "Pilot Ground Craft", "Pilot Walker", "Pilot Watercraft", "Running", "Swimming", "Animal Handling", "Con", "Etiquette", "Impersonation", "Instruction", "Intimidation", "Leadership", "Negotiation", "Performance", "Artisan", "Assensing", "Disguise", "Navigation", "Perception", "Tracking", "Aeronautics Mechanic", "Arcana", "Armorer", "Automotive Mechanic", "Biotechnology", "Chemistry", "Computer", "Cybertechnology", "Cybercombat", "Demolitions", "Electronic Warfare", "First Aid", "Forgery", "Industrial Mechanic", "Hacking", "Hardware", "Medicine", "Nautical Mechanic", "Software", "Astral Combat", "Survival", "Alchemy", "Artificing", "Banishing", "Binding", "Counterspelling", "Disenchanting", "Ritual Spellcasting", "Spellcasting", "Summoning", "Compiling", "Decompling", "Registering"]},
+      {"type": "activeskills", "rating": 1, "values": ["Archery", "Automatics", "Blades", "Clubs", "Escape Artist", "Exotic Melee Weapon (Specific)", "Exotic Ranged Weapon (Specific)", "Gunnery", "Gymnastics", "Heavy Weapons", "Locksmith", "Longarms", "Palming", "Pistols", "Sneaking", "Throwing Weapons", "Unarmed Combat", "Diving", "Free-Fall", "Pilot Aerospace", "Pilot Aircraft", "Pilot Exotic Vehicle (Specific)", "Pilot Ground Craft", "Pilot Walker", "Pilot Watercraft", "Running", "Swimming", "Animal Handling", "Con", "Etiquette", "Impersonation", "Instruction", "Intimidation", "Leadership", "Negotiation", "Performance", "Artisan", "Assensing", "Disguise", "Navigation", "Perception", "Tracking", "Aeronautics Mechanic", "Arcana", "Armorer", "Automotive Mechanic", "Biotechnology", "Chemistry", "Computer", "Cybertechnology", "Cybercombat", "Demolitions", "Electronic Warfare", "First Aid", "Forgery", "Industrial Mechanic", "Hacking", "Hardware", "Medicine", "Nautical Mechanic", "Software", "Astral Combat", "Survival", "Alchemy", "Artificing", "Banishing", "Binding", "Counterspelling", "Disenchanting", "Ritual Spellcasting", "Spellcasting", "Summoning", "Compiling", "Decompling", "Registering"]},
+      {"type": "knowledge", "rating": 3, "values": ["Film", "Music", "Sports"]}
+    ]
+  },
+  {
     "name": "Combat Correspondent",
     "attributes": {
       "charisma": 1,
