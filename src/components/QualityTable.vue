@@ -1,6 +1,6 @@
 <script setup>
   import { computed } from 'vue';
-  import { useQualityStore } from '../stores/qualityStore';
+  import useQualityStore from '../stores/qualityStore';
   
   const qualityStore = useQualityStore();
 

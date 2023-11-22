@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 const baseMinAttributes = { body: 1, agility: 1, reaction: 1, strength: 1, willpower: 1, logic: 1, intuition: 1, charisma: 1, essence: 6, edge: 1, magic: 0, resonance: 0 };
 const baseMaxAttributes = { body: 6, agility: 6, reaction: 6, strength: 6, willpower: 6, logic: 6, intuition: 6, charisma: 6, essence: 6, edge: 6, magic: 6, resonance: 6 };
 
-export const useAttributeStore = defineStore('attributes', {
+const useAttributeStore = defineStore('attributes', {
   state: () => ({
     minAttributes: baseMinAttributes,
     maxAttributes: baseMaxAttributes,
@@ -96,3 +96,5 @@ export const useAttributeStore = defineStore('attributes', {
     },
   }
 });
+
+export default useAttributeStore;

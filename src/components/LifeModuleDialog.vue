@@ -1,6 +1,6 @@
 <script setup>
   import { ref, computed, watch } from 'vue'
-  import { useLifeModuleStore } from '../stores/lifeModules';
+  import useLifeModuleStore from '../stores/lifeModules';
   import { cloneDeep } from '../auxiliary';
   import DropDownMenu from './DropDownMenu.vue';
 

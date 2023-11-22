@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia';
 import characterTypes from '../data/characterTypes.json';
-import { useAttributeStore } from './attributeStore';
+import useAttributeStore from './attributeStore';
 
-export const useQualityStore = defineStore('qualities', {
+const useQualityStore = defineStore('qualities', {
   state: () => ({
     characterType: characterTypes[0],
     qualities: [],
@@ -12,7 +12,8 @@ export const useQualityStore = defineStore('qualities', {
       // Create a map to store unique qualities with the highest values
       const uniqueQualitiesMap = new Map();
 
-      for (const quality of this.qualities) {
+      for (let i = 0; i < this.qualities.length; i += 1) {
+        const quality = this.qualities[i];
         const key = quality.name;
         const existingQuality = uniqueQualitiesMap.get(key);
 
@@ -31,7 +32,8 @@ export const useQualityStore = defineStore('qualities', {
 
       // Remove elements that are in getQualities
       const uniqueQualities = this.getQualities;
-      for (const uniqueQuality of uniqueQualities) {
+      for (let i = 0; i < uniqueQualities.length; i += 1) {
+        const uniqueQuality = uniqueQualities[i];
         const index = qualitiesCopy.findIndex(
           (q) => q.name === uniqueQuality.name && q.value === uniqueQuality.value
         );
@@ -56,7 +58,8 @@ export const useQualityStore = defineStore('qualities', {
       this.qualities.push(...qualitiesModifiers);
     },
     removeQualities(qualitiesModifiers) {
-      for (const modifier of qualitiesModifiers) {
+      for (let i = 0; i < qualitiesModifiers.length; i += 1) {
+        const modifier = qualitiesModifiers[i];
         const index = this.qualities.findIndex(
           (q) => q.name === modifier.name && q.value === modifier.value
         );
@@ -81,3 +84,5 @@ export const useQualityStore = defineStore('qualities', {
     },
   }
 });
+
+export default useQualityStore;

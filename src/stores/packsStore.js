@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 
-export const usePacksStore = defineStore('packs', {
+const usePacksStore = defineStore('packs', {
   state: () => ({
     packs: [],
   }),
@@ -17,13 +17,15 @@ export const usePacksStore = defineStore('packs', {
   },
   actions: {
     addPack(packData) {
-      const idx = this.packs.findIndex(p => p.name == packData.name);
-      if (idx == -1) {
+      const idx = this.packs.findIndex(p => p.name === packData.name);
+      if (idx === -1) {
         this.packs.push(packData);
       }
     },
     removePack(name) {
-      this.packs = this.packs.filter(p => p.name != name);
+      this.packs = this.packs.filter(p => p.name !== name);
     },
   }
 });
+
+export default usePacksStore;

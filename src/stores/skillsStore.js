@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 import skillGroups from '../data/skillgroups.json';
 import activeskills from '../data/activeskills.json';
 import { IsSkillGroup, GetSkillGroupSkills, GetSkillGroup } from '../auxiliary';
-import { useAttributeStore } from './attributeStore';
+import useAttributeStore from './attributeStore';
 
 const skillArray = [];
 Object.keys(activeskills).forEach((attribute) => {

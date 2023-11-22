@@ -3,12 +3,12 @@ import nationalities from '../data/nationalities.json';
 import formativeYears from '../data/formativeYears.json';
 import teens from '../data/teens.json';
 import realLife from '../data/realLife.json';
-import { useAttributeStore } from './attributeStore';
-import { useQualityStore } from './qualityStore';
+import useAttributeStore from './attributeStore';
+import useQualityStore from './qualityStore';
 import useSkillStore from './skillsStore';
 import { cloneDeep } from '../auxiliary';
 
-export const useLifeModuleStore = defineStore('lifeModule', {
+const useLifeModuleStore = defineStore('lifeModule', {
   state: () => ({
     nationality: null,
     formative: null,
@@ -58,3 +58,5 @@ export const useLifeModuleStore = defineStore('lifeModule', {
     },
   }
 });
+
+export default useLifeModuleStore;

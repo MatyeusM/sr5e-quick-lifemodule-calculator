@@ -1,6 +1,6 @@
 <script setup>
-  import { useMetaTypeStore } from '../stores/metaTypeStore';
-  import { useQualityStore } from '../stores/qualityStore';
+  import useMetaTypeStore from '../stores/metaTypeStore';
+  import useQualityStore from '../stores/qualityStore';
   import metaTypes from '../data/metatypes.json';
   import characterTypes from '../data/characterTypes.json';
   import DropDown from './DropDownMenu.vue';

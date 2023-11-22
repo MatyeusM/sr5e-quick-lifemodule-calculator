@@ -1,7 +1,7 @@
 <script setup>
   import { ref, computed } from 'vue';
   import { useStorage } from '@vueuse/core';
-  import { usePacksStore } from '../stores/packsStore';
+  import usePacksStore from '../stores/packsStore';
   import dataPacks from '../data/packs.json';
 
   const packsDialagOpen = ref(false);
