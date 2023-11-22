@@ -5,7 +5,7 @@ import teens from '../data/teens.json';
 import realLife from '../data/realLife.json';
 import { useAttributeStore } from './attributeStore';
 import { useQualityStore } from './qualityStore';
-import { useSkillStore } from './skillsStore';
+import useSkillStore from './skillsStore';
 import { cloneDeep } from '../auxiliary';
 
 export const useLifeModuleStore = defineStore('lifeModule', {

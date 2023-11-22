@@ -4,7 +4,7 @@ import { useQualityStore } from './qualityStore';
 import { useLifeModuleStore } from './lifeModules';
 import { useMetaTypeStore } from './metaTypeStore';
 import { usePacksStore } from './packsStore';
-import { useSkillStore } from './skillsStore';
+import useSkillStore from './skillsStore';
 
 export const useKarmaStore = defineStore('karma', {
   getters: {

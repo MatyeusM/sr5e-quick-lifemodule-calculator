@@ -1,7 +1,7 @@
 <script setup>
   import { ref, computed } from 'vue';
   import { GetSkillGroup, IsSkillGroup, GetSkillGroupSkills } from '../auxiliary';
-  import { useSkillStore } from '../stores/skillsStore';
+  import useSkillStore from '../stores/skillsStore';
 
   const skillStore = useSkillStore();
 

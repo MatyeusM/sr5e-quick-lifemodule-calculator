@@ -1,6 +1,6 @@
 <script setup>
   import { computed, ref } from 'vue';
-  import { useSkillStore } from '../stores/skillsStore';
+  import useSkillStore from '../stores/skillsStore';
   import skillGroups from '../data/skillgroups.json';
   import DisplaySkill from './DisplaySkill.vue';
   import { GetSkillGroup } from '../auxiliary';
