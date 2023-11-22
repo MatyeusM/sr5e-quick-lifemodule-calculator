@@ -1,6 +1,7 @@
 <script setup>
-  import { useAttributeStore } from '../stores/attributeStore.js';
-  import { usePacksStore } from '../stores/packsStore.js';
+  import { useAttributeStore } from '../stores/attributeStore';
+  import { usePacksStore } from '../stores/packsStore';
+
   const attributeStore = useAttributeStore();
   const packsStore = usePacksStore();
 

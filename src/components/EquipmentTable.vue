@@ -60,7 +60,7 @@
             :key="pack.name">
             <h1 class="uppercase mb-1 text-amber-200 flex">
               <span>{{ pack.name }} PACK</span>
-              <button class="ml-auto px-2 hover:text-amber-100" @click="() => packsStore.addPack(pack)">Add ({{ pack.cost }} Karma)</button>
+              <button type="button" class="ml-auto px-2 hover:text-amber-100" @click="() => packsStore.addPack(pack)">Add ({{ pack.cost }} Karma)</button>
             </h1>
             <p v-if="pack.items.length > 0">{{ pack.items.join(', ') }}</p>
             <p v-if="pack.augments.length > 0">{{ pack.augments.join(', ') }}</p>
@@ -69,7 +69,7 @@
         </div>
       </div>
       <div class="flex">
-        <button class="hover:text-orange-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-br-md border border-slate-100 hover:border-orange-300 ml-auto" @click="packsDialagOpen = false">Close</button>
+        <button type="button" class="hover:text-orange-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-br-md border border-slate-100 hover:border-orange-300 ml-auto" @click="packsDialagOpen = false">Close</button>
       </div>
     </div>
   </div>

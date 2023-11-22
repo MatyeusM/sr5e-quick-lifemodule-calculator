@@ -3,13 +3,23 @@
   import { useLifeModuleStore } from '../stores/lifeModules';
   import { cloneDeep } from '../auxiliary';
   import DropDownMenu from './DropDownMenu.vue';
+
   const lifeModuleStore = useLifeModuleStore();
   lifeModuleStore.runOnce();
 
   const props = defineProps({
-    name: String,
-    internalName: String,
-    modules: Array,
+    name: {
+      type: String,
+      default: 'Nationality',
+    },
+    internalName: {
+      type: String,
+      default: 'nationality',
+    },
+    modules: {
+      type: Array,
+      default: () => []
+    },
     allowNull: {
       type: Boolean,
       default: false,
@@ -18,30 +28,31 @@
 
   const formatAttribute = (key, value) => `${key.charAt(0).toUpperCase() + key.slice(1)} +${value}`;
   const formatQuality = (key, value) => `${key} (${Math.abs(value)})`;
-  const formatSkill = (key, value, additional = false) => `${key} ${formatSkillRating(value, additional)}`;
   const formatSkillRating = (rating, additional = false) => {
     const plusSign = additional ? '+' : '';
-    if (typeof rating === 'number') {
-      return `${plusSign}${rating}`;
-    } else if (rating === 'Native') {
-      return 'N';
-    }
+    if (typeof rating === 'number') return `${plusSign}${rating}`; 
+    if (rating === 'Native') return 'N';
     return rating;
   }
+  const formatSkill = (key, value, additional = false) => `${key} ${formatSkillRating(value, additional)}`;
+
+
+  const dialogOpen = ref(false);
+  // eslint-disable-next-line vue/no-setup-props-destructure
+  const currentModule = ref(cloneDeep(lifeModuleStore[props.internalName]));
+  
   function setLifeModule() {
     dialogOpen.value = false;
     if (currentModule.value != null) {
       currentModule.value.choices.forEach((choice) => {
         if (!Object.prototype.hasOwnProperty.call(choice, 'activeChoice')) {
-          choice.activeChoice = choice.values[0];
+          // eslint-disable-next-line no-param-reassign
+          [choice.activeChoice] = choice.values;
         }
       });
     }
     lifeModuleStore.setLifeModule(props.internalName, currentModule.value);
   }
-
-  const dialogOpen = ref(false);
-  const currentModule = ref(cloneDeep(lifeModuleStore[props.internalName]));
 
   watch(() => lifeModuleStore[props.internalName], (newModule) => {
     if (newModule != null) {
@@ -55,7 +66,7 @@
 </script>
 
 <template>
-  <button class="hover:text-emerald-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-tl-md rounded-br-md border border-slate-100 hover:border-emerald-300" @click="dialogOpen = true;">
+  <button type="button" class="hover:text-emerald-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-tl-md rounded-br-md border border-slate-100 hover:border-emerald-300" @click="dialogOpen = true;">
     {{ selectedModuleName }}
   </button>
   <div v-if="dialogOpen" class="fixed w-full min-h-screen bg-black/50 top-0 left-0 z-50 flex justify-center">
@@ -129,8 +140,8 @@
       </div>
 
       <div class="flex">
-        <button class="hover:text-emerald-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-bl-md border border-slate-100 hover:border-emerald-300 ml-auto mr-1" @click="setLifeModule">Confirm</button>
-        <button class="hover:text-orange-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-br-md border border-slate-100 hover:border-orange-300" @click="dialogOpen = false">Cancel</button>
+        <button type="button" class="hover:text-emerald-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-bl-md border border-slate-100 hover:border-emerald-300 ml-auto mr-1" @click="setLifeModule">Confirm</button>
+        <button type="button" class="hover:text-orange-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-br-md border border-slate-100 hover:border-orange-300" @click="dialogOpen = false">Cancel</button>
       </div>
     </div>
   </div>

@@ -1,5 +1,6 @@
 <script setup>
   import { useKarmaStore } from '../stores/karmaStore';
+  
   const karmaStore = useKarmaStore();
 </script>
 

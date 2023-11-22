@@ -59,19 +59,25 @@
     isDropdownOpen.value = !isDropdownOpen.value;
   }
 
-  watchEffect(() => {
-    if (isDropdownOpen.value) document.body.addEventListener('click', closeDropdown);
-    return () => { document.body.removeEventListener('click', closeDropdown); };
-  });
-
   function closeDropdown() {
     document.body.removeEventListener('click', closeDropdown);
     isDropdownOpen.value = false;
   }
 
+  watchEffect(() => {
+    if (isDropdownOpen.value) document.body.addEventListener('click', closeDropdown);
+    return () => { document.body.removeEventListener('click', closeDropdown); };
+  });
+
   const props = defineProps({
-    options: Array,
-    color: String,
+    options: { 
+      type: Array,
+      default: () => []
+    },
+    color: {
+      type: String,
+      default: 'emerald'
+    },
   });
 
   const emit = defineEmits(['selected']);
@@ -81,20 +87,25 @@
     emit('selected', option);
   }
 
-
   function beforeEnter(el) {
+    // eslint-disable-next-line no-param-reassign
     el.style.transform = 'scaleY(0)';
   }
 
   function enter(el, done) {
+    // eslint-disable-next-line no-unused-expressions
     el.offsetHeight; // Trigger reflow
+    // eslint-disable-next-line no-param-reassign
     el.style.transition = 'transform 100ms';
+    // eslint-disable-next-line no-param-reassign
     el.style.transform = 'scaleY(1)';
     done();
   }
 
   function leave(el, done) {
+    // eslint-disable-next-line no-param-reassign
     el.style.transition = 'transform 75ms';
+    // eslint-disable-next-line no-param-reassign
     el.style.transform = 'scaleY(0)';
     done();
   }

@@ -61,11 +61,11 @@
       <div class="flex flex-col w-2/3 bg-slate-900 p-4 mb-auto" style="margin-top: 5%;">
         <h1 class="text-2xl mb-2 text-amber-200 border-amber-200 border-b">Settings</h1>
         <div class="flex flex-row">
-          <p class="px-2 text-amber-200">Upload Packs (Currently: {{ localStoragePacks.length }}):</p>
-          <input type="file" @change="handleFileUpload" /> 
-          <button @click="localStoragePacks = [];">Remove All Packs</button>
+          <label for="file-input" class="px-2 text-amber-200">Upload Packs (Currently: {{ localStoragePacks.length }}):</label>
+          <input id="file-input" type="file" @change="handleFileUpload" /> 
+          <button type="button" @click="localStoragePacks = [];">Remove All Packs</button>
         </div>
-        <button class="hover:text-orange-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-br-md border border-slate-100 hover:border-orange-300 ml-auto" @click="settingsDialogOpen = false;">Close</button>
+        <button type="button" class="hover:text-orange-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-br-md border border-slate-100 hover:border-orange-300 ml-auto" @click="settingsDialogOpen = false;">Close</button>
       </div>
     </div>
   </div>

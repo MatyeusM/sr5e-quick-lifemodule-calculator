@@ -10,6 +10,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vue/eslint-config-airbnb": "^7.0.0",
     "@vueuse/core": "^10.6.1",
     "pinia": "^2.1.7",
     "vue": "^3.3.4",

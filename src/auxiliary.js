@@ -7,18 +7,19 @@ export function cloneDeep(obj) {
 
   if (Array.isArray(obj)) {
     const arrCopy = [];
-    for (let i = 0; i < obj.length; i++) {
+    for (let i = 0; i < obj.length; i += 1) {
       arrCopy[i] = cloneDeep(obj[i]);
     }
     return arrCopy;
   }
 
   const objCopy = {};
-  for (const key in obj) {
+  Object.keys(obj).forEach(key => {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
-      objCopy[key] = cloneDeep(obj[key]);
+        objCopy[key] = cloneDeep(obj[key]);
     }
-  }
+  });
+
 
   return objCopy;
 }
@@ -31,7 +32,8 @@ export function IsSkillGroup(name) {
 export function GetSkillGroup(skillName) {
   const skillGroupNames = Object.keys(skillGroups);
 
-  for (const groupName of skillGroupNames) {
+  for (let i = 0; i < skillGroupNames.length; i += 1) {
+    const groupName = skillGroupNames[i];
     const skillsInGroup = skillGroups[groupName];
     
     if (skillsInGroup.includes(skillName)) {

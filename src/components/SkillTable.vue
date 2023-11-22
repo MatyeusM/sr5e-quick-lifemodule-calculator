@@ -4,21 +4,15 @@
   import skillGroups from '../data/skillgroups.json';
   import DisplaySkill from './DisplaySkill.vue';
   import { GetSkillGroup } from '../auxiliary';
+
   const skillStore = useSkillStore();
 
-  // const IsSkillGroup = (groupName) => Object.prototype.hasOwnProperty.call(skillGroups, groupName);
-
   const formatSkillRating = (rating, additional = false) => {
-    var add = additional ? '+' : '';
-    if (typeof rating === 'number') {
-      return `${add}${rating}`;
-    } else if (rating === 'Native') {
-      return 'N';
-    } else {
-      return rating;
-    }
+    const add = additional ? '+' : '';
+    if (typeof rating === 'number') return `${add}${rating}`;
+    if (rating === 'Native') return 'N';
+    return rating;
   }
-
 
   const skillList = computed(() => {
     let validSkills = skillStore.skills
@@ -31,15 +25,15 @@
 
     Object.keys(skillGroups).forEach((groupName) => {
         // find 0'th in valid skills
-        const baseSkill = validSkills.find((s) => s.name == skillGroups[groupName][0]);
-        if (baseSkill != undefined) { // We found a skill now we need to check the skill rating of all
+        const baseSkill = validSkills.find((s) => s.name === skillGroups[groupName][0]);
+        if (baseSkill !== undefined) { // We found a skill now we need to check the skill rating of all
           const baseRating = baseSkill.rating;
           let validSkillGroup = true;
-          for (let i = 1; i < skillGroups[groupName].length && validSkillGroup; i++) {
-            const currentSkill = validSkills.find((s) => s.name == skillGroups[groupName][i]);
-            if (currentSkill == undefined) {
+          for (let i = 1; i < skillGroups[groupName].length && validSkillGroup; i += 1) {
+            const currentSkill = validSkills.find((s) => s.name === skillGroups[groupName][i]);
+            if (currentSkill === undefined) {
               validSkillGroup = false;
-            } else if (currentSkill.rating != baseRating) {
+            } else if (currentSkill.rating !== baseRating) {
               validSkillGroup = false;
             }
           }
@@ -82,7 +76,7 @@
           </span>
         </div>
         <div class="flex px-6">
-          <button @click="showAddSkillsDialog = false" class="hover:text-emerald-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-bl-md border border-slate-100 hover:border-emerald-300 ml-auto mr-1">Close</button>
+          <button type="button" @click="showAddSkillsDialog = false" class="hover:text-emerald-300 bg-transparent hover:bg-slate-800 py-2 px-4 rounded-bl-md border border-slate-100 hover:border-emerald-300 ml-auto mr-1">Close</button>
         </div>
       </div>
     </div>

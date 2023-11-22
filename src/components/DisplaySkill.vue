@@ -2,11 +2,18 @@
   import { ref, computed } from 'vue';
   import { GetSkillGroup, IsSkillGroup, GetSkillGroupSkills } from '../auxiliary';
   import { useSkillStore } from '../stores/skillsStore';
+
   const skillStore = useSkillStore();
 
   const props = defineProps({
-    name: String,
-    rating: Number,
+    name: {
+      type: String,
+      default: "Undefined"
+    },
+    rating: {
+      type: Number,
+      default: 0
+    },
   });
 
   const IsGroup = computed(() => IsSkillGroup(props.name));

@@ -1,6 +1,7 @@
 <script setup>
   import { computed } from 'vue';
   import { useQualityStore } from '../stores/qualityStore';
+  
   const qualityStore = useQualityStore();
 
   const qualityList = computed(() => {
