@@ -63,6 +63,10 @@
   const selectedModuleName = computed(() => (lifeModuleStore[props.internalName] == null) ? '+' : lifeModuleStore[props.internalName].name);
   const currentModuleName = computed(() => (currentModule.value == null) ? '' : currentModule.value.name);
   const currentModuleChoices = computed(() => (currentModule.value == null) ? [] : currentModule.value.choices);
+
+  function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
 </script>
 
 <template>
@@ -133,6 +137,18 @@
               <i>Skills:</i>&nbsp;
               <DropDownMenu color="amber" :options="choice.values" @selected="(value) => choice.activeChoice = value">
                 {{formatSkill(choice.activeChoice || choice.values[0], choice.rating, true)}}
+              </DropDownMenu>
+            </div>
+            <div v-if="choice.type == 'knowledge'">
+              <i>Knowledge Skills:</i>&nbsp;
+              <DropDownMenu color="amber" :options="choice.values" @selected="(value) => choice.activeChoice = value">
+                {{formatSkill(choice.activeChoice || choice.values[0], choice.rating, true)}}
+              </DropDownMenu>
+            </div>
+            <div v-if="choice.type == 'attributes'">
+              <i>Attribute:</i>&nbsp;
+              <DropDownMenu color="amber" :options="choice.values.map(v => capitalize(v))" @selected="(value) => choice.activeChoice = value.toLowerCase()">
+                {{formatSkill(capitalize(choice.activeChoice || choice.values[0]), choice.rating, true)}}
               </DropDownMenu>
             </div>
           </div>
