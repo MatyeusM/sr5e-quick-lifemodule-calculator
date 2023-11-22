@@ -2,6 +2,7 @@ import { defineStore } from 'pinia';
 import skillGroups from '../data/skillgroups.json';
 import activeskills from '../data/activeskills.json';
 import { IsSkillGroup, GetSkillGroupSkills, GetSkillGroup } from '../auxiliary';
+import { useAttributeStore } from './attributeStore';
 
 const skillArray = [];
 Object.keys(activeskills).forEach((attribute) => {
@@ -10,7 +11,7 @@ Object.keys(activeskills).forEach((attribute) => {
   });
 });
 
-export const useSkillStore = defineStore('skills', {
+const useSkillStore = defineStore('skills', {
   state: () => ({
     modifiedSkills: [],
     skills: skillArray,
@@ -24,14 +25,14 @@ export const useSkillStore = defineStore('skills', {
           const groupSkillRatings = GetSkillGroupSkills(name).map((n) => state.getRating(n));
           return Math.min(...groupSkillRatings);
         }
-        let tmpRating = state.skills.find(s => s.name === name).rating;
+        const tmpRating = state.skills.find(s => s.name === name).rating;
         const parentSkillGroup = GetSkillGroup(name);
         return state.modifiedSkills.reduce((highest, current) => {
-          if (current.name === name || current.name === parentSkillGroup) {
-            return Math.max(highest, current.rating);
-          }
-          return highest;
-        }, tmpRating);
+            if (current.name === name || current.name === parentSkillGroup) {
+              return Math.max(highest, current.rating);
+            }
+            return highest;
+          }, tmpRating);
       };
     },
     getKarma: (state) => {
@@ -64,26 +65,39 @@ export const useSkillStore = defineStore('skills', {
     addChoices(choiceArray) {
       choiceArray.forEach((choice) => {
         if (!Object.prototype.hasOwnProperty.call(choice, 'activeChoice')) { // no active choice found, time to add one.
-          choice.activeChoice = choice.values[0];
+          // eslint-disable-next-line no-param-reassign
+          [choice.activeChoice] = choice.values;
         }
-        if (choice.type == 'languages') this.addLanguages([{ name: choice.activeChoice, rating: choice.rating }]);
-        if (choice.type == 'knowledge') this.addKnowledge([{ name: choice.activeChoice, rating: choice.rating }]);
-        if (choice.type == 'activeskills') this.addSkills([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'languages') this.addLanguages([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'knowledge') this.addKnowledge([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'activeskills') this.addSkills([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'attributes') {
+          const attributeStore = useAttributeStore();
+          attributeStore.addMinAttributes({ [choice.activeChoice]: choice.rating });
+          attributeStore.adjustAttributesInRange();
+        }
       });
     },
     removeChoices(choiceArray) {
       choiceArray.forEach((choice) => {
         if (!Object.prototype.hasOwnProperty.call(choice, 'activeChoice')) { // no active choice found, time to add one.
-          choice.activeChoice = choice.values[0];
+          // eslint-disable-next-line no-param-reassign
+          [choice.activeChoice] = choice.values;
         }
         // parse type
-        if (choice.type == 'languages') this.removeLanguages([{ name: choice.activeChoice, rating: choice.rating }]);
-        if (choice.type == 'knowledge') this.removeKnowledge([{ name: choice.activeChoice, rating: choice.rating }]);
-        if (choice.type == 'activeskills') this.removeSkills([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'languages') this.removeLanguages([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'knowledge') this.removeKnowledge([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'activeskills') this.removeSkills([{ name: choice.activeChoice, rating: choice.rating }]);
+        if (choice.type === 'attributes') {
+          const attributeStore = useAttributeStore();
+          attributeStore.removeMinAttributes({ [choice.activeChoice]: choice.rating });
+          attributeStore.adjustAttributesInRange();
+        }
       });
     },
     addLanguages(langArray) {
-      for (const lang of langArray) {
+      for (let i = 0; i < langArray.length; i += 1) {
+        const lang = langArray[i];
         const existingLangIndex = this.languages.findIndex((l) => l.name === lang.name);
         if (existingLangIndex !== -1) {
           const isExistingLangString = typeof this.languages[existingLangIndex].rating === 'string';
@@ -99,7 +113,8 @@ export const useSkillStore = defineStore('skills', {
       this.languages.sort((a, b) => a.name.localeCompare(b.name));
     },
     removeLanguages(langArray) {
-      for (const lang of langArray) {
+      for (let i = 0; i < langArray.length; i += 1) {
+        const lang = langArray[i];
         const existingLangIndex = this.languages.findIndex((l) => l.name === lang.name);
         if (existingLangIndex !== -1) {
           const isExistingLangString = typeof this.languages[existingLangIndex].rating === 'string';
@@ -115,7 +130,8 @@ export const useSkillStore = defineStore('skills', {
       }
     },
     addKnowledge(knowArray) {
-      for (const know of knowArray) {
+      for (let i = 0; i < knowArray.length; i += 1) {
+        const know = knowArray[i];
         const existingKnowIndex = this.knowledge.findIndex((l) => l.name === know.name);
         if (existingKnowIndex !== -1) {
           this.knowledge[existingKnowIndex].rating += know.rating;
@@ -126,7 +142,8 @@ export const useSkillStore = defineStore('skills', {
       this.knowledge.sort((a, b) => a.name.localeCompare(b.name));
     },
     removeKnowledge(knowArray) {
-      for (const know of knowArray) {
+      for (let i = 0; i < knowArray.length; i += 1) {
+        const know = knowArray[i];
         const existingKnowIndex = this.knowledge.findIndex((l) => l.name === know.name);
         if (existingKnowIndex !== -1) {
           this.knowledge[existingKnowIndex].rating -= know.rating;
@@ -139,13 +156,13 @@ export const useSkillStore = defineStore('skills', {
     addSkills(skillModifiers) {
       if (Array.isArray(skillModifiers)) {
         skillModifiers.forEach((mod) => {
-          const skillToEdit = this.skills.find((s) => s.name == mod.name);
-          if (skillToEdit != undefined) {
+          const skillToEdit = this.skills.find((s) => s.name === mod.name);
+          if (skillToEdit !== undefined) {
             skillToEdit.rating += mod.rating;
           } else if (IsSkillGroup(mod.name))  {
             skillGroups[mod.name].forEach((skill) => {
-              const skillToEditGrouped = this.skills.find((s) => s.name == skill);
-              if (skillToEditGrouped != undefined) {
+              const skillToEditGrouped = this.skills.find((s) => s.name === skill);
+              if (skillToEditGrouped !== undefined) {
                   skillToEditGrouped.rating += mod.rating;
               } else console.error(`Skill: ${skill} not found.`);
             });
@@ -158,13 +175,13 @@ export const useSkillStore = defineStore('skills', {
     removeSkills(skillModifiers) {
       if (Array.isArray(skillModifiers)) {
         skillModifiers.forEach((mod) => {
-          const skillToEdit = this.skills.find((s) => s.name == mod.name);
-          if (skillToEdit != undefined) {
+          const skillToEdit = this.skills.find((s) => s.name === mod.name);
+          if (skillToEdit !== undefined) {
             skillToEdit.rating -= mod.rating;
           } else if (IsSkillGroup(mod.name))  {
             skillGroups[mod.name].forEach((skill) => {
-              const skillToEditGrouped = this.skills.find((s) => s.name == skill);
-              if (skillToEditGrouped != undefined) {
+              const skillToEditGrouped = this.skills.find((s) => s.name === skill);
+              if (skillToEditGrouped !== undefined) {
                   skillToEditGrouped.rating -= mod.rating;
               } else console.error(`Skill: ${skill} not found.`);
             });
@@ -180,7 +197,7 @@ export const useSkillStore = defineStore('skills', {
         const skillNames = GetSkillGroupSkills(skill);
         skillNames.forEach((sname) => {
           const currentSkill = this.modifiedSkills.find(s => s.name === sname);
-          if (currentSkill != undefined) {
+          if (currentSkill !== undefined) {
             const minSkillRating = this.skills.find(s => s.name === sname).rating;
             currentSkill.rating -= 1;
             if (currentSkill.rating <= minSkillRating)
@@ -189,7 +206,7 @@ export const useSkillStore = defineStore('skills', {
         });
       } else {
         const currentSkill = this.modifiedSkills.find(s => s.name === skill);
-        if (currentSkill != undefined) {
+        if (currentSkill !== undefined) {
           const minSkillRating = this.skills.find(s => s.name === skill).rating;
           currentSkill.rating -= 1;
           if (currentSkill.rating <= minSkillRating)
@@ -204,8 +221,8 @@ export const useSkillStore = defineStore('skills', {
         const skillNames = GetSkillGroupSkills(skill);
         skillNames.forEach((sname) => {
           const currentSkill = this.modifiedSkills.find(s => s.name === sname);
-          if (currentSkill == undefined) {
-            const rating = this.skills.find(s => s.name === sname).rating;
+          if (currentSkill === undefined) {
+            const { rating } = this.skills.find(s => s.name === sname);
             if (rating < maxRating)
               this.modifiedSkills.push({ name: sname, rating: rating + 1 });
           } else if (currentSkill.rating < maxRating)
@@ -213,8 +230,8 @@ export const useSkillStore = defineStore('skills', {
         });
       } else {
         const currentSkill = this.modifiedSkills.find(s => s.name === skill);
-        if (currentSkill == undefined) {
-          const rating = this.skills.find(s => s.name === skill).rating;
+        if (currentSkill === undefined) {
+          const { rating } = this.skills.find(s => s.name === skill);
           if (rating < maxRating)
             this.modifiedSkills.push({ name: skill, rating: rating + 1 });
         } else if (currentSkill.rating < maxRating)
@@ -226,3 +243,5 @@ export const useSkillStore = defineStore('skills', {
     },
   }
 });
+
+export default useSkillStore;
