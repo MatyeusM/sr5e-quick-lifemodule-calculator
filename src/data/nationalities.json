@@ -1,182 +1,583 @@
 [
   {
     "name": "UCAS (Seattle)",
-    "attributes": {"reaction": 1},
-    "skills": [{"name": "Computer", "rating":1}, {"name": "Perception", "rating":1}, {"name": "Intimidation", "rating":1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "Seattle", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": 5 }],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+    "attributes": { "reaction": 1 },
+    "skills": [
+      { "name": "Computer", "rating": 1 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Intimidation", "rating": 1 }
+    ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "UCAS", "rating": 1 },
+      { "name": "Seattle", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": 5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "Spanish",
+          "German",
+          "Italian",
+          "French",
+          "Mandarin",
+          "Polish",
+          "Yiddish"
+        ]
+      }
+    ]
   },
   {
     "name": "General UCAS",
-    "attributes": {"logic": 1},
-    "skills": [{"name": "Computer", "rating":1}, {"name": "Etiquette", "rating":1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "[City]", "rating": 2 }, { "name": "Language", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+    "attributes": { "logic": 1 },
+    "skills": [
+      { "name": "Computer", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 }
+    ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "UCAS", "rating": 1 },
+      { "name": "[City]", "rating": 2 },
+      { "name": "Language", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "Spanish",
+          "German",
+          "Italian",
+          "French",
+          "Mandarin",
+          "Polish",
+          "Yiddish"
+        ]
+      }
+    ]
   },
   {
     "name": "Canada",
-    "attributes": {"body": 1},
-    "skills": [{"name": "Computer", "rating":1}, {"name": "Navigation", "rating":1}, {"name": "Survival", "rating":1}, {"name": "Etiquette", "rating":1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+    "attributes": { "body": 1 },
+    "skills": [
+      { "name": "Computer", "rating": 1 },
+      { "name": "Navigation", "rating": 1 },
+      { "name": "Survival", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 }
+    ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "UCAS", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "Spanish",
+          "German",
+          "Italian",
+          "French",
+          "Mandarin",
+          "Polish",
+          "Yiddish"
+        ]
+      }
+    ]
   },
   {
     "name": "Denver (UCAS Sector)",
-    "attributes": {"intuition": 1},
-    "skills": [{"name": "Computer", "rating":1}, {"name": "Negotiation", "rating":1}, {"name": "Etiquette", "rating":1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "Denver", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+    "attributes": { "intuition": 1 },
+    "skills": [
+      { "name": "Computer", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 }
+    ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "UCAS", "rating": 1 },
+      { "name": "Denver", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "Spanish",
+          "German",
+          "Italian",
+          "French",
+          "Mandarin",
+          "Polish",
+          "Yiddish"
+        ]
+      }
+    ]
   },
   {
     "name": "UCAS (SINless)",
-    "attributes": {"agility": 1},
-    "skills": [{"name": "Computer", "rating":1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "UCAS", "rating": 1 }, { "name": "[City]", "rating": 1 }],
+    "attributes": { "agility": 1 },
+    "skills": [ { "name": "Computer", "rating": 1 } ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "UCAS", "rating": 1 },
+      { "name": "[City]", "rating": 1 }
+    ],
     "qualities": [],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Italian", "French", "Mandarin", "Polish", "Yiddish"]}]
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "Spanish",
+          "German",
+          "Italian",
+          "French",
+          "Mandarin",
+          "Polish",
+          "Yiddish"
+        ]
+      }
+    ]
   },
   {
     "name": "General CAS",
-    "attributes": {"charisma": 1},
-    "skills": [{"name": "Etiquette", "rating": 1}, {"name": "Computer", "rating": 2}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "CAS", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Polish", "Yiddish"]}]
+    "attributes": { "charisma": 1 },
+    "skills": [
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Computer", "rating": 2 }
+    ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "CAS", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "Spanish", "German", "Polish", "Yiddish" ]
+      }
+    ]
   },
   {
     "name": "Denver (CAS Sector)",
-    "attributes": {"intuition": 1},
-    "skills": [{"name": "Etiquette", "rating": 1}, {"name": "Computer", "rating": 1}, {"name": "Negotiation", "rating": 1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1}, { "name": "CAS", "rating": 1}, { "name": "Denver", "rating": 2}],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Polish", "Yiddish"]}]
+    "attributes": { "intuition": 1 },
+    "skills": [
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Computer", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 }
+    ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "CAS", "rating": 1 },
+      { "name": "Denver", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "Spanish", "German", "Polish", "Yiddish" ]
+      }
+    ]
   },
   {
     "name": "CAS (SINless)",
-    "attributes": {"body": 1},
-    "skills": [{"name": "Etiquette", "rating": 1}],
-    "languages": [{ "name": "English", "rating": "Native" }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "CAS", "rating": 1 }, { "name": "[City]", "rating": 1 }],
+    "attributes": { "body": 1 },
+    "skills": [ { "name": "Etiquette", "rating": 1 } ],
+    "languages": [ { "name": "English", "rating": "Native" } ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "CAS", "rating": 1 },
+      { "name": "[City]", "rating": 1 }
+    ],
     "qualities": [],
-    "choices": [{"type": "languages", "rating": 1, "values": ["Spanish", "German", "Polish", "Yiddish"]}]
+    "choices": [
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "Spanish", "German", "Polish", "Yiddish" ]
+      }
+    ]
   },
   {
     "name": "Tír Tairngire (Elves / Humans)",
-    "attributes": {"charisma": 1},
-    "skills": [{"name": "Etiquette", "rating":1}, {"name": "Computer", "rating":2}],
-    "languages": [{ "name": "Sperethiel", "rating": "Native" }, { "name": "English", "rating": 2 }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "Tír Tairngire", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
+    "attributes": { "charisma": 1 },
+    "skills": [
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Computer", "rating": 2 }
+    ],
+    "languages": [
+      { "name": "Sperethiel", "rating": "Native" },
+      { "name": "English", "rating": 2 }
+    ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "Tír Tairngire", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
     "choices": []
   },
   {
     "name": "Tír Tairngire (Orks / Trolls / Dwarfs)",
     "attributes": {},
-    "skills": [{"name": "Etiquette", "rating":1}, {"name": "Con", "rating":2}, {"name": "Disguise", "rating":1}, {"name": "Intimidation", "rating":1}, {"name": "Sneaking", "rating":1}, {"name": "Perception", "rating":1}],
-    "languages": [{ "name": "Sperethiel", "rating": "Native" }, { "name": "English", "rating": 2 }],
-    "knowledge": [{ "name": "History", "rating": 1 }, { "name": "Tír Tairngire", "rating": 1 }, { "name": "Counterculture", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
+    "skills": [
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Con", "rating": 2 },
+      { "name": "Disguise", "rating": 1 },
+      { "name": "Intimidation", "rating": 1 },
+      { "name": "Sneaking", "rating": 1 },
+      { "name": "Perception", "rating": 1 }
+    ],
+    "languages": [
+      { "name": "Sperethiel", "rating": "Native" },
+      { "name": "English", "rating": 2 }
+    ],
+    "knowledge": [
+      { "name": "History", "rating": 1 },
+      { "name": "Tír Tairngire", "rating": 1 },
+      { "name": "Counterculture", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
     "choices": []
   },
   {
     "name": "NAN (Algonkian-Manitou Council)",
     "attributes": {},
-    "skills": [{"name": "Archery", "rating": 2}, {"name": "Outdoor", "rating": 1}, {"name": "Perception", "rating": 1}, {"name": "Blades", "rating": 1}, {"name": "Unarmed Combat", "rating":1}],
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Outdoor", "rating": 1 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Blades", "rating": 1 },
+      { "name": "Unarmed Combat", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "[Tribe]", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Anishinaabe", "Iroquoian"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Anishinaabe", "Iroquoian"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": "[Tribe]", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "Athabaskan", "Anishinaabe", "Iroquoian" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "English",
+          "Athabaskan",
+          "Anishinaabe",
+          "Iroquoian"
+        ]
+      }
+    ]
   },
   {
     "name": "NAN (Athabaskan Council)",
-    "attributes": {"body": 1},
-    "skills": [{"name": "Archery", "rating": 2}, {"name": "Survival", "rating": 1}],
+    "attributes": { "body": 1 },
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Survival", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Eskimo-Aleut"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Eskimo-Aleut"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "Athabaskan", "Eskimo-Aleut" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "English", "Athabaskan", "Eskimo-Aleut" ]
+      }
+    ]
   },
   {
     "name": "NAN (Pueblo Corporate Council)",
     "attributes": {},
-    "skills": [{"name": "Archery", "rating": 2}, {"name": "Electonics", "rating": 1}, {"name": "Etiquette", "rating": 2}],
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Electonics", "rating": 1 },
+      { "name": "Etiquette", "rating": 2 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Business Practices", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Uto-Aztecan", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["English", "Uto-Aztecan", "Zuni"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": "Business Practices", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "Uto-Aztecan", "Zuni" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "English", "Uto-Aztecan", "Zuni" ]
+      }
+    ]
   },
   {
     "name": "NAN (Salish-Shidhe Council)",
-    "attributes": {"logic": 1},
-    "skills": [{"name": "Archery", "rating": 2}, {"name": "Survival", "rating": 1}],
+    "attributes": { "logic": 1 },
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Survival", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Business Practices", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Salish", "Siouan"]}, {"type": "languages", "rating": 1, "values": ["English", "Salish", "Siouan"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": "Business Practices", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "Salish", "Siouan" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "English", "Salish", "Siouan" ]
+      }
+    ]
   },
   {
     "name": "NAN (Sioux Nation)",
     "attributes": {},
-    "skills": [{"name": "Archery", "rating": 2}, {"name": "Outdoor", "rating": 1}, {"name": "Blades", "rating": 2}],
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Outdoor", "rating": 1 },
+      { "name": "Blades", "rating": 2 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Sioux Culture", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Anishinaabe", "Iroquoian", "Siouan"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Anishinaabe", "Iroquoian", "Siouan"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": "Sioux Culture", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [
+          "Athabaskan",
+          "Anishinaabe",
+          "Iroquoian",
+          "Siouan"
+        ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "English",
+          "Athabaskan",
+          "Anishinaabe",
+          "Iroquoian",
+          "Siouan"
+        ]
+      }
+    ]
   },
   {
     "name": "NAN (Trans-Polar Aleut Nation)",
     "attributes": {},
-    "skills": [{"name": "Archery", "rating": 2}, { "name": "Exotic Melee Weapon (Specific)", "Specific": "Harpoon", "rating": 2 }, {"name": "Perception", "rating": 1}, {"name": "Survival", "rating": 1}],
-    "languages": [{ "name": "Eskimo-Aleut", "rating": "Native" }, { "name": "English", "rating": 1 }],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": ": Polar Critters", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      {
+        "name": "Exotic Melee Weapon (Specific)",
+        "Specific": "Harpoon",
+        "rating": 2
+      },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Survival", "rating": 1 }
+    ],
+    "languages": [
+      { "name": "Eskimo-Aleut", "rating": "Native" },
+      { "name": "English", "rating": 1 }
+    ],
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": ": Polar Critters", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
     "choices": []
   },
   {
     "name": "NAN (Tsimshian Nation)",
-    "attributes": {"strength": 1},
-    "skills": [{"name": "Archery", "rating": 2}, { "name": "Blades", "rating": 1 }],
+    "attributes": { "strength": 1 },
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Blades", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }, { "name": "Allergy (Uncommon/Mild)", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Athabaskan", "Tlingit", "Tsimshianic", "Siouan"]}, {"type": "languages", "rating": 1, "values": ["English", "Athabaskan", "Tlingit", "Tsimshianic", "Siouan"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 }
+    ],
+    "qualities": [
+      { "name": "SINner", "value": -5 },
+      { "name": "Allergy (Uncommon/Mild)", "value": -5 }
+    ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "Athabaskan", "Tlingit", "Tsimshianic", "Siouan" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "English",
+          "Athabaskan",
+          "Tlingit",
+          "Tsimshianic",
+          "Siouan"
+        ]
+      }
+    ]
   },
   {
     "name": "NAN (Denver)",
-    "attributes": {"intuition": 1},
-    "skills": [{"name": "Archery", "rating": 2}, { "name": "Computer", "rating": 1 }],
+    "attributes": { "intuition": 1 },
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Computer", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["English", "Hopi", "Siouan", "Spanish", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["Hopi", "Siouan", "Spanish", "Zuni", "English"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "English", "Hopi", "Siouan", "Spanish", "Zuni" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "Hopi", "Siouan", "Spanish", "Zuni", "English" ]
+      }
+    ]
   },
   {
     "name": "NAN (Las Vegas)",
     "attributes": {},
-    "skills": [{"name": "Archery", "rating": 2}, { "name": "Perception", "rating": 1 }, { "name": "Con", "rating": 2 }, { "name": "Etiquette", "rating": 1 }],
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Con", "rating": 2 },
+      { "name": "Etiquette", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Gambling Games", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["Anishinaabe", "Athabaskan", "Eskimo-Aleut", "Hopi", "Iroquoian", "Salish", "Siouan", "Tlingit", "Tsimshianic", "Uto-Aztecan", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["English", "Anishinaabe", "Athabaskan", "Eskimo-Aleut", "Hopi", "Iroquoian", "Salish", "Siouan", "Tlingit", "Tsimshianic", "Uto-Aztecan", "Zuni"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": "Gambling Games", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [
+          "Anishinaabe",
+          "Athabaskan",
+          "Eskimo-Aleut",
+          "Hopi",
+          "Iroquoian",
+          "Salish",
+          "Siouan",
+          "Tlingit",
+          "Tsimshianic",
+          "Uto-Aztecan",
+          "Zuni"
+        ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [
+          "English",
+          "Anishinaabe",
+          "Athabaskan",
+          "Eskimo-Aleut",
+          "Hopi",
+          "Iroquoian",
+          "Salish",
+          "Siouan",
+          "Tlingit",
+          "Tsimshianic",
+          "Uto-Aztecan",
+          "Zuni"
+        ]
+      }
+    ]
   },
   {
     "name": "NAN (Salt Lake City)",
     "attributes": {},
-    "skills": [{"name": "Archery", "rating": 2}, { "name": "Artisan", "rating": 1 }, { "name": "Computer", "rating": 1 }, { "name": "Etiquette", "rating": 1 }, { "name": "Negotiation", "rating": 1 }, { "name": "Perception", "rating": 1 }],
+    "skills": [
+      { "name": "Archery", "rating": 2 },
+      { "name": "Artisan", "rating": 1 },
+      { "name": "Computer", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 },
+      { "name": "Perception", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "NAN", "rating": 1 }, { "name": "History", "rating": 1 }, { "name": "Mormons", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -5 }],
-    "choices": [{"type": "languages", "rating": "Native", "values": ["English", "Hopi", "Spanish", "Zuni"]}, {"type": "languages", "rating": 1, "values": ["Hopi", "Spanish", "Zuni", "English"]}]
+    "knowledge": [
+      { "name": "NAN", "rating": 1 },
+      { "name": "History", "rating": 1 },
+      { "name": "Mormons", "rating": 2 }
+    ],
+    "qualities": [ { "name": "SINner", "value": -5 } ],
+    "choices": [
+      {
+        "type": "languages",
+        "rating": "Native",
+        "values": [ "English", "Hopi", "Spanish", "Zuni" ]
+      },
+      {
+        "type": "languages",
+        "rating": 1,
+        "values": [ "Hopi", "Spanish", "Zuni", "English" ]
+      }
+    ]
   }
 ]

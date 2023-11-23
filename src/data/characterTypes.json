@@ -1,9 +1,5 @@
 [
-  {
-    "name": "Mundane",
-    "minAttributes": {},
-    "cost": 0
-  },
+  { "name": "Mundane", "minAttributes": {}, "cost": 0 },
   {
     "name": "Adept",
     "minAttributes": { "magic": 1 },

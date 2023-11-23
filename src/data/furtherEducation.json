@@ -3,10 +3,13 @@
     "name": "Community College (Architecture)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [{"name": "First Aid", "rating": 1}, {"name": "Industrial Mechanic", "rating": 1}],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [
+      { "name": "First Aid", "rating": 1 },
+      { "name": "Industrial Mechanic", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "Buildings", "rating": 5 }],
+    "knowledge": [ { "name": "Buildings", "rating": 5 } ],
     "qualities": [],
     "choices": []
   },
@@ -14,10 +17,14 @@
     "name": "Community College (Business)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [{"name": "Con", "rating": 1}, {"name": "Etiquette", "rating": 1}, {"name": "Negotiation", "rating": 2}],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [
+      { "name": "Con", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Negotiation", "rating": 2 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "Economics", "rating": 5 }],
+    "knowledge": [ { "name": "Economics", "rating": 5 } ],
     "qualities": [],
     "choices": []
   },
@@ -25,10 +32,14 @@
     "name": "Community College (Computer Science)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [{"name": "Cybercombat", "rating": 1}, {"name": "Electronics", "rating": 1}, {"name": "Hacking", "rating": 1}],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [
+      { "name": "Cybercombat", "rating": 1 },
+      { "name": "Electronics", "rating": 1 },
+      { "name": "Hacking", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{"name": "Matrix Design", "rating": 6}],
+    "knowledge": [ { "name": "Matrix Design", "rating": 6 } ],
     "qualities": [],
     "choices": []
   },
@@ -36,16 +47,14 @@
     "name": "Community College (Engineering)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Chemistry", "rating": 1},
-      {"name": "Hardware", "rating": 1},
-      {"name": "Industrial Mechanic", "rating": 2}
+      { "name": "Chemistry", "rating": 1 },
+      { "name": "Hardware", "rating": 1 },
+      { "name": "Industrial Mechanic", "rating": 2 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Engineering", "rating": 5}
-    ],
+    "knowledge": [ { "name": "Engineering", "rating": 5 } ],
     "qualities": [],
     "choices": []
   },
@@ -53,16 +62,14 @@
     "name": "Community College (Law)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Etiquette", "rating": 1},
-      {"name": "Negotiation", "rating": 2},
-      {"name": "Performance", "rating": 1}
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Negotiation", "rating": 2 },
+      { "name": "Performance", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Law", "rating": 5}
-    ],
+    "knowledge": [ { "name": "Law", "rating": 5 } ],
     "qualities": [],
     "choices": []
   },
@@ -70,29 +77,31 @@
     "name": "Community College (Magic)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [
-      {"name": "Sorcery", "rating": 1}
-    ],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [ { "name": "Sorcery", "rating": 1 } ],
     "languages": [],
     "knowledge": [],
     "qualities": [],
-    "choices": [{"type": "knowledge", "rating": 5, "values": ["Magical Theory", "Metaplanes"]}]
+    "choices": [
+      {
+        "type": "knowledge",
+        "rating": 5,
+        "values": [ "Magical Theory", "Metaplanes" ]
+      }
+    ]
   },
   {
     "name": "Community College (Mathematics)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Computer", "rating": 1},
-      {"name": "Etiquette", "rating": 1},
-      {"name": "Software", "rating": 2}
+      { "name": "Computer", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Software", "rating": 2 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Mathematics", "rating": 5}
-    ],
+    "knowledge": [ { "name": "Mathematics", "rating": 5 } ],
     "qualities": [],
     "choices": []
   },
@@ -100,15 +109,13 @@
     "name": "Community College (Medicine)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Biotech", "rating": 2},
-      {"name": "Chemistry", "rating": 1}
+      { "name": "Biotech", "rating": 2 },
+      { "name": "Chemistry", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Medicine", "rating": 6}
-    ],
+    "knowledge": [ { "name": "Medicine", "rating": 6 } ],
     "qualities": [],
     "choices": []
   },
@@ -116,29 +123,31 @@
     "name": "Community College (Natural Sciences)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Computer", "rating": 1},
-      {"name": "First Aid", "rating": 1},
-      {"name": "Software", "rating": 2}
+      { "name": "Computer", "rating": 1 },
+      { "name": "First Aid", "rating": 1 },
+      { "name": "Software", "rating": 2 }
     ],
     "languages": [],
     "knowledge": [],
     "qualities": [],
-    "choices": [{"type": "knowledge", "rating": 5, "values": ["Chemistry", "Physics", "Biology"]}]
+    "choices": [
+      {
+        "type": "knowledge",
+        "rating": 5,
+        "values": [ "Chemistry", "Physics", "Biology" ]
+      }
+    ]
   },
   {
     "name": "Community College (Art)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [
-      {"name": "Artisan", "rating": 3}
-    ],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [ { "name": "Artisan", "rating": 3 } ],
     "languages": [],
-    "knowledge": [
-      {"name": "Art History", "rating": 3}
-    ],
+    "knowledge": [ { "name": "Art History", "rating": 3 } ],
     "qualities": [],
     "choices": []
   },
@@ -146,28 +155,34 @@
     "name": "Community College (History)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Computer", "rating": 1},
-      {"name": "Software", "rating": 2}
+      { "name": "Computer", "rating": 1 },
+      { "name": "Software", "rating": 2 }
     ],
     "languages": [],
     "knowledge": [],
     "qualities": [],
-    "choices": [{"type": "knowledge", "rating": 2, "values": ["National History", "World History"]}]
+    "choices": [
+      {
+        "type": "knowledge",
+        "rating": 2,
+        "values": [ "National History", "World History" ]
+      }
+    ]
   },
   {
     "name": "Community College (Languages)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
+    "attributes": { "willpower": 1, "logic": 1 },
     "skills": [
-      {"name": "Negotiation", "rating": 1},
-      {"name": "Etiquette", "rating": 1}
+      { "name": "Negotiation", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 }
     ],
     "languages": [
-      {"name": "[Any, 1]", "rating": 6},
-      {"name": "[Any, 2]", "rating": 5}
+      { "name": "[Any, 1]", "rating": 6 },
+      { "name": "[Any, 2]", "rating": 5 }
     ],
     "knowledge": [],
     "qualities": [],
@@ -177,12 +192,10 @@
     "name": "Community College (Literature)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [
-      {"name": "Etiquette", "rating": 1}
-    ],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [ { "name": "Etiquette", "rating": 1 } ],
     "languages": [],
-    "knowledge": [ {"name": "Literature", "rating": 5}],
+    "knowledge": [ { "name": "Literature", "rating": 5 } ],
     "qualities": [],
     "choices": []
   },
@@ -190,12 +203,15 @@
     "name": "Community College (Metahumanities)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [
-      {"name": "Computer", "rating": 1}
-    ],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [ { "name": "Computer", "rating": 1 } ],
     "languages": [],
-    "knowledge": [ {"name": "[Ancient Language/Philosophy/Religion]", "rating": 13}],
+    "knowledge": [
+      {
+        "name": "[Ancient Language/Philosophy/Religion]",
+        "rating": 13
+      }
+    ],
     "qualities": [],
     "choices": []
   },
@@ -203,12 +219,15 @@
     "name": "Community College (Social Sciences)",
     "cost": 55,
     "time": 2,
-    "attributes": {"willpower": 1, "logic": 1},
-    "skills": [
-      {"name": "Computer", "rating": 1}
-    ],
+    "attributes": { "willpower": 1, "logic": 1 },
+    "skills": [ { "name": "Computer", "rating": 1 } ],
     "languages": [],
-    "knowledge": [ {"name": "[Sociology/Psychology/Archaelogy/Criminology/Politics]", "rating": 13}],
+    "knowledge": [
+      {
+        "name": "[Sociology/Psychology/Archaelogy/Criminology/Politics]",
+        "rating": 13
+      }
+    ],
     "qualities": [],
     "choices": []
   },
@@ -216,18 +235,16 @@
     "name": "Trade/Technical School (Architecture)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "First Aid", "rating": 1},
-      {"name": "Industrial Mechanic", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "First Aid", "rating": 1 },
+      { "name": "Industrial Mechanic", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Buildings", "rating": 6}
-    ],
+    "knowledge": [ { "name": "Buildings", "rating": 6 } ],
     "qualities": [],
     "choices": []
   },
@@ -235,17 +252,15 @@
     "name": "Trade/Technical School (Fashion Design)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Artisan", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Artisan", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Fashion", "rating": 4}
-    ],
+    "knowledge": [ { "name": "Fashion", "rating": 4 } ],
     "qualities": [],
     "choices": []
   },
@@ -253,17 +268,15 @@
     "name": "Trade/Technical School (Graphic Design)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Artisan", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Artisan", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Corporate Logos", "rating": 4}
-    ],
+    "knowledge": [ { "name": "Corporate Logos", "rating": 4 } ],
     "qualities": [],
     "choices": []
   },
@@ -271,19 +284,17 @@
     "name": "Trade/Technical School (Journalism)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Con", "rating": 1},
-      {"name": "Etiquette", "rating": 1},
-      {"name": "Negotiation", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Con", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Politics", "rating": 4}
-    ],
+    "knowledge": [ { "name": "Politics", "rating": 4 } ],
     "qualities": [],
     "choices": []
   },
@@ -291,19 +302,17 @@
     "name": "Trade/Technical School (Law)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Etiquette", "rating": 1},
-      {"name": "Negotiation", "rating": 1},
-      {"name": "Performance", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 },
+      { "name": "Performance", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Law", "rating": 4}
-    ],
+    "knowledge": [ { "name": "Law", "rating": 4 } ],
     "qualities": [],
     "choices": []
   },
@@ -311,18 +320,16 @@
     "name": "Trade/Technical School (Mechanics)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "First Aid", "rating": 2},
-      {"name": "Engineering", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "First Aid", "rating": 2 },
+      { "name": "Engineering", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Mechanics", "rating": 3}
-    ],
+    "knowledge": [ { "name": "Mechanics", "rating": 3 } ],
     "qualities": [],
     "choices": []
   },
@@ -330,18 +337,16 @@
     "name": "Trade/Technical School (Media Studies)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Etiquette", "rating": 1},
-      {"name": "Negotiation", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Trid Shows", "rating": 6}
-    ],
+    "knowledge": [ { "name": "Trid Shows", "rating": 6 } ],
     "qualities": [],
     "choices": []
   },
@@ -349,18 +354,16 @@
     "name": "Trade/Technical School (Nursing)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Biotech", "rating": 1},
-      {"name": "Etiquette", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Biotech", "rating": 1 },
+      { "name": "Etiquette", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "Medicine", "rating": 3}
-    ],
+    "knowledge": [ { "name": "Medicine", "rating": 3 } ],
     "qualities": [],
     "choices": []
   },
@@ -368,20 +371,18 @@
     "name": "Trade/Technical School (Tradesman)",
     "cost": 40,
     "time": 2,
-    "attributes": {"logic": 1},
+    "attributes": { "logic": 1 },
     "skills": [
-      {"name": "Computers", "rating": 1},
-      {"name": "Gymnastics", "rating": 2},
-      {"name": "Perception", "rating": 1},
-      {"name": "Automotive Mechanic", "rating": 1},
-      {"name": "First Aid", "rating": 1},
-      {"name": "Industrial Mechanic", "rating": 1}
+      { "name": "Computers", "rating": 1 },
+      { "name": "Gymnastics", "rating": 2 },
+      { "name": "Perception", "rating": 1 },
+      { "name": "Automotive Mechanic", "rating": 1 },
+      { "name": "First Aid", "rating": 1 },
+      { "name": "Industrial Mechanic", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      {"name": "DIY", "rating": 4}
-    ],
+    "knowledge": [ { "name": "DIY", "rating": 4 } ],
     "qualities": [],
     "choices": []
-  }    
+  }
 ]

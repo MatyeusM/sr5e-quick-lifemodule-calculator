@@ -3,30 +3,59 @@
     "name": "Human",
     "cost": 0,
     "racial": [],
-    "attributes": [{ "name": "edge", "min": 1, "max": 1}]
+    "attributes": [ { "name": "edge", "min": 1, "max": 1 } ]
   },
   {
     "name": "Dwarf",
     "cost": 50,
-    "racial": ["Thermographic Vision", "+2 dice for pathogen and toxin resistance", "+20% increased Lifestyle costs"],
-    "attributes": [{ "name": "body", "min": 2, "max": 2}, { "name": "reaction", "min": 0, "max": -1}, { "name": "strength", "min": 2, "max": 2}, { "name": "willpower", "min": 1, "max": 1}]
+    "racial": [
+      "Thermographic Vision",
+      "+2 dice for pathogen and toxin resistance",
+      "+20% increased Lifestyle costs"
+    ],
+    "attributes": [
+      { "name": "body", "min": 2, "max": 2 },
+      { "name": "reaction", "min": 0, "max": -1 },
+      { "name": "strength", "min": 2, "max": 2 },
+      { "name": "willpower", "min": 1, "max": 1 }
+    ]
   },
   {
     "name": "Elf",
     "cost": 40,
-    "racial": ["Low-Light Vision"],
-    "attributes": [{ "name": "agility", "min": 1, "max": 1}, { "name": "charisma", "min": 2, "max": 2}]
+    "racial": [ "Low-Light Vision" ],
+    "attributes": [
+      { "name": "agility", "min": 1, "max": 1 },
+      { "name": "charisma", "min": 2, "max": 2 }
+    ]
   },
   {
     "name": "Ork",
     "cost": 50,
-    "racial": ["Low-Light Vision"],
-    "attributes": [{ "name": "body", "min": 3, "max": 3}, { "name": "strength", "min": 2, "max": 2}, { "name": "logic", "min": 0, "max": -1}, { "name": "charisma", "min": 0, "max": -1}]
+    "racial": [ "Low-Light Vision" ],
+    "attributes": [
+      { "name": "body", "min": 3, "max": 3 },
+      { "name": "strength", "min": 2, "max": 2 },
+      { "name": "logic", "min": 0, "max": -1 },
+      { "name": "charisma", "min": 0, "max": -1 }
+    ]
   },
   {
     "name": "Troll",
     "cost": 90,
-    "racial": ["Thermographic Vision", "+1 Reach", "+1 dermal armor", "+100% increased Lifestyle costs"],
-    "attributes": [{ "name": "body", "min": 4, "max": 4}, { "name": "agility", "min": 0, "max": -1}, { "name": "strength", "min": 4, "max": 4}, { "name": "logic", "min": 0, "max": -1}, { "name": "intuition", "min": 0, "max": -1}, { "name": "charisma", "min": 0, "max": -2}]
+    "racial": [
+      "Thermographic Vision",
+      "+1 Reach",
+      "+1 dermal armor",
+      "+100% increased Lifestyle costs"
+    ],
+    "attributes": [
+      { "name": "body", "min": 4, "max": 4 },
+      { "name": "agility", "min": 0, "max": -1 },
+      { "name": "strength", "min": 4, "max": 4 },
+      { "name": "logic", "min": 0, "max": -1 },
+      { "name": "intuition", "min": 0, "max": -1 },
+      { "name": "charisma", "min": 0, "max": -2 }
+    ]
   }
 ]

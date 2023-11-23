@@ -1,91 +1,157 @@
 [
   {
     "name": "Arcology Living",
-    "attributes": {"logic": 1, "charisma": 1},
-    "skills": [{"name": "Electronics", "rating":2}, {"name": "Etiquette", "rating":2}, {"name": "Perception", "rating":1}],
+    "attributes": { "logic": 1, "charisma": 1 },
+    "skills": [
+      { "name": "Electronics", "rating": 2 },
+      { "name": "Etiquette", "rating": 2 },
+      { "name": "Perception", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "[Corporation]", "rating": 3 }],
-    "qualities": [{ "name": "SINner", "value": -15 }],
+    "knowledge": [ { "name": "[Corporation]", "rating": 3 } ],
+    "qualities": [ { "name": "SINner", "value": -15 } ],
     "choices": []
   },
   {
     "name": "Corp Drone",
-    "attributes": {"logic": 1, "charisma": 1},
-    "skills": [{"name": "Electronics", "rating": 2}, {"name": "Etiquette", "rating":2}, {"name": "Perception", "rating":1}],
+    "attributes": { "logic": 1, "charisma": 1 },
+    "skills": [
+      { "name": "Electronics", "rating": 2 },
+      { "name": "Etiquette", "rating": 2 },
+      { "name": "Perception", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "[Corporation]", "rating": 3 }],
+    "knowledge": [ { "name": "[Corporation]", "rating": 3 } ],
     "qualities": [],
     "choices": []
   },
   {
     "name": "Farm Living",
-    "attributes": {"body": 1, "strength": 1},
-    "skills": [{"name": "Industrial Mechanic", "rating": 1}],
+    "attributes": { "body": 1, "strength": 1 },
+    "skills": [ { "name": "Industrial Mechanic", "rating": 1 } ],
     "languages": [],
-    "knowledge": [{ "name": "Farming", "rating": 5 }],
-    "qualities": [{ "name": "Uneducated", "value": -8 }, { "name": "Toughness", "value": 9 }],
+    "knowledge": [ { "name": "Farming", "rating": 5 } ],
+    "qualities": [
+      { "name": "Uneducated", "value": -8 },
+      { "name": "Toughness", "value": 9 }
+    ],
     "choices": []
   },
   {
     "name": "Fugitive",
-    "attributes": {"reaction": 1, "willpower": 1, "intuition": 1},
-    "skills": [{"name": "Acting", "rating":2}, {"name": "Sneaking", "rating":1}, {"name": "Perception", "rating":1}],
+    "attributes": { "reaction": 1, "willpower": 1, "intuition": 1 },
+    "skills": [
+      { "name": "Acting", "rating": 2 },
+      { "name": "Sneaking", "rating": 1 },
+      { "name": "Perception", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "[City]", "rating": 2 }],
-    "qualities": [{ "name": "SINner", "value": -10 }, { "name": "Paranoia", "value": -7 }, { "name": "Bad Rep", "value": -7 }],
+    "knowledge": [ { "name": "[City]", "rating": 2 } ],
+    "qualities": [
+      { "name": "SINner", "value": -10 },
+      { "name": "Paranoia", "value": -7 },
+      { "name": "Bad Rep", "value": -7 }
+    ],
     "choices": []
   },
   {
     "name": "Isolated Rural Upbringing",
-    "attributes": {"body": 1, "strength": 1},
-    "skills": [{"name": "Blades", "rating": 1}, {"name": "Outdoors", "rating": 2}, {"name": "Running", "rating": 1}, {"name": "Unarmed Combat", "rating": 1}],
+    "attributes": { "body": 1, "strength": 1 },
+    "skills": [
+      { "name": "Blades", "rating": 1 },
+      { "name": "Outdoors", "rating": 2 },
+      { "name": "Running", "rating": 1 },
+      { "name": "Unarmed Combat", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "Farming", "rating": 2 }],
-    "qualities": [{ "name": "Uncouth", "value": -14 }, { "name": "Uneducated", "value": -8 }, { "name": "Toughness", "value": 9 }],
+    "knowledge": [ { "name": "Farming", "rating": 2 } ],
+    "qualities": [
+      { "name": "Uncouth", "value": -14 },
+      { "name": "Uneducated", "value": -8 },
+      { "name": "Toughness", "value": 9 }
+    ],
     "choices": []
   },
   {
     "name": "Military Brat",
-    "attributes": {"reaction": 1, "strength": 1},
-    "skills": [{"name": "Close Combat", "rating": 2}, {"name": "Negotiation", "rating": 1}, {"name": "Perception", "rating": 1}],
+    "attributes": { "reaction": 1, "strength": 1 },
+    "skills": [
+      { "name": "Close Combat", "rating": 2 },
+      { "name": "Negotiation", "rating": 1 },
+      { "name": "Perception", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "Military", "rating": 3 }, { "name": "Military History", "rating": 2 }],
-    "qualities": [{ "name": "Uncouth", "value": -14 }],
+    "knowledge": [
+      { "name": "Military", "rating": 3 },
+      { "name": "Military History", "rating": 2 }
+    ],
+    "qualities": [ { "name": "Uncouth", "value": -14 } ],
     "choices": []
   },
   {
     "name": "Orphan",
-    "attributes": {"willpower": 1},
-    "skills": [{"name": "Computer", "rating": 1}, {"name": "Sneaking", "rating": 2}, {"name": "Perception", "rating": 2}, {"name": "Survival", "rating": 1}],
+    "attributes": { "willpower": 1 },
+    "skills": [
+      { "name": "Computer", "rating": 1 },
+      { "name": "Sneaking", "rating": 2 },
+      { "name": "Perception", "rating": 2 },
+      { "name": "Survival", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "[City]", "rating": 3 }, { "name": "Foster System", "rating": 3 }],
+    "knowledge": [
+      { "name": "[City]", "rating": 3 },
+      { "name": "Foster System", "rating": 3 }
+    ],
     "qualities": [],
     "choices": []
   },
   {
     "name": "Rich Kid",
-    "attributes": {"charisma": 1},
-    "skills": [{"name": "Artisan", "rating": 1}, {"name": "Leadership", "rating": 2}, {"name": "Computers", "rating": 2}],
+    "attributes": { "charisma": 1 },
+    "skills": [
+      { "name": "Artisan", "rating": 1 },
+      { "name": "Leadership", "rating": 2 },
+      { "name": "Computers", "rating": 2 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "[Any]", "rating": 3 }, { "name": "Language", "rating": 3 }],
-    "qualities": [{ "name": "Trust Fund", "value": 10 }, { "name": "Prejudiced: Poor", "value": -7 }],
+    "knowledge": [
+      { "name": "[Any]", "rating": 3 },
+      { "name": "Language", "rating": 3 }
+    ],
+    "qualities": [
+      { "name": "Trust Fund", "value": 10 },
+      { "name": "Prejudiced: Poor", "value": -7 }
+    ],
     "choices": []
   },
   {
     "name": "Street Urchin",
-    "attributes": {"body": 1, "willpower": 1},
-    "skills": [{"name": "Close Combat", "rating":2}, {"name": "Running", "rating":1}, {"name": "Sneaking", "rating":1}, {"name": "Perception", "rating":1}],
+    "attributes": { "body": 1, "willpower": 1 },
+    "skills": [
+      { "name": "Close Combat", "rating": 2 },
+      { "name": "Running", "rating": 1 },
+      { "name": "Sneaking", "rating": 1 },
+      { "name": "Perception", "rating": 1 }
+    ],
     "languages": [],
-    "knowledge": [{ "name": "[City]", "rating": 3 }],
-    "qualities": [{ "name": "Paranoia", "value": -7 }, { "name": "Flashbacks", "value": -7 }, { "name": "Uneducated", "value": -8 }, { "name": "Toughness", "value": 9 }],
+    "knowledge": [ { "name": "[City]", "rating": 3 } ],
+    "qualities": [
+      { "name": "Paranoia", "value": -7 },
+      { "name": "Flashbacks", "value": -7 },
+      { "name": "Uneducated", "value": -8 },
+      { "name": "Toughness", "value": 9 }
+    ],
     "choices": []
   },
   {
     "name": "White Collar",
-    "attributes": {"charisma": 1, "logic": 1},
-    "skills": [{"name": "Negotiation", "rating": 1}],
+    "attributes": { "charisma": 1, "logic": 1 },
+    "skills": [ { "name": "Negotiation", "rating": 1 } ],
     "languages": [],
-    "knowledge": [{ "name": "[Any]", "rating": 3 }, { "name": "Language", "rating": 3 }],
+    "knowledge": [
+      { "name": "[Any]", "rating": 3 },
+      { "name": "Language", "rating": 3 }
+    ],
     "qualities": [],
     "choices": []
   }

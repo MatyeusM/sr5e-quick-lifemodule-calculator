@@ -4,68 +4,131 @@
     "name": "Intro Runner",
     "cost": 2,
     "items": [
-      "Fake SIN (1)", "Mapsoft (Campaign city)", "Meta Link commlink", "Standard Credstick",
-      "Cold America L36 light pistol with two spare clips", "Twenty plastic restraints",
-      "100 rounds of standard light pistol ammo", "Flashlight", "Knife", "Backpack", "Armor vest",
-      "Respirator (1)", "Glasses (1) with image link"
+      "Fake SIN (1)",
+      "Mapsoft (Campaign city)",
+      "Meta Link commlink",
+      "Standard Credstick",
+      "Cold America L36 light pistol with two spare clips",
+      "Twenty plastic restraints",
+      "100 rounds of standard light pistol ammo",
+      "Flashlight",
+      "Knife",
+      "Backpack",
+      "Armor vest",
+      "Respirator (1)",
+      "Glasses (1) with image link"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Core",
     "name": "Basic Runner",
     "cost": 5,
     "items": [
-      "Fake SIN (3)", "Earbuds (1) with sound link", "Renraku Sensei commlink", "Metal restraints",
-      "Knife", "Ten plastic restraints", "Armor vest", "Backpack", "Micro-transceiver", "Flashlight",
-      "Mapsoft (campaign city)", "Respirator (1)", "Silver credstick", "Survival kit",
-      "Glasses (1) with image link", "Medkit (1)"
+      "Fake SIN (3)",
+      "Earbuds (1) with sound link",
+      "Renraku Sensei commlink",
+      "Metal restraints",
+      "Knife",
+      "Ten plastic restraints",
+      "Armor vest",
+      "Backpack",
+      "Micro-transceiver",
+      "Flashlight",
+      "Mapsoft (campaign city)",
+      "Respirator (1)",
+      "Silver credstick",
+      "Survival kit",
+      "Glasses (1) with image link",
+      "Medkit (1)"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Core",
     "name": "Advanced Runner",
     "cost": 10,
     "items": [
-      "Fake SIN (4)", "Metal restraints", "Erika Elite commlink with sim module and subvocal mic",
-      "Backpack", "Knife", "Flashlight", "Armor vest", "Flashlight (low-light)", "Micro-transceiver",
-      "Climbing gear", "Tag eraser", "Diving gear", "Mapsoft (campaign city)", "Gas mask",
-      "Gold credstick", "Respirator (4)", "Contacts (3) with image link, low-light vision, and flare compensation",
-      "Survival kit", "Earbuds (3) with sound link and select sound filter (2)",
-      "50 meters of rope", "Camera (1) with vision magnification", "Medkit (3)"
+      "Fake SIN (4)",
+      "Metal restraints",
+      "Erika Elite commlink with sim module and subvocal mic",
+      "Backpack",
+      "Knife",
+      "Flashlight",
+      "Armor vest",
+      "Flashlight (low-light)",
+      "Micro-transceiver",
+      "Climbing gear",
+      "Tag eraser",
+      "Diving gear",
+      "Mapsoft (campaign city)",
+      "Gas mask",
+      "Gold credstick",
+      "Respirator (4)",
+      "Contacts (3) with image link, low-light vision, and flare compensation",
+      "Survival kit",
+      "Earbuds (3) with sound link and select sound filter (2)",
+      "50 meters of rope",
+      "Camera (1) with vision magnification",
+      "Medkit (3)"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Classic Samurai",
     "cost": 1,
     "items": [
-      "Katana", "Bokken (treat as a club)", "Wakizashi (treat as a sword)",
+      "Katana",
+      "Bokken (treat as a club)",
+      "Wakizashi (treat as a sword)",
       "Datasoft (The Art of War, The Book of Five Rings, The Tale of the Heike, and other assorted samurai writings and poetry)",
-      "Tanto (treat as a combat knife)", "Kimono (50¥)"
+      "Tanto (treat as a combat knife)",
+      "Kimono (50¥)"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Up Close & Personal",
     "cost": 3,
     "items": [
-      "Combat axe", "Club", "Katana", "Extendable baton", "Two knives", "Telescoping staff",
-      "Combat knife", "Knucks", "Four throwing knives"
+      "Combat axe",
+      "Club",
+      "Katana",
+      "Extendable baton",
+      "Two knives",
+      "Telescoping staff",
+      "Combat knife",
+      "Knucks",
+      "Four throwing knives"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Blademaster",
     "cost": 1,
     "items": [
-      "Two knives", "Club", "Two combat knives", "Extendable baton", "Two survival knives"
+      "Two knives",
+      "Club",
+      "Two combat knives",
+      "Extendable baton",
+      "Two survival knives"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -75,196 +138,286 @@
       "Monofilament whip",
       "DocWagon contract (Basic) for one year, with one resuscitation pre-paid"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Basic Bowman",
     "cost": 1,
     "items": [
-      "Bow (4)", "Ten doses of Narcojet toxin",
-      "Fifty arrows (4)", "Survival knife",
-      "Ten injection arrows (4)", "Survival kit"
+      "Bow (4)",
+      "Ten doses of Narcojet toxin",
+      "Fifty arrows (4)",
+      "Survival knife",
+      "Ten injection arrows (4)",
+      "Survival kit"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Advanced Bowman",
     "cost": 1,
     "items": [
-      "Bow (6)", "Club",
-      "Fifty arrows (6)", "Two knives",
-      "Five injection arrows (6)", "Survival kit",
+      "Bow (6)",
+      "Club",
+      "Fifty arrows (6)",
+      "Two knives",
+      "Five injection arrows (6)",
+      "Survival kit",
       "Five doses of Narcojet toxin"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Ares Pistol",
     "cost": 1,
     "items": [
-      "Ares Predator V heavy pistol", "Quick-draw holster", "Four spare clips",
+      "Ares Predator V heavy pistol",
+      "Quick-draw holster",
+      "Four spare clips",
       "300 rounds of regular heavy pistol ammo",
-      "Ares Light Fire 70 light pistol", "Concealable holster", "Two spare clips",
+      "Ares Light Fire 70 light pistol",
+      "Concealable holster",
+      "Two spare clips",
       "60 rounds of regular light pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Big Boom Pistol",
     "cost": 1,
     "items": [
-      "Remington Roomsweeper heavy pistol", "Quick-draw holster", "40 rounds of regular heavy pistol ammo",
-      "Ruger Super Warhawk heavy pistol", "Quick-draw holster", "Four speed loaders",
-      "150 rounds of regular heavy pistol ammo, cased", "80 rounds of flechette heavy pistol ammo"
+      "Remington Roomsweeper heavy pistol",
+      "Quick-draw holster",
+      "40 rounds of regular heavy pistol ammo",
+      "Ruger Super Warhawk heavy pistol",
+      "Quick-draw holster",
+      "Four speed loaders",
+      "150 rounds of regular heavy pistol ammo, cased",
+      "80 rounds of flechette heavy pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Browning and Beretta Pistol",
     "cost": 1,
     "items": [
-      "Browning Ultra-Power heavy pistol", "Quick-draw holster", "Three spare clips",
-      "Beretta 201T light pistol", "Concealable holster", "Two spare clips",
-      "140 rounds of regular heavy pistol ammo", "210 rounds of regular light pistol ammo"
+      "Browning Ultra-Power heavy pistol",
+      "Quick-draw holster",
+      "Three spare clips",
+      "Beretta 201T light pistol",
+      "Concealable holster",
+      "Two spare clips",
+      "140 rounds of regular heavy pistol ammo",
+      "210 rounds of regular light pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Colt Pistol",
     "cost": 1,
     "items": [
-      "Colt Government 2066 heavy pistol", "Quick-draw holster", "Laser sight", "Three spare clips",
-      "Colt America L36 light pistol", "Concealable holster", "Two spare clips",
-      "280 rounds of regular heavy pistol ammo", "110 rounds of regular light pistol ammo"
+      "Colt Government 2066 heavy pistol",
+      "Quick-draw holster",
+      "Laser sight",
+      "Three spare clips",
+      "Colt America L36 light pistol",
+      "Concealable holster",
+      "Two spare clips",
+      "280 rounds of regular heavy pistol ammo",
+      "110 rounds of regular light pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Subtle Pistol",
     "cost": 1,
     "items": [
-      "Ares Viper Slivergun heavy pistol", "Concealable holster", "Spare clip",
-      "Walther Palm Pistol hold-out", "Concealable holster",
-      "170 rounds of flechette heavy pistol ammo", "10 rounds of regular hold-out pistol ammo"
+      "Ares Viper Slivergun heavy pistol",
+      "Concealable holster",
+      "Spare clip",
+      "Walther Palm Pistol hold-out",
+      "Concealable holster",
+      "170 rounds of flechette heavy pistol ammo",
+      "10 rounds of regular hold-out pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Light Security",
     "cost": 1,
     "items": [
-      "HK-227 submachine gun", "Four spare clips",
-      "Fichetti Security 600 light pistol", "Quick-draw holster", "Two spare clips",
-      "280 rounds of regular submachine gun ammo", "90 rounds of regular light pistol ammo"
+      "HK-227 submachine gun",
+      "Four spare clips",
+      "Fichetti Security 600 light pistol",
+      "Quick-draw holster",
+      "Two spare clips",
+      "280 rounds of regular submachine gun ammo",
+      "90 rounds of regular light pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Japanacorp Light Security",
     "cost": 1,
     "items": [
-      "SCK Model 100 submachine gun", "Three spare clips",
+      "SCK Model 100 submachine gun",
+      "Three spare clips",
       "60 rounds of gel round submachine gun ammo",
-      "Beretta 201T light pistol", "Spare clip",
+      "Beretta 201T light pistol",
+      "Spare clip",
       "70 rounds of regular light pistol ammo",
-      "300 rounds of regular submachine gun ammo", "Ten plastic restraints"
+      "300 rounds of regular submachine gun ammo",
+      "Ten plastic restraints"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Smartgun",
     "cost": 1,
     "items": [
-      "Ingram Smartgun X submachine gun", "Two spare clips",
-      "Ares Predator V heavy pistol", "Spare clip",
-      "200 rounds of regular submachine gun ammo", "30 rounds of regular heavy pistol ammo"
+      "Ingram Smartgun X submachine gun",
+      "Two spare clips",
+      "Ares Predator V heavy pistol",
+      "Spare clip",
+      "200 rounds of regular submachine gun ammo",
+      "30 rounds of regular heavy pistol ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Street Slugger",
     "cost": 1,
     "items": [
-      "Defiance T-250 shotgun", "100 rounds of flechette shotgun ammo",
-      "Colt America L36 light pistol", "Two spare clips",
+      "Defiance T-250 shotgun",
+      "100 rounds of flechette shotgun ammo",
+      "Colt America L36 light pistol",
+      "Two spare clips",
       "40 rounds of regular shotgun ammo",
-      "Streetline Special hold-out pistol", "100 rounds of regular light pistol ammo",
-      "Knife", "30 rounds of regular hold-out pistol ammo",
+      "Streetline Special hold-out pistol",
+      "100 rounds of regular light pistol ammo",
+      "Knife",
+      "30 rounds of regular hold-out pistol ammo",
       "Knucks"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Heavy Security",
     "cost": 1,
     "items": [
-      "FN HAR", "Shock pad", "Six spare clips",
+      "FN HAR",
+      "Shock pad",
+      "Six spare clips",
       "210 rounds of regular assault rifle ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Cheap Soldier",
     "cost": 1,
     "items": [
-      "Colt M23 assault rifle", "Four spare clips",
+      "Colt M23 assault rifle",
+      "Four spare clips",
       "Three disposable inhalers (10¥ each)",
-      "Machete (counts as a sword)", "Three doses of kamikaze",
+      "Machete (counts as a sword)",
+      "Three doses of kamikaze",
       "300 rounds of regular assault rifle ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Ares Alpha Gunner",
     "cost": 4,
     "items": [
-      "Ares Alpha assault rifle", "Shock pad", "Airburst link", "Eight spare clips",
+      "Ares Alpha assault rifle",
+      "Shock pad",
+      "Airburst link",
+      "Eight spare clips",
       "120 rounds of explosive assault rifle ammo",
       "500 rounds of regular assault rifle ammo",
       "Twelve fragmentation micro-grenades",
       "40 rounds of APDS assault rifle ammo",
       "Twelve high-explosive micro-grenades"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Sniper",
     "cost": 11,
     "items": [
-      "Ares Desert Strike sniper rifle", "Low-light and smartlink added to the imaging scope",
+      "Ares Desert Strike sniper rifle",
+      "Low-light and smartlink added to the imaging scope",
       "100 rounds of explosive sniper rifle ammo",
       "100 rounds of APDS sniper rifle ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Sportsman",
     "cost": 2,
     "items": [
-      "Remington 950 hunting rifle", "Low-light added to the imaging scope",
+      "Remington 950 hunting rifle",
+      "Low-light added to the imaging scope",
       "Flashlight",
-      "Bow (Rating 4)", "Orange vest (5¥)",
-      "Survival knife", "Twenty arrows (Rating 4)",
-      "Knife", "250 shots of regular sniper rifle ammo",
+      "Bow (Rating 4)",
+      "Orange vest (5¥)",
+      "Survival knife",
+      "Twenty arrows (Rating 4)",
+      "Knife",
+      "250 shots of regular sniper rifle ammo",
       "Survival kit"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -276,7 +429,9 @@
       "Re-usable syringe (25¥)",
       "14 doses of Narcojet toxin"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -286,7 +441,9 @@
       "Ingram Valiant light machine gun",
       "Bipod or belt of 100 rounds of regular machine gun ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -298,7 +455,9 @@
       "Tripod",
       "Two ammo belts, each with 100 rounds of regular machine gun ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -308,7 +467,9 @@
       "Five Aztechnology Striker disposable rocket launchers",
       "Five fragmentation rockets"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -317,16 +478,18 @@
     "items": [
       "Ten ammo belts, each with 100 rounds of regular ammo"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Ammo Crate #1",
     "cost": 1,
-    "items": [
-      "1,000 rounds of regular ammo*"
-    ],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "1,000 rounds of regular ammo*" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -336,7 +499,9 @@
       "100 rounds of APDS ammo*",
       "100 rounds of explosive ammo*"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -346,25 +511,27 @@
       "160 rounds of gel ammo*",
       "200 rounds of Stick-n-Shock*"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Ammo Crate #4",
     "cost": 1,
-    "items": [
-      "250 rounds of assault cannon ammo"
-    ],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "250 rounds of assault cannon ammo" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Ammo Crate #5",
     "cost": 1,
-    "items": [
-      "40 doses of Narcojet toxin"
-    ],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "40 doses of Narcojet toxin" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
@@ -374,18 +541,25 @@
       "Ten fragmentation grenades",
       "Ten high-explosive grenades"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Weapon and Ammo",
     "name": "Box of Grenades #2",
     "cost": 1,
     "items": [
-      "Five flash-bangs", "Five nausea gas grenades",
-      "Ten smoke grenades", "Seven pepper punch grenades",
-      "Five tear gas grenades", "Five thermal smoke grenades"
+      "Five flash-bangs",
+      "Five nausea gas grenades",
+      "Ten smoke grenades",
+      "Seven pepper punch grenades",
+      "Five tear gas grenades",
+      "Five thermal smoke grenades"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -396,7 +570,9 @@
       "Respirator (3)",
       "Armored clothes"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -405,7 +581,9 @@
     "items": [
       "Armored jacket with chemical protection (4), fire resistance (4), and insulation (4)"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -414,7 +592,9 @@
     "items": [
       "Urban Explorer Jumpsuit with helmet, electrochromatic modification, non-conductivity (2), and shock frills"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -426,7 +606,9 @@
       "Gecko gloves",
       "Flashlight (low-light)"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -435,7 +617,9 @@
     "items": [
       "Actioneer Business Clothes with electrochromatic modification"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -447,16 +631,18 @@
       "Micro-transceiver (helmet-mounted)",
       "Hermes Ikon commlink"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
     "name": "Tusker Toughskin",
     "cost": 1,
-    "items": [
-      "Armor jacket with non-conductivity (4)"
-    ],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "Armor jacket with non-conductivity (4)" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Armor",
@@ -468,14 +654,16 @@
       "Riot shield with fire resistance (4)",
       "Club"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Cyber",
     "name": "Budget 'Jack",
     "cost": 20,
     "items": [],
-    "augments": ["Skilljack (2)"],
+    "augments": [ "Skilljack (2)" ],
     "essence": 0.2,
     "vehicles": []
   },
@@ -484,7 +672,7 @@
     "name": "Standard 'Jack",
     "cost": 40,
     "items": [],
-    "augments": ["Skilljack (4)"],
+    "augments": [ "Skilljack (4)" ],
     "essence": 0.4,
     "vehicles": []
   },
@@ -493,7 +681,7 @@
     "name": "Advanced 'Jack",
     "cost": 60,
     "items": [],
-    "augments": ["Skilljack (6)"],
+    "augments": [ "Skilljack (6)" ],
     "essence": 0.6,
     "vehicles": []
   },
@@ -502,7 +690,7 @@
     "name": "Basic Wires",
     "cost": 20,
     "items": [],
-    "augments": ["Skillwires (2)"],
+    "augments": [ "Skillwires (2)" ],
     "essence": 0.2,
     "vehicles": []
   },
@@ -511,7 +699,7 @@
     "name": "Advanced Wires",
     "cost": 30,
     "items": [],
-    "augments": ["Skillwires (3)"],
+    "augments": [ "Skillwires (3)" ],
     "essence": 0.3,
     "vehicles": []
   },
@@ -519,7 +707,7 @@
     "category": "Cyber",
     "name": "Tourist",
     "cost": 1,
-    "items": ["Linguasoft (2)"],
+    "items": [ "Linguasoft (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -528,7 +716,7 @@
     "category": "Cyber",
     "name": "World Traveler",
     "cost": 2,
-    "items": ["Linguasoft (4)"],
+    "items": [ "Linguasoft (4)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -537,7 +725,7 @@
     "category": "Cyber",
     "name": "Ambassador",
     "cost": 3,
-    "items": ["Linguasoft (6)"],
+    "items": [ "Linguasoft (6)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -546,7 +734,7 @@
     "category": "Cyber",
     "name": "Diploma-on-a-chip",
     "cost": 2,
-    "items": ["Knowsoft (2)"],
+    "items": [ "Knowsoft (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -555,7 +743,7 @@
     "category": "Cyber",
     "name": "Degree-on-a-chip",
     "cost": 4,
-    "items": ["Knowsoft (4)"],
+    "items": [ "Knowsoft (4)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -564,7 +752,7 @@
     "category": "Cyber",
     "name": "Doctorate-on-a-chip",
     "cost": 6,
-    "items": ["Knowsoft (6)"],
+    "items": [ "Knowsoft (6)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -573,7 +761,7 @@
     "category": "Cyber",
     "name": "Vacation-on-a-chip",
     "cost": 5,
-    "items": ["Activesoft (2)"],
+    "items": [ "Activesoft (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -582,7 +770,7 @@
     "category": "Cyber",
     "name": "Competence-on-a-chip",
     "cost": 15,
-    "items": ["Two Activesoft (3)"],
+    "items": [ "Two Activesoft (3)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -592,7 +780,7 @@
     "name": "Datacourier",
     "cost": 1,
     "items": [],
-    "augments": ["Data lock (6)"],
+    "augments": [ "Data lock (6)" ],
     "essence": 0.1,
     "vehicles": []
   },
@@ -601,7 +789,12 @@
     "name": "Sim-Sational",
     "cost": 6,
     "items": [],
-    "augments": ["Datajack", "Taste booster (1)", "Olfactory booster (1)", "Simrig"],
+    "augments": [
+      "Datajack",
+      "Taste booster (1)",
+      "Olfactory booster (1)",
+      "Simrig"
+    ],
     "essence": 0.7,
     "vehicles": []
   },
@@ -610,7 +803,9 @@
     "name": "Basic Combat Eyes",
     "cost": 4,
     "items": [],
-    "augments": ["Cybereyes (1) with image link, camera, and smartlink"],
+    "augments": [
+      "Cybereyes (1) with image link, camera, and smartlink"
+    ],
     "essence": 0.2,
     "vehicles": []
   },
@@ -619,7 +814,9 @@
     "name": "Advanced Combat Eyes",
     "cost": 7,
     "items": [],
-    "augments": ["Cybereyes (2) with image link, camera, flare compensation, low-light vision, smartlink, and thermographic vision"],
+    "augments": [
+      "Cybereyes (2) with image link, camera, flare compensation, low-light vision, smartlink, and thermographic vision"
+    ],
     "essence": 0.3,
     "vehicles": []
   },
@@ -628,7 +825,9 @@
     "name": "Eagle Eyes",
     "cost": 7,
     "items": [],
-    "augments": ["Cybereyes (1) with image link, camera, vision enhancement (2), and vision magnification"],
+    "augments": [
+      "Cybereyes (1) with image link, camera, vision enhancement (2), and vision magnification"
+    ],
     "essence": 0.2,
     "vehicles": []
   },
@@ -637,7 +836,9 @@
     "name": "Rabbit Ears",
     "cost": 9,
     "items": [],
-    "augments": ["Cyberears (1) with sound link, audio enhancement (2), and select sound filter (2)"],
+    "augments": [
+      "Cyberears (1) with sound link, audio enhancement (2), and select sound filter (2)"
+    ],
     "essence": 0.2,
     "vehicles": []
   },
@@ -646,16 +847,16 @@
     "name": "Bulletproof Jeff",
     "cost": 12,
     "items": [],
-    "augments": ["Bone lacing (aluminum)", "Dermal plating (2)"],
-    "essence": 2.0,
+    "augments": [ "Bone lacing (aluminum)", "Dermal plating (2)" ],
+    "essence": 2,
     "vehicles": []
   },
   {
     "category": "Cyber",
     "name": "Basic Razorboi",
     "cost": 2,
-    "items": ["Cybernetics kit", "Katana"],
-    "augments": ["Two hand razors (retractable)"],
+    "items": [ "Cybernetics kit", "Katana" ],
+    "augments": [ "Two hand razors (retractable)" ],
     "essence": 0.4,
     "vehicles": []
   },
@@ -663,8 +864,8 @@
     "category": "Cyber",
     "name": "Advanced Razorboi",
     "cost": 6,
-    "items": ["Cybernetics kit", "Katana", "Medkit (2)"],
-    "augments": ["Two spurs (retractable)"],
+    "items": [ "Cybernetics kit", "Katana", "Medkit (2)" ],
+    "augments": [ "Two spurs (retractable)" ],
     "essence": 0.6,
     "vehicles": []
   },
@@ -673,7 +874,7 @@
     "name": "Basic Speedboost",
     "cost": 20,
     "items": [],
-    "augments": ["Datajack", "Wired reflexes (1)"],
+    "augments": [ "Datajack", "Wired reflexes (1)" ],
     "essence": 2.1,
     "vehicles": []
   },
@@ -682,7 +883,7 @@
     "name": "Advanced Speedboost",
     "cost": 75,
     "items": [],
-    "augments": ["Datajack", "Wired reflexes (2)"],
+    "augments": [ "Datajack", "Wired reflexes (2)" ],
     "essence": 3.1,
     "vehicles": []
   },
@@ -691,7 +892,7 @@
     "name": "Basic Vatjob",
     "cost": 14,
     "items": [],
-    "augments": ["Dermal plating (1)", "Muscle replacement (1)"],
+    "augments": [ "Dermal plating (1)", "Muscle replacement (1)" ],
     "essence": 1.5,
     "vehicles": []
   },
@@ -700,7 +901,7 @@
     "name": "Advanced Vatjob",
     "cost": 28,
     "items": [],
-    "augments": ["Dermal plating (2)", "Muscle replacement (2)"],
+    "augments": [ "Dermal plating (2)", "Muscle replacement (2)" ],
     "essence": 3,
     "vehicles": []
   },
@@ -709,7 +910,7 @@
     "name": "Basic Rigger",
     "cost": 28,
     "items": [],
-    "augments": ["Control rig (1)", "Reflex enhancer (1)"],
+    "augments": [ "Control rig (1)", "Reflex enhancer (1)" ],
     "essence": 1.3,
     "vehicles": []
   },
@@ -718,7 +919,7 @@
     "name": "Advanced Rigger",
     "cost": 62,
     "items": [],
-    "augments": ["Datajack", "Reflex enhancer (2)", "Control rig (2)"],
+    "augments": [ "Datajack", "Reflex enhancer (2)", "Control rig (2)" ],
     "essence": 2.7,
     "vehicles": []
   },
@@ -727,7 +928,7 @@
     "name": "Bioware Beef",
     "cost": 31,
     "items": [],
-    "augments": ["Muscle augmentation (2)"],
+    "augments": [ "Muscle augmentation (2)" ],
     "essence": 0.4,
     "vehicles": []
   },
@@ -736,7 +937,7 @@
     "name": "Bioware Lean",
     "cost": 32,
     "items": [],
-    "augments": ["Muscle toner (2)"],
+    "augments": [ "Muscle toner (2)" ],
     "essence": 0.4,
     "vehicles": []
   },
@@ -745,7 +946,7 @@
     "name": "Bioware Cat",
     "cost": 14,
     "items": [],
-    "augments": ["Cat’s eyes", "Enhanced articulation"],
+    "augments": [ "Cat’s eyes", "Enhanced articulation" ],
     "essence": 0.4,
     "vehicles": []
   },
@@ -754,7 +955,11 @@
     "name": "Bio-Computer",
     "cost": 41,
     "items": [],
-    "augments": ["Datajack", "Mnemonic enhancer (2)", "Cerebral booster (2)"],
+    "augments": [
+      "Datajack",
+      "Mnemonic enhancer (2)",
+      "Cerebral booster (2)"
+    ],
     "essence": 0.7,
     "vehicles": []
   },
@@ -763,7 +968,10 @@
     "name": "Bioware Company Man",
     "cost": 50,
     "items": [],
-    "augments": ["Bone density augmentation (1)", "Synaptic booster (1)"],
+    "augments": [
+      "Bone density augmentation (1)",
+      "Synaptic booster (1)"
+    ],
     "essence": 0.8,
     "vehicles": []
   },
@@ -772,49 +980,70 @@
     "name": "Bug-Out Bag",
     "cost": 2,
     "items": [
-      "Fake SIN (1)", "Armor clothing", "Sony Emperor commlink", "Standard Credstick with 1000¥ pre-loaded",
-      "Knife", "Metal restraints",
-      "Ten security tags", "Ten blank datachips", "Knife", "Two doses of long haul", "Dufflebag (20¥)",
+      "Fake SIN (1)",
+      "Armor clothing",
+      "Sony Emperor commlink",
+      "Standard Credstick with 1000¥ pre-loaded",
+      "Knife",
+      "Metal restraints",
+      "Ten security tags",
+      "Ten blank datachips",
+      "Knife",
+      "Two doses of long haul",
+      "Dufflebag (20¥)",
       "Streetline Special hold-out pistol with 30 rounds of regular ammo and spare clip"
     ],
-    "augments": [], "essence": 0, "vehicles": []
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Lifestyle",
     "name": "Street Rat",
     "cost": 1,
-    "items": ["Four months of Squatter lifestyle"],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "Four months of Squatter lifestyle" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Lifestyle",
     "name": "Lowlife",
     "cost": 1,
-    "items": ["One month of Low lifestyle"],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "One month of Low lifestyle" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Lifestyle",
     "name": "Success in the Shadows",
     "cost": 5,
-    "items": ["Two months of Middle lifestyle"],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "Two months of Middle lifestyle" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Lifestyle",
     "name": "High Life",
     "cost": 10,
-    "items": ["Two months of High lifestyle"],
-    "augments": [], "essence": 0, "vehicles": []
+    "items": [ "Two months of High lifestyle" ],
+    "augments": [],
+    "essence": 0,
+    "vehicles": []
   },
   {
     "category": "Color",
     "name": "Cocktail Kid",
     "cost": 1,
     "items": [
-      "Ten disposable syringes", "Five doses of kamikaze",
-      "Ten disposable inhalers (10¥ each)", "Twenty doses of zen",
-      "Ten doses of jazz", "Twenty doses of novacoke",
+      "Ten disposable syringes",
+      "Five doses of kamikaze",
+      "Ten disposable inhalers (10¥ each)",
+      "Twenty doses of zen",
+      "Ten doses of jazz",
+      "Twenty doses of novacoke",
       "Five doses of long haul"
     ],
     "augments": [],
@@ -826,8 +1055,10 @@
     "name": "Gunbunny",
     "cost": 1,
     "items": [
-      "Armorer kit", "Image scope with low-light",
-      "Two laser sights", "Shock pad",
+      "Armorer kit",
+      "Image scope with low-light",
+      "Two laser sights",
+      "Shock pad",
       "Two external smartgun systems"
     ],
     "augments": [],
@@ -839,8 +1070,10 @@
     "name": "Drone Mechanic",
     "cost": 1,
     "items": [
-      "Aeronautics Mechanic kit", "Electronic Warfare kit",
-      "Automotive Mechanic kit", "Nautical Mechanic kit"
+      "Aeronautics Mechanic kit",
+      "Electronic Warfare kit",
+      "Automotive Mechanic kit",
+      "Nautical Mechanic kit"
     ],
     "augments": [],
     "essence": 0,
@@ -851,10 +1084,14 @@
     "name": "Mechanic Shop",
     "cost": 3,
     "items": [
-      "Automotive Mechanic kit", "Flashlight",
-      "Automotive Mechanic shop", "Roll of duct tape (5¥)",
-      "Shopsoft (car parts)", "Chemsuit (1)",
-      "Knowsoft (car makes and models)", "Respirator (1)"
+      "Automotive Mechanic kit",
+      "Flashlight",
+      "Automotive Mechanic shop",
+      "Roll of duct tape (5¥)",
+      "Shopsoft (car parts)",
+      "Chemsuit (1)",
+      "Knowsoft (car makes and models)",
+      "Respirator (1)"
     ],
     "augments": [],
     "essence": 0,
@@ -864,9 +1101,7 @@
     "category": "Color",
     "name": "Eavesdropper",
     "cost": 1,
-    "items": [
-      "Five datataps", "Five micro-cameras (1)"
-    ],
+    "items": [ "Five datataps", "Five micro-cameras (1)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -876,7 +1111,8 @@
     "name": "Surveillance",
     "cost": 1,
     "items": [
-      "Binoculars (optical)", "Periscope",
+      "Binoculars (optical)",
+      "Periscope",
       "Binoculars (digital) (1) low-light vision",
       "Directional mic (1) with select sound filter (1)",
       "Camera (1) with vision magnification",
@@ -892,7 +1128,8 @@
     "name": "Breaking & Entering",
     "cost": 3,
     "items": [
-      "Autopicker (4)", "Sequencer (4)",
+      "Autopicker (4)",
+      "Sequencer (4)",
       "Keycard copier (5)"
     ],
     "augments": [],
@@ -904,8 +1141,10 @@
     "name": "Jammer",
     "cost": 1,
     "items": [
-      "Area jammer (4)", "Tag eraser",
-      "Bug scanner (5)", "White noise generator (5)"
+      "Area jammer (4)",
+      "Tag eraser",
+      "Bug scanner (5)",
+      "White noise generator (5)"
     ],
     "augments": [],
     "essence": 0,
@@ -915,9 +1154,7 @@
     "category": "Color",
     "name": "Medic",
     "cost": 1,
-    "items": [
-      "Medkit (6) with two refills", "Biomonitor"
-    ],
+    "items": [ "Medkit (6) with two refills", "Biomonitor" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -927,8 +1164,10 @@
     "name": "Medical Patches",
     "cost": 1,
     "items": [
-      "Five antidote patches (4)", "Four tranq patches (5)",
-      "Stim patch (4)", "Trauma patch"
+      "Five antidote patches (4)",
+      "Four tranq patches (5)",
+      "Stim patch (4)",
+      "Trauma patch"
     ],
     "augments": [],
     "essence": 0,
@@ -939,10 +1178,14 @@
     "name": "Mountaineering",
     "cost": 1,
     "items": [
-      "Climbing gear", "Survival kit",
-      "Flashlight", "Grapple gun with 400 meters of microwire",
-      "Five magnesium torches", "100 meters of standard rope",
-      "Micro flare launcher with three micro flares", "Medkit (2)",
+      "Climbing gear",
+      "Survival kit",
+      "Flashlight",
+      "Grapple gun with 400 meters of microwire",
+      "Five magnesium torches",
+      "100 meters of standard rope",
+      "Micro flare launcher with three micro flares",
+      "Medkit (2)",
       "Rappelling gloves"
     ],
     "augments": [],
@@ -954,11 +1197,16 @@
     "name": "Infiltration",
     "cost": 1,
     "items": [
-      "Disguise kit", "Ten stealth tags",
-      "Lockpicks", "Ten plastic restraints",
-      "Contacts (2) with image link and low-light vision", "Subvocal mic",
-      "Flashlight", "Transceiver",
-      "Flashlight (low-light)", "Camera (1)",
+      "Disguise kit",
+      "Ten stealth tags",
+      "Lockpicks",
+      "Ten plastic restraints",
+      "Contacts (2) with image link and low-light vision",
+      "Subvocal mic",
+      "Flashlight",
+      "Transceiver",
+      "Flashlight (low-light)",
+      "Camera (1)",
       "Twenty blank datachips"
     ],
     "augments": [],
@@ -970,7 +1218,8 @@
     "name": "Demolitionist",
     "cost": 1,
     "items": [
-      "Demolitions kit", "Eight detonator caps",
+      "Demolitions kit",
+      "Eight detonator caps",
       "Twelve kilograms of commercial explosive"
     ],
     "augments": [],
@@ -984,16 +1233,22 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Chrysler-Nissan Jackrabbit"]
+    "vehicles": [ "Chrysler-Nissan Jackrabbit" ]
   },
   {
     "category": "Vehicle",
     "name": "Racing Bike",
     "cost": 5,
-    "items": ["Mapsoft (city streets)", "Armor clothing", "Shopsoft (motorcycles and motorcycles parts)", "Two helmets with image link and sound link (25¥ each)", "Automotive mechanics kit"],
+    "items": [
+      "Mapsoft (city streets)",
+      "Armor clothing",
+      "Shopsoft (motorcycles and motorcycles parts)",
+      "Two helmets with image link and sound link (25¥ each)",
+      "Automotive mechanics kit"
+    ],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Suzuki Mirage"]
+    "vehicles": [ "Suzuki Mirage" ]
   },
   {
     "category": "Vehicle",
@@ -1002,7 +1257,7 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Harley-Davidson Scorpion"]
+    "vehicles": [ "Harley-Davidson Scorpion" ]
   },
   {
     "category": "Vehicle",
@@ -1011,7 +1266,7 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Ford Americar"]
+    "vehicles": [ "Ford Americar" ]
   },
   {
     "category": "Vehicle",
@@ -1020,7 +1275,7 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["GMC Bulldog with rigger interface"]
+    "vehicles": [ "GMC Bulldog with rigger interface" ]
   },
   {
     "category": "Vehicle",
@@ -1029,13 +1284,13 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Toyota Gopher", "Yamaha Growler"]
+    "vehicles": [ "Toyota Gopher", "Yamaha Growler" ]
   },
   {
     "category": "Vehicle",
     "name": "Non-Combat Rigger",
     "cost": 1,
-    "items": ["Rigger interface for two vehicles"],
+    "items": [ "Rigger interface for two vehicles" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1044,7 +1299,10 @@
     "category": "Vehicle",
     "name": "Combat Rigger",
     "cost": 2,
-    "items": ["Rigger interface", "Standard weapon mount with manual operation option"],
+    "items": [
+      "Rigger interface",
+      "Standard weapon mount with manual operation option"
+    ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1053,7 +1311,7 @@
     "category": "Decker",
     "name": "Intro to Hacking",
     "cost": 29,
-    "items": ["Microdeck Summit cyberdeck"],
+    "items": [ "Microdeck Summit cyberdeck" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1062,7 +1320,11 @@
     "category": "Decker",
     "name": "Basic Decker",
     "cost": 62,
-    "items": ["Hermes Chariot cyberdeck", "Hardware kit", "Software kit"],
+    "items": [
+      "Hermes Chariot cyberdeck",
+      "Hardware kit",
+      "Software kit"
+    ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1071,7 +1333,11 @@
     "category": "Decker",
     "name": "Advanced Decker",
     "cost": 173,
-    "items": ["Sony CIY-720 cyberdeck", "Hardware kit", "Software kit"],
+    "items": [
+      "Sony CIY-720 cyberdeck",
+      "Hardware kit",
+      "Software kit"
+    ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1082,9 +1348,18 @@
     "cost": 1,
     "items": [
       "Software kit",
-      "Program: Browse", "Program: Configurator", "Program: Edit",
-      "Program: Encryption", "Program: Signal Scrub", "Program: Toolbox", "Program: Virtual Machine",
-      "Hack: Baby Monitor", "Hack: Decryption", "Hack: Stealth", "Hack: Sneak", "Hack: Wrapper"
+      "Program: Browse",
+      "Program: Configurator",
+      "Program: Edit",
+      "Program: Encryption",
+      "Program: Signal Scrub",
+      "Program: Toolbox",
+      "Program: Virtual Machine",
+      "Hack: Baby Monitor",
+      "Hack: Decryption",
+      "Hack: Stealth",
+      "Hack: Sneak",
+      "Hack: Wrapper"
     ],
     "augments": [],
     "essence": 0,
@@ -1095,8 +1370,14 @@
     "name": "Advanced Cyberdeck Programs",
     "cost": 1,
     "items": [
-      "Hack: Armor", "Hack: Biofeedback", "Hack: Blackout", "Hack: Fork",
-      "Hack: Guard", "Hack: Hammer", "Hack: Mugger", "Hack: Shell"
+      "Hack: Armor",
+      "Hack: Biofeedback",
+      "Hack: Blackout",
+      "Hack: Fork",
+      "Hack: Guard",
+      "Hack: Hammer",
+      "Hack: Mugger",
+      "Hack: Shell"
     ],
     "augments": [],
     "essence": 0,
@@ -1106,9 +1387,7 @@
     "category": "Drone",
     "name": "Basic Drone Commander",
     "cost": 8,
-    "items": [
-      "Easy Motors DroneMaster rigger control console"
-    ],
+    "items": [ "Easy Motors DroneMaster rigger control console" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1117,9 +1396,7 @@
     "category": "Drone",
     "name": "Advanced Drone Commander",
     "cost": 33,
-    "items": [
-      "Vulcan LiegeLord rigger control console"
-    ],
+    "items": [ "Vulcan LiegeLord rigger control console" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1129,7 +1406,9 @@
     "name": "Rigger Support",
     "cost": 2,
     "items": [
-      "Program: Encryption", "Program: Signal Scrub", "Program: Toolbox",
+      "Program: Encryption",
+      "Program: Signal Scrub",
+      "Program: Toolbox",
       "Ten stealth tags",
       "Hack: Sneak",
       "Electronic Warfare kit",
@@ -1143,9 +1422,7 @@
     "category": "Drone",
     "name": "Dog Brain",
     "cost": 3,
-    "items": [
-      "Four Autosoft (3) programs"
-    ],
+    "items": [ "Four Autosoft (3) programs" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1157,7 +1434,9 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Shiawase Kanmushi with low-light vision and select sound filter (2)"]
+    "vehicles": [
+      "Shiawase Kanmushi with low-light vision and select sound filter (2)"
+    ]
   },
   {
     "category": "Drone",
@@ -1166,7 +1445,9 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Lockheed Optic-X2 with vision enhancement (1), vision magnification, and select sound filter (1)"]
+    "vehicles": [
+      "Lockheed Optic-X2 with vision enhancement (1), vision magnification, and select sound filter (1)"
+    ]
   },
   {
     "category": "Drone",
@@ -1175,7 +1456,9 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["GM-Nissan Doberman with Colt Cobra TZ-120 submachine gun and 170 rounds of regular ammo"]
+    "vehicles": [
+      "GM-Nissan Doberman with Colt Cobra TZ-120 submachine gun and 170 rounds of regular ammo"
+    ]
   },
   {
     "category": "Drone",
@@ -1184,7 +1467,9 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Steel Lynx with low-light vision, smartlink, and thermographic vision"]
+    "vehicles": [
+      "Steel Lynx with low-light vision, smartlink, and thermographic vision"
+    ]
   },
   {
     "category": "Drone",
@@ -1193,7 +1478,9 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["MCT-Nissan Rotodrone with low-light vision and standard weapon mount"]
+    "vehicles": [
+      "MCT-Nissan Rotodrone with low-light vision and standard weapon mount"
+    ]
   },
   {
     "category": "Drone",
@@ -1202,15 +1489,15 @@
     "items": [],
     "augments": [],
     "essence": 0,
-    "vehicles": ["Cyberspace Designs Dalmatian with low-light vision, smartlink, thermographic vision, and two standard weapon mount"]
+    "vehicles": [
+      "Cyberspace Designs Dalmatian with low-light vision, smartlink, thermographic vision, and two standard weapon mount"
+    ]
   },
   {
     "category": "Magic",
     "name": "Basic Magician",
     "cost": 1,
-    "items": [
-      "Magical lodge materials (4)"
-    ],
+    "items": [ "Magical lodge materials (4)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1220,7 +1507,8 @@
     "name": "Advanced Magician",
     "cost": 2,
     "items": [
-      "Magical lodge materials (6)", "Fifty drams of reagents"
+      "Magical lodge materials (6)",
+      "Fifty drams of reagents"
     ],
     "augments": [],
     "essence": 0,
@@ -1230,9 +1518,7 @@
     "category": "Magic",
     "name": "Magic Wand",
     "cost": 30,
-    "items": [
-      "Power focus (2)"
-    ],
+    "items": [ "Power focus (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1241,9 +1527,7 @@
     "category": "Magic",
     "name": "Magic Staff",
     "cost": 45,
-    "items": [
-      "Power focus (3)"
-    ],
+    "items": [ "Power focus (3)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1252,9 +1536,7 @@
     "category": "Magic",
     "name": "Basic Medicine Bag",
     "cost": 8,
-    "items": [
-      "Spell focus: Spellcasting (Health) (2)"
-    ],
+    "items": [ "Spell focus: Spellcasting (Health) (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1263,9 +1545,7 @@
     "category": "Magic",
     "name": "Advanced Medicine Bag",
     "cost": 16,
-    "items": [
-      "Spell focus: Spellcasting (Health) (4)"
-    ],
+    "items": [ "Spell focus: Spellcasting (Health) (4)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1274,9 +1554,7 @@
     "category": "Magic",
     "name": "Basic Spirit Stick",
     "cost": 8,
-    "items": [
-      "Spirit focus: Summoning beast spirits (2)"
-    ],
+    "items": [ "Spirit focus: Summoning beast spirits (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1285,9 +1563,7 @@
     "category": "Magic",
     "name": "Advanced Spirit Stick",
     "cost": 16,
-    "items": [
-      "Spirit focus: Summoning beast spirits (4)"
-    ],
+    "items": [ "Spirit focus: Summoning beast spirits (4)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1296,11 +1572,9 @@
     "category": "Magic",
     "name": "Magic Spear",
     "cost": 13,
-    "items": [
-      "Weapon focus (2)"
-    ],
+    "items": [ "Weapon focus (2)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
-  }  
+  }
 ]
