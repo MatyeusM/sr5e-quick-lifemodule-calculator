@@ -4,11 +4,12 @@ import useAttributeStore from './attributeStore';
 
 const useQualityStore = defineStore('qualities', {
   state: () => ({
+    modifications: [],
     characterType: characterTypes[0],
     qualities: [],
   }),
   getters: {
-    getQualities() {
+    getOriginalUniqueQualities() {
       // Create a map to store unique qualities with the highest values
       const uniqueQualitiesMap = new Map();
 
@@ -25,6 +26,21 @@ const useQualityStore = defineStore('qualities', {
 
       // Return an array of unique qualities with the highest values
       return Array.from(uniqueQualitiesMap.values());
+    },
+    getQualities() {
+      let uniqueQualities = [...this.getOriginalUniqueQualities];
+      this.modifications.forEach((mod) => {
+        if (mod.type === 'add') {
+          uniqueQualities.push(mod);
+        }
+        if (mod.type === 'remove') {
+          uniqueQualities = uniqueQualities.filter((q) => q.name !== mod.name);
+        }
+      });
+      return uniqueQualities;
+    },
+    getModificationKarma() {
+      return this.modifications.reduce((sum, {type, cost}) => (type === 'add') ? sum + cost : sum - cost, 0);
     },
     getLeftOverValue() {
       // Create a copy of the qualities array

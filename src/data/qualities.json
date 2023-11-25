@@ -1,0 +1,149 @@
+[
+  { "name": "Ambidextrous", "cost": 4, "source": "Core" },
+  {
+    "name": "Analytical Mind",
+    "cost": 5,
+    "source": "Core"
+  },
+  { "name": "Aptitude", "cost": 14, "source": "Core" },
+  {
+    "name": "Astral Chameleon",
+    "cost": 10,
+    "source": "Core"
+  },
+  { "name": "Bilingual", "cost": 5, "source": "Core" },
+  { "name": "Blandness", "cost": 8, "source": "Core" },
+  { "name": "Catlike", "cost": 7, "source": "Core" },
+  { "name": "Codeslinger", "cost": 10, "source": "Core" },
+  { "name": "Double-Jointed", "cost": 6, "source": "Core" },
+  {
+    "name": "Exceptional Attribute",
+    "cost": 14,
+    "source": "Core"
+  },
+  {
+    "name": "First Impression",
+    "cost": 11,
+    "source": "Core"
+  },
+  {
+    "name": "Focused Concentration",
+    "cost": 4,
+    "source": "Core"
+  },
+  {
+    "name": "Focused Concentration",
+    "cost": 8,
+    "source": "Core"
+  },
+  {
+    "name": "Focused Concentration",
+    "cost": 12,
+    "source": "Core"
+  },
+  {
+    "name": "Focused Concentration",
+    "cost": 16,
+    "source": "Core"
+  },
+  {
+    "name": "Focused Concentration",
+    "cost": 20,
+    "source": "Core"
+  },
+  {
+    "name": "Focused Concentration",
+    "cost": 24,
+    "source": "Core"
+  },
+  { "name": "Gearhead", "cost": 11, "source": "Core" },
+  { "name": "Guts", "cost": 10, "source": "Core" },
+  {
+    "name": "High Pain Tolerance",
+    "cost": 7,
+    "source": "Core"
+  },
+  {
+    "name": "High Pain Tolerance",
+    "cost": 14,
+    "source": "Core"
+  },
+  {
+    "name": "High Pain Tolerance",
+    "cost": 21,
+    "source": "Core"
+  },
+  { "name": "Home Ground", "cost": 10, "source": "Core" },
+  { "name": "Human-Looking", "cost": 6, "source": "Core" },
+  { "name": "Indomitable", "cost": 8, "source": "Core" },
+  { "name": "Indomitable", "cost": 16, "source": "Core" },
+  { "name": "Indomitable", "cost": 24, "source": "Core" },
+  { "name": "Juryrigger", "cost": 10, "source": "Core" },
+  { "name": "Lucky", "cost": 12, "source": "Core" },
+  {
+    "name": "Magic Resistance",
+    "cost": 6,
+    "source": "Core"
+  },
+  {
+    "name": "Magic Resistance",
+    "cost": 12,
+    "source": "Core"
+  },
+  {
+    "name": "Magic Resistance",
+    "cost": 18,
+    "source": "Core"
+  },
+  {
+    "name": "Magic Resistance",
+    "cost": 24,
+    "source": "Core"
+  },
+  { "name": "Mentor Spirit", "cost": 5, "source": "Core" },
+  {
+    "name": "Natural Athlete",
+    "cost": 7,
+    "source": "Core"
+  },
+  {
+    "name": "Natural Hardening",
+    "cost": 10,
+    "source": "Core"
+  },
+  {
+    "name": "Natural Immunity",
+    "costs": 4,
+    "source": "Core"
+  },
+  {
+    "name": "Natural Immunity",
+    "costs": 10,
+    "source": "Core"
+  },
+  {
+    "name": "Photographic Memory",
+    "cost": 6,
+    "source": "Core"
+  },
+  { "name": "Quick Healer", "cost": 3, "source": "Core" },
+  {
+    "name": "Resistance to Pathogens/Toxins",
+    "cost": 4,
+    "source": "Core"
+  },
+  {
+    "name": "Resistance to Pathogens/Toxins",
+    "cost": 8,
+    "source": "Core"
+  },
+  {
+    "name": "Spirit Affinity",
+    "cost": 7,
+    "source": "Core"
+  },
+  { "name": "Toughness", "cost": 9, "source": "Core" },
+  { "name": "Will to Live", "cost": 3, "source": "Core" },
+  { "name": "Will to Live", "cost": 6, "source": "Core" },
+  { "name": "Will to Live", "cost": 9, "source": "Core" }
+]
