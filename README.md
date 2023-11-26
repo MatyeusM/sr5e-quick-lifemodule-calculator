@@ -21,7 +21,8 @@ things up along the way, of using life modules properly.
 
 ### TODO
 - **Missing Life Modules:** Incorporate Life Modules from 'Run Faster' and other sources as needed.
-- **Quality Removal:** Implement the ability to remove qualities you don't want. Or add additional ones.
+- **Missing Qualities:** Add the missing qualities from Core and 'Run Faster'.
+- **Toggle Sources:** When data becomes bloated by sources past 'Run Faster' & 'Core', the ability to select sources is needed.
 
 ## Contributing
 Feel free to contribute by:
