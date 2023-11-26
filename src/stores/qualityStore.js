@@ -47,7 +47,7 @@ const useQualityStore = defineStore('qualities', {
       const qualitiesCopy = [...this.qualities];
 
       // Remove elements that are in getQualities
-      const uniqueQualities = this.getQualities;
+      const uniqueQualities = this.getOriginalUniqueQualities;
       for (let i = 0; i < uniqueQualities.length; i += 1) {
         const uniqueQuality = uniqueQualities[i];
         const index = qualitiesCopy.findIndex(
@@ -98,6 +98,21 @@ const useQualityStore = defineStore('qualities', {
         attributeStore.adjustAttributesInRange(true);
       }
     },
+    applyModification(qualityModification) {
+      if (!qualityModification || typeof qualityModification !== 'object' || !qualityModification.type) return;
+     
+      /* This is a bit complicated, but: If the type is add, if it already exists in modifications it needs to exist as a remove. So we can just remove it and be done with it.
+       * If it does not exist, we just add it.
+       * Same train of thought with type remove. If it already exist in modifications it needs to exist as an add. So we can just remove that. If it does not, it is a quality
+       * carried over from chargen, and then just pushing the remove is fine.
+       * This leads to not needing to split between add and remove since the code behaviour is the same.
+       */
+      if (this.modifications.some(m => m.name === qualityModification.name)) {
+        this.modifications = this.modifications.filter(m => m.name !== qualityModification.name);
+      } else {
+        this.modifications.push(qualityModification);
+      }
+    }
   }
 });
 
