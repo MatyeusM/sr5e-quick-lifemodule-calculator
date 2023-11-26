@@ -16,11 +16,7 @@
     "Nautical Mechanic"
   ],
   "Outdoors": [ "Navigation", "Survival", "Tracking" ],
-  "Sorcery": [
-    "Counterspelling",
-    "Ritual Spellcasting",
-    "Spellcasting"
-  ],
+  "Sorcery": [ "Counterspelling", "Ritual Spellcasting", "Spellcasting" ],
   "Stealth": [ "Disguise", "Palming", "Sneaking" ],
   "Tasking": [ "Compiling", "Decompling", "Registering" ]
 }

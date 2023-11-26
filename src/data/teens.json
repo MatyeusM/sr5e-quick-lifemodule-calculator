@@ -11,10 +11,7 @@
     "knowledge": [
       { "name": "[Job]", "rating": 2 },
       { "name": "[Corporation]", "rating": 2 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 2
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 2 }
     ],
     "qualities": [],
     "choices": []
@@ -73,10 +70,7 @@
     "knowledge": [
       { "name": "[City]", "rating": 1 },
       { "name": "Language", "rating": 1 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 2
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 2 }
     ],
     "qualities": [],
     "choices": []
@@ -92,10 +86,7 @@
     "languages": [],
     "knowledge": [
       { "name": "Language", "rating": 2 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 6
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 6 }
     ],
     "qualities": [ { "name": "Social Stress", "value": -8 } ],
     "choices": []
@@ -123,10 +114,7 @@
     "languages": [ { "name": "[Any]", "rating": 2 } ],
     "knowledge": [
       { "name": "Magical Theory", "rating": 5 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 11
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 11 }
     ],
     "qualities": [ { "name": "SINner", "value": -15 } ],
     "choices": [
@@ -149,10 +137,7 @@
     "languages": [ { "name": "[Any]", "rating": 2 } ],
     "knowledge": [
       { "name": "Magical Theory", "rating": 5 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 11
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 11 }
     ],
     "qualities": [ { "name": "SINner", "value": -15 } ],
     "choices": [
@@ -175,10 +160,7 @@
     "languages": [ { "name": "[Any]", "rating": 2 } ],
     "knowledge": [
       { "name": "Magical Theory", "rating": 5 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 11
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 11 }
     ],
     "qualities": [ { "name": "SINner", "value": -15 } ],
     "choices": [
@@ -206,10 +188,7 @@
     "languages": [ { "name": "[Any]", "rating": 2 } ],
     "knowledge": [
       { "name": "Magical Theory", "rating": 5 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 11
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 11 }
     ],
     "qualities": [ { "name": "SINner", "value": -15 } ],
     "choices": [
@@ -257,10 +236,7 @@
       { "name": "Military", "rating": 3 },
       { "name": "Military History", "rating": 3 },
       { "name": "Strategy", "rating": 1 },
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 1
-      }
+      { "name": "[Academic Knowledge, Spread]", "rating": 1 }
     ],
     "qualities": [
       { "name": "Military Rank", "value": 5 },
@@ -277,12 +253,7 @@
       { "name": "Etiquette", "rating": 1 }
     ],
     "languages": [ { "name": "[Any]", "rating": 2 } ],
-    "knowledge": [
-      {
-        "name": "[Academic Knowledge, Spread]",
-        "rating": 2
-      }
-    ],
+    "knowledge": [ { "name": "[Academic Knowledge, Spread]", "rating": 2 } ],
     "qualities": [ { "name": "First Impression", "value": 11 } ],
     "choices": []
   },

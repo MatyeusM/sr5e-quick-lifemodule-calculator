@@ -7,7 +7,7 @@ const dataDirectory = 'src/data';
 
 const files = fs.readdirSync(dataDirectory);
 
-const opts = { wrap: 60, padding: 1, afterComma: 1, afterColon: 1 };
+const opts = { wrap: 70, padding: 1, afterComma: 1, afterColon: 1 };
 
 files.forEach((file) => {
   if (path.extname(file) === '.json') {

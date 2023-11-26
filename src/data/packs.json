@@ -475,9 +475,7 @@
     "category": "Weapon and Ammo",
     "name": "Machine Gun Ammo Belt",
     "cost": 1,
-    "items": [
-      "Ten ammo belts, each with 100 rounds of regular ammo"
-    ],
+    "items": [ "Ten ammo belts, each with 100 rounds of regular ammo" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -495,10 +493,7 @@
     "category": "Weapon and Ammo",
     "name": "Ammo Crate #2",
     "cost": 1,
-    "items": [
-      "100 rounds of APDS ammo*",
-      "100 rounds of explosive ammo*"
-    ],
+    "items": [ "100 rounds of APDS ammo*", "100 rounds of explosive ammo*" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -507,10 +502,7 @@
     "category": "Weapon and Ammo",
     "name": "Ammo Crate #3",
     "cost": 1,
-    "items": [
-      "160 rounds of gel ammo*",
-      "200 rounds of Stick-n-Shock*"
-    ],
+    "items": [ "160 rounds of gel ammo*", "200 rounds of Stick-n-Shock*" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -537,10 +529,7 @@
     "category": "Weapon and Ammo",
     "name": "Box of Grenades #1",
     "cost": 1,
-    "items": [
-      "Ten fragmentation grenades",
-      "Ten high-explosive grenades"
-    ],
+    "items": [ "Ten fragmentation grenades", "Ten high-explosive grenades" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -803,9 +792,7 @@
     "name": "Basic Combat Eyes",
     "cost": 4,
     "items": [],
-    "augments": [
-      "Cybereyes (1) with image link, camera, and smartlink"
-    ],
+    "augments": [ "Cybereyes (1) with image link, camera, and smartlink" ],
     "essence": 0.2,
     "vehicles": []
   },
@@ -955,11 +942,7 @@
     "name": "Bio-Computer",
     "cost": 41,
     "items": [],
-    "augments": [
-      "Datajack",
-      "Mnemonic enhancer (2)",
-      "Cerebral booster (2)"
-    ],
+    "augments": [ "Datajack", "Mnemonic enhancer (2)", "Cerebral booster (2)" ],
     "essence": 0.7,
     "vehicles": []
   },
@@ -968,10 +951,7 @@
     "name": "Bioware Company Man",
     "cost": 50,
     "items": [],
-    "augments": [
-      "Bone density augmentation (1)",
-      "Synaptic booster (1)"
-    ],
+    "augments": [ "Bone density augmentation (1)", "Synaptic booster (1)" ],
     "essence": 0.8,
     "vehicles": []
   },
@@ -1127,11 +1107,7 @@
     "category": "Color",
     "name": "Breaking & Entering",
     "cost": 3,
-    "items": [
-      "Autopicker (4)",
-      "Sequencer (4)",
-      "Keycard copier (5)"
-    ],
+    "items": [ "Autopicker (4)", "Sequencer (4)", "Keycard copier (5)" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1320,11 +1296,7 @@
     "category": "Decker",
     "name": "Basic Decker",
     "cost": 62,
-    "items": [
-      "Hermes Chariot cyberdeck",
-      "Hardware kit",
-      "Software kit"
-    ],
+    "items": [ "Hermes Chariot cyberdeck", "Hardware kit", "Software kit" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1333,11 +1305,7 @@
     "category": "Decker",
     "name": "Advanced Decker",
     "cost": 173,
-    "items": [
-      "Sony CIY-720 cyberdeck",
-      "Hardware kit",
-      "Software kit"
-    ],
+    "items": [ "Sony CIY-720 cyberdeck", "Hardware kit", "Software kit" ],
     "augments": [],
     "essence": 0,
     "vehicles": []
@@ -1506,10 +1474,7 @@
     "category": "Magic",
     "name": "Advanced Magician",
     "cost": 2,
-    "items": [
-      "Magical lodge materials (6)",
-      "Fifty drams of reagents"
-    ],
+    "items": [ "Magical lodge materials (6)", "Fifty drams of reagents" ],
     "augments": [],
     "essence": 0,
     "vehicles": []

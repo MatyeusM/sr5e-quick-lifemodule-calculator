@@ -421,12 +421,7 @@
   },
   {
     "name": "Corporate (Wage Slave)",
-    "attributes": {
-      "logic": 1,
-      "intuition": 1,
-      "charisma": 1,
-      "willpower": 1
-    },
+    "attributes": { "logic": 1, "intuition": 1, "charisma": 1, "willpower": 1 },
     "skills": [
       { "name": "Etiquette", "rating": 3 },
       { "name": "Con", "rating": 1 },
@@ -761,9 +756,7 @@
       { "name": "Pistols", "rating": 1 }
     ],
     "languages": [],
-    "knowledge": [
-      { "name": "Matrix Security Procedures", "rating": 4 }
-    ],
+    "knowledge": [ { "name": "Matrix Security Procedures", "rating": 4 } ],
     "qualities": [ { "name": "Codeslinger", "value": 10 } ],
     "choices": []
   },

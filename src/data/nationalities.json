@@ -280,12 +280,7 @@
       {
         "type": "languages",
         "rating": 1,
-        "values": [
-          "English",
-          "Athabaskan",
-          "Anishinaabe",
-          "Iroquoian"
-        ]
+        "values": [ "English", "Athabaskan", "Anishinaabe", "Iroquoian" ]
       }
     ]
   },
@@ -389,12 +384,7 @@
       {
         "type": "languages",
         "rating": "Native",
-        "values": [
-          "Athabaskan",
-          "Anishinaabe",
-          "Iroquoian",
-          "Siouan"
-        ]
+        "values": [ "Athabaskan", "Anishinaabe", "Iroquoian", "Siouan" ]
       },
       {
         "type": "languages",

@@ -1,20 +1,12 @@
 [
   { "name": "Mundane", "minAttributes": {}, "cost": 0 },
-  {
-    "name": "Adept",
-    "minAttributes": { "magic": 1 },
-    "cost": 20
-  },
+  { "name": "Adept", "minAttributes": { "magic": 1 }, "cost": 20 },
   {
     "name": "Aspected Magician",
     "minAttributes": { "magic": 1 },
     "cost": 15
   },
-  {
-    "name": "Magician",
-    "minAttributes": { "magic": 1 },
-    "cost": 30
-  },
+  { "name": "Magician", "minAttributes": { "magic": 1 }, "cost": 30 },
   {
     "name": "Mystic Adept",
     "minAttributes": { "magic": 1 },
