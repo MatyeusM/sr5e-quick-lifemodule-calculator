@@ -436,6 +436,54 @@
     "choices": []
   },
   {
+    "name": "Drifter",
+    "attributes": {},
+    "skills": [
+      { "name": "Con", "rating": 2 },
+      { "name": "Escape Artist", "rating": 1 },
+      { "name": "Negotiation", "rating": 1 },
+      { "name": "Running", "rating": 1 },
+      { "name": "Sneaking", "rating": 1 },
+      { "name": "Survival", "rating": 2 },
+      { "name": "Swimming", "rating": 1 },
+      { "name": "Unarmed Combat", "rating": 1 }
+    ],
+    "languages": [],
+    "knowledge": [
+      { "name": "Grey Market", "rating": 3 },
+      { "name": "Black Market", "rating": 3 },
+      { "name": "[City]", "rating": 5 },
+      { "name": "[Any]", "rating": 3 }
+    ],
+    "qualities": [ { "name": "High Pain Tolerance", "value": 7 }, { "name": "Sense of Direction", "value": 3 } ],
+    "choices": [{
+      "type": "attributes",
+      "rating": 1,
+      "values": [
+        "body",
+        "agility",
+        "reaction",
+        "strength",
+        "willpower",
+        "logic",
+        "intuition"
+      ]
+    },
+    {
+      "type": "attributes",
+      "rating": 1,
+      "values": [
+        "body",
+        "agility",
+        "reaction",
+        "strength",
+        "willpower",
+        "logic",
+        "intuition"
+      ]
+    }]
+  },
+  {
     "name": "Ganger",
     "attributes": { "body": 1, "strength": 1 },
     "skills": [

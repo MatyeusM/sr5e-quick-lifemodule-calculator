@@ -70,7 +70,7 @@
         <div class="flex">
           <div class="w-1/2 pr-2">
             <h2 class="text-lg mb-2 text-green-300">Positive Qualities ({{ positiveKarma }}/25)</h2>
-            <div class="flex flex-wrap justify-between">
+            <div class="flex flex-wrap justify-between max-h-96 overflow-y-auto">
               <template v-for="quality in listOfPositiveAddableQualities" :key="quality.name">
                 <span class="flex-grow text-center m-1 px-4 py-2 cursor-pointer border border-slate-100 hover:border-emerald-300 hover:text-emerald-300" @click="qualityStore.applyModification({ ...quality, type: 'add' })">
                   {{ quality.name }} ({{ quality.value !== undefined ? quality.value : quality.cost }})
@@ -80,7 +80,7 @@
           </div>
           <div class="w-1/2 pl-2">
             <h2 class="text-lg mb-2 text-red-300">Negative Qualities ({{ Math.abs(negativeKarma) }}/25)</h2>
-            <div class="flex flex-wrap justify-between">
+            <div class="flex flex-wrap justify-between max-h-96 overflow-y-auto">
               <template v-for="quality in listOfNegativeAddableQualities" :key="quality.name">
                 <span class="flex-grow text-center m-1 px-4 py-2 cursor-pointer border border-slate-100 hover:border-emerald-300 hover:text-emerald-300" @click="qualityStore.applyModification({ ...quality, type: 'add' })">
                   {{ quality.name }} ({{ quality.value !== undefined ? quality.value : quality.cost }})
